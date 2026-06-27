@@ -1,0 +1,61 @@
+{
+  "version": 3,
+  "meta": {
+    "baseline_score": 0.153,
+    "trunk_score": 0.153,
+    "test_baseline_score": null,
+    "test_trunk_score": null,
+    "eval_cmd": "cd {cwd} && python3 benchmark.py 2>/dev/null | python3 -c 'import sys,json;d=json.load(sys.stdin);print(f\"F1={d[chr(102)+chr(49)]:.3f} precision={d[chr(112)+chr(114)+chr(101)+chr(99)+chr(105)+chr(115)+chr(105)+chr(111)+chr(110)]:.3f} recall={d[chr(114)+chr(101)+chr(99)+chr(97)+chr(108)+chr(108)]:.3f}\")'",
+    "eval_cmd_test": null,
+    "eval_timeout": null,
+    "eval_retries": null,
+    "eval_retry_base_delay": null,
+    "eval_retry_max_delay": null,
+    "dataset_info": "550 benchmark cases across 50+ domains (history, science, tech, etc.)",
+    "metric_direction": "maximize",
+    "trunk_branch": "arbor/trunk/hallucination-f1",
+    "submission_path": null,
+    "sample_submission_path": null
+  },
+  "root_id": "ROOT",
+  "max_depth": 2,
+  "nodes": {
+    "ROOT": {
+      "id": "ROOT",
+      "parent_id": null,
+      "children_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "depth": 0,
+      "hypothesis": "Optimize hallucination detection F1 score for Anchor detector. Current F1=0.153 (precision=0.267, recall=0.107, accuracy=0.596) on 550 benchmark cases. Primary improvement targets: recall (0.107) and precision (0.267). Eval: python3 benchmark.py outputs JSON with f1/precision/recall/accuracy. Direction: maximize. Focus: improve detection coverage while reducing false positives.",
+      "status": "done"
+    },
+    "1": {
+      "id": "1",
+      "parent_id": "ROOT",
+      "children_ids": [],
+      "depth": 1,
+      "hypothesis": "Mechanism: BM25+TF-IDF hybrid retrieval fallback — when exact KB key match fails, use fuzzy text similarity to find the closest KB entry and run checkers against it.\nHypothesis: Currently 89.3% of hallucinations go undetected because the claim text doesn't exactly match a KB key; fuzzy matching will surface relevant facts for claims like 'Edison invented the telephone' by matching to Bell/telephone KB entries.\nObservable: Recall increases from 0.107 to >0.30 on the benchmark, while precision drops by <0.05.\nConflicts: none — attacks the root cause of the recall bottleneck.",
+      "status": "running",
+      "code_ref": "coordinator/n1-mechanism-bm25-tf-idf-hybrid-ret-f75041f2"
+    },
+    "2": {
+      "id": "2",
+      "parent_id": "ROOT",
+      "children_ids": [],
+      "depth": 1,
+      "hypothesis": "Mechanism: Automated checker weight optimization via grid search — systematically test weight combinations for the 14 checkers using benchmark F1 as objective, find optimal weights beyond manual heuristic values.\nHypothesis: Current manual weights are suboptimal (F1=0.153); grid search over 0.1-step weight ranges will find combinations that balance precision and recall better, as different checkers have complementary strengths.\nObservable: F1 increases by at least 0.03 after weight optimization, with no code changes to checker logic.\nConflicts: none — orthogonal to retrieval improvements; weights are independently tunable.",
+      "status": "pending"
+    },
+    "3": {
+      "id": "3",
+      "parent_id": "ROOT",
+      "children_ids": [],
+      "depth": 1,
+      "hypothesis": "Mechanism: Entity-aware claim decomposition — parse claims into subject-relation-object triples and match each triple independently against the knowledge graph for partial-evidence scoring.\nHypothesis: Current claim-level matching fails when a claim mixes correct and incorrect facts ('Einstein won the Nobel Prize for relativity'). Triple decomposition catches the correct part (Einstein+Nobel) and flags the incorrect part (relativity vs photoelectric effect).\nObservable: Recall on mixed-correctness claims improves; overall F1 gains at least 0.02.\nConflicts: node 1 (fuzzy retrieval) focuses on finding KB entries; this focuses on claim structure analysis once entries are found.",
+      "status": "pending"
+    }
+  }
+}

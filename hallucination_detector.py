@@ -48,7 +48,6 @@ except ImportError:
     class _NoopLog:
         def __getattr__(self, _): return lambda *a, **k: None
     log = _NoopLog()
-
 # ============================================================
 # 知识库：可扩展的本地事实锚定
 # ============================================================
@@ -326,6 +325,15 @@ except (FileNotFoundError, json.JSONDecodeError, OSError):
     pass
 
 
+# ── 通用常识知识库（补充西方/全球话题）──
+try:
+    from commonsense_kb import COMMONSENSE_KB
+    added = sum(1 for k in COMMONSENSE_KB if k not in KNOWLEDGE_BASE)
+    KNOWLEDGE_BASE.update(COMMONSENSE_KB)
+    log.info(f"commonsense merged | added_keys={added}")
+except ImportError:
+    pass
+
 
 
 
@@ -454,7 +462,7 @@ class FactExtractor:
         cleaned = []
         for s in raw:
             s = s.strip()
-            if not s or len(s) < 6:
+            if not s or len(s) < 4:
                 continue
             if FactExtractor._MARKDOWN_FRAGMENT_RE.match(s):
                 continue
@@ -1282,9 +1290,18 @@ class AnchorEngine:
         if _claim_digits and _fact_digits and _claim_digits != _fact_digits:
             _digit_conflict = True
 
+        # 否定冲突守卫：一方有否定词另一方无 → 跳过快速通道
+        _claim_has_neg = bool(re.search(r'不是|没有|并非|不在|不会|不可能|错误', claim_norm))
+        _fact_has_neg = bool(re.search(r'不是|没有|并非|不在|不会|不可能|错误', fact_norm))
+        _neg_conflict = _claim_has_neg != _fact_has_neg
+
         claim_set = set(claim_norm)
         fact_set = set(fact_norm)
-        if claim_set and fact_set and not _digit_conflict:
+        # 实体名称冲突守卫：双方提到不同人名/地名时跳过快速通道
+        _cn_names_c = set(re.findall(r'[一-鿿]{2,3}(?=是|发明|建立|提出|发现)', claim_norm))
+        _cn_names_f = set(re.findall(r'[一-鿿]{2,3}(?=是|发明|建立|提出|发现)', fact_norm))
+        _name_conflict = bool(_cn_names_c and _cn_names_f and _cn_names_c != _cn_names_f)
+        if claim_set and fact_set and not _digit_conflict and not _neg_conflict and not _name_conflict:
             overlap = len(claim_set & fact_set) / max(len(claim_set), len(fact_set))
             if overlap > 0.85:
                 return ("verified", 0.92)

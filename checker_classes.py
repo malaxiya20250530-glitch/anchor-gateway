@@ -588,6 +588,20 @@ class OverlapChecker(Checker):
         fn_entities = set(re.findall(r'[金木水火土天王海王冥王]?星|月球|太阳|地球|Python|Java|Go|Rust|C\+\+', fact))
         if cn_entities and fn_entities and cn_entities != fn_entities:
             return None
+        # 人名冲突守卫：双方提到不同的人名实体 → 不验证
+        cn_persons = set(re.findall(r'([一-鿿]{2,3})(?:是|发明|建立|提出|发现|创作|发表|获得)', claim))
+        fn_persons = set(re.findall(r'([一-鿿]{2,3})(?:是|发明|建立|提出|发现|创作|发表|获得)', fact))
+        if cn_persons and fn_persons and cn_persons != fn_persons:
+            return None
+        # 归属性人名冲突：claim说"X是Y"但事实说"Z是Y" → X≠Z → 矛盾
+        cn_person_attr = set(re.findall(r'([一-鿿]{2,4})是([一-鿿]{2,8})', claim))
+        fn_person_attr = set(re.findall(r'([一-鿿]{2,4})是([一-鿿]{2,8})', fact))
+        if cn_person_attr and fn_person_attr:
+            for cp, ca in cn_person_attr:
+                for fp, fa in fn_person_attr:
+                    # 同一属性（含前缀匹配）不同归属 → 不验证
+                    if (ca.startswith(fa) or fa.startswith(ca)) and cp != fp:
+                        return None
         # 最高级/比较级冲突守卫：claim说"比不上/不如/不到"但KB说"最" → 不验证
         if re.search(r'比不上|不如|不到|没有.{0,3}[高长大多快]', claim):
             # 检查KB事实是否包含反证（如"最"、"第一"、精确数值）
@@ -871,29 +885,28 @@ class EntitySwapChecker(Checker):
 
     # 归属关系模式
     _BELONG_PATTERNS = [
-        r'([一-鿿]{1,5})(?:是|属于|位于|在|作为|算)([一-鿿]{1,8})(?:的|之)?(?:一[种个]|卫星|行星|国家|地区|语言|运动|动物|植物|人)',
+        r'([一-鿿]{2,5})(?:是|属于|位于)([一-鿿]{2,8})(?:的|之)(?:一[种个]|创始人|发明家|发源地|开国|卫星|行星|国家|地区|语言)',
+        r'([一-鿿]{2,5})(?:是|属于|位于)([一-鿿]{2,6})(?:的|之)?(?:首都|首任|创建者|发明者|创始人|奠基人|开国)',
+        r'([一-鿿]{2,5})(?:发明|建立|创建|创立|提出)(?:了)?([一-鿿]{2,8})',
     ]
 
     def check(self, claim: str, fact: str, engine=None) -> Optional[tuple]:
         """检测实体归属交换"""
-        # 提取claim中的归属关系
-        claim_pairs = []
-        for pat in self._BELONG_PATTERNS:
-            for m in re.finditer(pat, claim):
-                subject = m.group(1)
-                attr = m.group(2)
-                if subject and attr and subject != attr:
-                    claim_pairs.append((subject, attr))
+        def _extract_pairs(text):
+            pairs = []
+            for pat in self._BELONG_PATTERNS:
+                for m in re.finditer(pat, text):
+                    subj, attr = m.group(1), m.group(2)
+                    if subj and attr and subj != attr:
+                        pairs.append((subj, attr))
+            return pairs
+
+        claim_pairs = _extract_pairs(claim)
+        fact_pairs = _extract_pairs(fact)
+
         if not claim_pairs:
             return None
-        # 提取fact中的归属关系
-        fact_pairs = []
-        for pat in self._BELONG_PATTERNS:
-            for m in re.finditer(pat, fact):
-                subject = m.group(1)
-                attr = m.group(2)
-                if subject and attr and subject != attr:
-                    fact_pairs.append((subject, attr))
+
         if not fact_pairs:
             # 回退：检查否定模式"不是/并非"
             for subj, attr in claim_pairs:
@@ -901,10 +914,15 @@ class EntitySwapChecker(Checker):
                 if re.search(neg_pat, fact):
                     return ("contradicted", 0.85)
             return None
+
         # 交叉比对：同一主体的不同归属 → 矛盾
         for c_subj, c_attr in claim_pairs:
             for f_subj, f_attr in fact_pairs:
                 if c_subj == f_subj and c_attr != f_attr:
+                    # 共享文本占比高 → 同一主题不同表述，非矛盾
+                    shared = len(set(c_attr) & set(f_attr)) / max(len(set(c_attr) | set(f_attr)), 1)
+                    if shared > 0.4:
+                        continue
                     return ("contradicted", 0.85)
         return None
 
@@ -1085,4 +1103,40 @@ class RetrievalAugmentedChecker(Checker):
 
     def check(self, claim: str, fact: str, engine=None) -> Optional[tuple]:
         """标准检查器链中为 no-op，通过 AnchorEngine.retrieval_augmented_verify() 显式触发检索增强"""
+        return None
+
+
+@checker
+class MythChecker(Checker):
+    """检查: 事实中含有'传说/迷思/误解/存疑'等语境标记 — 说明该断言是虚构/存疑的
+
+    当 KB 事实将 claim 描述为传说、虚构或误解时，
+    说明该断言并非真实事实，应判为矛盾。
+    例如: '斯巴达人把婴儿扔下悬崖的故事是一个历史传说' → contradicted
+    """
+    weight = 0.80
+
+    # 常见语境标记：事实在用否定/存疑的语气描述该断言
+    _MYTH_PATTERNS = [
+        re.compile(r'是.*(?:一个)?(?:历史)?(传说|迷思|神话|谣言|虚构的故事)'),
+        re.compile(r'是一个(?:流行的)?误解'),
+        re.compile(r'对此存疑'),
+        re.compile(r'(?:实际上|事实上|真实历史中).{0,10}(?:没有|不是|并非)'),
+    ]
+
+    def check(self, claim: str, fact: str, engine=None) -> Optional[tuple]:
+        # 检查事实文本是否在描述该断言为传说/虚构
+        for pat in self._MYTH_PATTERNS:
+            m = pat.search(fact)
+            if m:
+                # 验证事实确实在说同一个话题
+                # 中文用字符二元组（CJK无空格）
+                def _bigrams(s):
+                    return {s[i:i+2] for i in range(len(s)-1) if all(ord(c)>=0x4e00 for c in s[i:i+2])}
+                claim_bg = _bigrams(claim)
+                fact_bg = _bigrams(fact)
+                shared = claim_bg & fact_bg
+                # 至少共享3个二元组且共享比例>15%才认为是同一话题
+                if len(shared) >= 3 and len(shared) / max(len(claim_bg | fact_bg), 1) > 0.15:
+                    return ("contradicted", 0.80)
         return None
