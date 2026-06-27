@@ -1718,5 +1718,53 @@
     "fact": "道家创始人是老子",
     "source": "commonsense",
     "confidence": 0.92
+  },
+  "Python是由Guid": {
+    "category": "auto_merged",
+    "fact": "Python 由 Guido van Rossum 于 1991 年首次发布",
+    "source": "Python.org",
+    "confidence": 0.92
+  },
+  "李白被称为诗仙": {
+    "category": "auto_merged",
+    "fact": "李白被誉为诗仙",
+    "source": "commonsense",
+    "confidence": 0.92
+  },
+  "朱元璋是明朝的开国皇帝": {
+    "category": "auto_merged",
+    "fact": "朱元璋是明朝的开国皇帝",
+    "source": "commonsense",
+    "confidence": 0.95
+  },
+  "朱元璋是明朝开国皇帝": {
+    "category": "auto_merged",
+    "fact": "朱元璋是明朝的开国皇帝",
+    "source": "commonsense",
+    "confidence": 0.92
+  },
+  "《西游记》作者一般认为是": {
+    "category": "auto_merged",
+    "fact": "《西游记》作者一般认为是明代吴承恩",
+    "source": "中国文学",
+    "confidence": 0.95
+  },
+  "蚂蚁在地球上已存在超过1": {
+    "category": "auto_merged",
+    "fact": "蚂蚁在地球上已存在超过1亿年",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "图灵测试是判断机器是否具": {
+    "category": "auto_merged",
+    "fact": "图灵测试是判断机器是否具有智能的方法",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "人类基因组有30亿个碱基": {
+    "category": "auto_merged",
+    "fact": "人类基因组约有30亿个碱基对",
+    "source": "生物",
+    "confidence": 0.92
   }
 }

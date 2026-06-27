@@ -493,10 +493,11 @@ class AnchorEngine:
     """多源锚定：本地知识库 + 可选的 Web 搜索"""
 
     def __init__(self, enable_web: bool = False, enable_feedback: bool = True,
-                 enable_graph: bool = True):
+                 enable_graph: bool = True, enable_deepseek: bool = False):
         self.enable_web = enable_web
         self.enable_feedback = enable_feedback
         self.enable_graph = enable_graph
+        self.enable_deepseek = enable_deepseek
         self._graph_reasoner = None  # 惰性加载
         self._weight_learner = None
         self._enable_meta_weights = True
@@ -691,7 +692,24 @@ class AnchorEngine:
                 source=kb_result["source"],
                 anchor_type="knowledge_base",
             )
-        # 2. 混合检索：BM25 + TF-IDF 向量
+        # 2. DeepSeek 事实核查兜底（当 KB 无法验证时）
+        if self.enable_deepseek:
+            try:
+                from deepseek_verifier import verify_claim
+                ds_result = verify_claim(claim.text)
+                if ds_result["verdict"] != "uncertain":
+                    return VerificationResult(
+                        claim=claim.text,
+                        verdict=ds_result["verdict"],
+                        confidence=ds_result["confidence"],
+                        evidence=ds_result.get("evidence", ""),
+                        source="deepseek",
+                        anchor_type="deepseek",
+                    )
+            except Exception:
+                pass  # DeepSeek 失败时静默降级
+
+        # 3. 混合检索：BM25 + TF-IDF 向量
         #    快速通道：enable_web=False 时跳过向量检索（KB 已是最佳信源）
         if not self.enable_web:
             return VerificationResult(
@@ -1605,9 +1623,9 @@ def _load_config():
 class HallucinationDetector:
     """Anchor 事实检测器主类"""
 
-    def __init__(self, enable_web: bool = False):
+    def __init__(self, enable_web: bool = False, enable_deepseek: bool = False):
         self.extractor = FactExtractor()
-        self.anchor = AnchorEngine(enable_web=enable_web)
+        self.anchor = AnchorEngine(enable_web=enable_web, enable_deepseek=enable_deepseek)
 
     def analyze(self, text: str) -> HallucinationReport:
         report = HallucinationReport(input_text=text)
