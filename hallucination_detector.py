@@ -684,6 +684,22 @@ class AnchorEngine:
         # 1. 本地知识库
         kb_result = self._check_knowledge_base(claim)
         if kb_result["verdict"] != "uncertain":
+            # 如果 KB 置信度低且启用了 DeepSeek，让 DeepSeek 复核
+            if self.enable_deepseek and kb_result["confidence"] < 0.85:
+                try:
+                    from deepseek_verifier import verify_claim
+                    ds_result = verify_claim(claim.text)
+                    if ds_result["verdict"] != "uncertain":
+                        return VerificationResult(
+                            claim=claim.text,
+                            verdict=ds_result["verdict"],
+                            confidence=ds_result["confidence"],
+                            evidence=ds_result.get("evidence", ""),
+                            source="deepseek",
+                            anchor_type="deepseek",
+                        )
+                except Exception:
+                    pass
             return VerificationResult(
                 claim=claim.text,
                 verdict=kb_result["verdict"],
