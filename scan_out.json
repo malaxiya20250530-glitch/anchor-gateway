@@ -1,0 +1,410 @@
+{
+  "scan_info": {
+    "mode": "local",
+    "categories": 6,
+    "payloads": 44,
+    "timestamp": "2026-06-02T12:02:05.618165+00:00"
+  },
+  "summary": {
+    "total_tests": 44,
+    "vulnerabilities_found": 0,
+    "pass_rate": 1.0,
+    "by_severity": {}
+  },
+  "findings": [
+    {
+      "category": "sqli",
+      "name": "基础注入",
+      "payload": "' OR '1'='1",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: ' OR ",
+      "timestamp": "2026-06-02T12:02:05.607185+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "UNION注入",
+      "payload": "' UNION SELECT NULL--",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: ' UNION ",
+      "timestamp": "2026-06-02T12:02:05.614322+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "UNION多列",
+      "payload": "' UNION SELECT NULL,NULL,NULL--",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: ' UNION ",
+      "timestamp": "2026-06-02T12:02:05.614379+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "注释绕过",
+      "payload": "admin'--",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: '--",
+      "timestamp": "2026-06-02T12:02:05.614439+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "分号注入",
+      "payload": "'; DROP TABLE users; --",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: DROP TABLE",
+      "timestamp": "2026-06-02T12:02:05.614487+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "时间盲注",
+      "payload": "1' AND SLEEP(5)--",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: ' AND ",
+      "timestamp": "2026-06-02T12:02:05.614538+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "布尔盲注",
+      "payload": "1' AND '1'='1",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: ' AND ",
+      "timestamp": "2026-06-02T12:02:05.614574+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "堆叠查询",
+      "payload": "1'; SELECT * FROM users; --",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: ; SELECT",
+      "timestamp": "2026-06-02T12:02:05.614609+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "编码绕过",
+      "payload": "%27%20OR%20%271%27%3D%271",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: %27",
+      "timestamp": "2026-06-02T12:02:05.614665+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "Null字节",
+      "payload": "admin'%00",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: %00",
+      "timestamp": "2026-06-02T12:02:05.614714+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "十六进制",
+      "payload": "0x27204f5220313d31",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: 0x27204f5220313d31",
+      "timestamp": "2026-06-02T12:02:05.614755+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "NoSQL注入",
+      "payload": "{\"$gt\": \"\"}",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: $gt\": \"\"",
+      "timestamp": "2026-06-02T12:02:05.614800+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "sqli",
+      "name": "NoSQL $where",
+      "payload": "{\"$where\": \"1==1\"}",
+      "vulnerable": false,
+      "detail": "已拦截: SQL注入: $where",
+      "timestamp": "2026-06-02T12:02:05.614843+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "基础script",
+      "payload": "<script>alert(1)</script>",
+      "vulnerable": false,
+      "detail": "已拦截: XSS跨站脚本: <script>alert(1)</script>",
+      "timestamp": "2026-06-02T12:02:05.614897+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "img onerror",
+      "payload": "<img src=x onerror=\"alert(1)\">",
+      "vulnerable": false,
+      "detail": "已拦截: XSS跨站脚本: <img src=x onerror=\"alert(1)\"",
+      "timestamp": "2026-06-02T12:02:05.614954+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "svg onload",
+      "payload": "<svg onload=\"alert(1)\">",
+      "vulnerable": false,
+      "detail": "已拦截: XSS跨站脚本: <svg onload=\"alert(1)\"",
+      "timestamp": "2026-06-02T12:02:05.615016+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "javascript协议",
+      "payload": "javascript:alert(1)",
+      "vulnerable": false,
+      "detail": "已拦截: XSS跨站脚本: javascript:",
+      "timestamp": "2026-06-02T12:02:05.615074+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "iframe",
+      "payload": "<iframe src=\"javascript:alert(1)\">",
+      "vulnerable": false,
+      "detail": "已拦截: XSS跨站脚本: javascript:",
+      "timestamp": "2026-06-02T12:02:05.615125+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "事件处理器",
+      "payload": "<body onload=\"alert(1)\">",
+      "vulnerable": false,
+      "detail": "已拦截: XSS跨站脚本: <body onload=\"alert(1)\"",
+      "timestamp": "2026-06-02T12:02:05.615186+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "编码绕过",
+      "payload": "&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;",
+      "vulnerable": false,
+      "detail": "已拦截: XSS跨站脚本: &#x3C;",
+      "timestamp": "2026-06-02T12:02:05.615244+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "大小写混合",
+      "payload": "<ScRiPt>alert(1)</ScRiPt>",
+      "vulnerable": false,
+      "detail": "已拦截: 请求速率异常: 21 req/s",
+      "timestamp": "2026-06-02T12:02:05.615330+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "data协议",
+      "payload": "data:text/html,<script>alert(1)</script>",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615363+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "xss",
+      "name": "CSS注入",
+      "payload": "<div style=\"background:url(javascript:alert(1))\">",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615387+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "path_traversal",
+      "name": "基础穿越",
+      "payload": "../../../etc/passwd",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615415+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "path_traversal",
+      "name": "编码穿越",
+      "payload": "..%2f..%2f..%2fetc%2fpasswd",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615438+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "path_traversal",
+      "name": "双编码",
+      "payload": "..%252f..%252fetc%252fpasswd",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615459+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "path_traversal",
+      "name": "Windows路径",
+      "payload": "..\\..\\..\\windows\\system32",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615481+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "path_traversal",
+      "name": "绝对路径",
+      "payload": "/etc/passwd",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615502+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "path_traversal",
+      "name": "Null字节",
+      "payload": "../../../etc/passwd%00.jpg",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615522+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "path_traversal",
+      "name": "Unicode",
+      "payload": "..%c0%af..%c0%afetc%c0%afpasswd",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.615547+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "auth_bypass",
+      "name": "空Token",
+      "payload": "",
+      "vulnerable": false,
+      "detail": "",
+      "timestamp": "2026-06-02T12:02:05.615574+00:00"
+    },
+    {
+      "category": "auth_bypass",
+      "name": "无效JWT",
+      "payload": "Bearer invalid.jwt.token",
+      "vulnerable": false,
+      "detail": "待手动验证",
+      "timestamp": "2026-06-02T12:02:05.615596+00:00",
+      "severity": "INFO"
+    },
+    {
+      "category": "auth_bypass",
+      "name": "过期JWT",
+      "payload": "Bearer eyJhbGciOiJub25lIn0.eyJleHAiOjE1MDAwMDAwMDB9.",
+      "vulnerable": false,
+      "detail": "待手动验证",
+      "timestamp": "2026-06-02T12:02:05.615618+00:00",
+      "severity": "INFO"
+    },
+    {
+      "category": "auth_bypass",
+      "name": "无签名JWT",
+      "payload": "Bearer eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiJ9.",
+      "vulnerable": false,
+      "detail": "待手动验证",
+      "timestamp": "2026-06-02T12:02:05.615639+00:00",
+      "severity": "INFO"
+    },
+    {
+      "category": "auth_bypass",
+      "name": "伪造kid",
+      "payload": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6Ii4uLy4uLyJ9.xxx.yyy",
+      "vulnerable": false,
+      "detail": "待手动验证",
+      "timestamp": "2026-06-02T12:02:05.615660+00:00",
+      "severity": "INFO"
+    },
+    {
+      "category": "auth_bypass",
+      "name": "超长Token",
+      "payload": "Bearer AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "vulnerable": false,
+      "detail": "",
+      "timestamp": "2026-06-02T12:02:05.615681+00:00"
+    },
+    {
+      "category": "auth_bypass",
+      "name": "特殊字符",
+      "payload": "Bearer <script>",
+      "vulnerable": false,
+      "detail": "待手动验证",
+      "timestamp": "2026-06-02T12:02:05.615702+00:00",
+      "severity": "INFO"
+    },
+    {
+      "category": "rate_limit",
+      "name": "突发100请求",
+      "payload": "100 requests",
+      "vulnerable": false,
+      "detail": "速率限制正常: 放行100, 拦截0",
+      "timestamp": "2026-06-02T12:02:05.615732+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "rate_limit",
+      "name": "突发500请求",
+      "payload": "500 requests",
+      "vulnerable": false,
+      "detail": "速率限制正常: 放行100, 拦截400",
+      "timestamp": "2026-06-02T12:02:05.616698+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "input_validation",
+      "name": "超长输入",
+      "payload": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.618031+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "input_validation",
+      "name": "Unicode炸弹",
+      "payload": "💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.618063+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "input_validation",
+      "name": "Null字节",
+      "payload": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.618088+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "input_validation",
+      "name": "控制字符",
+      "payload": "\u0001\u0002\u0003\u0004\u0005",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.618111+00:00",
+      "severity": "NONE"
+    },
+    {
+      "category": "input_validation",
+      "name": "JSON深层嵌套",
+      "payload": "{\"a\": {\"b\": {\"c\": {\"d\": {\"e\": \"f\"}}}}}",
+      "vulnerable": false,
+      "detail": "已拦截: IP已被临时封禁",
+      "timestamp": "2026-06-02T12:02:05.618134+00:00",
+      "severity": "NONE"
+    }
+  ]
+}

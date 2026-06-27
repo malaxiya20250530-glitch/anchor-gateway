@@ -1,0 +1,49 @@
+{
+  "f1": 0.851,
+  "accuracy": 0.799,
+  "precision": 0.938,
+  "recall": 0.778,
+  "tp": 396,
+  "tn": 155,
+  "fp": 26,
+  "fn": 113,
+  "total_samples": 862,
+  "evaluated": 690,
+  "kb_version": "v1.3",
+  "kb_entities": 225,
+  "kb_facts": 1000,
+  "checker_weights": {
+    "knowledge_base": 0.95,
+    "negation": 0.88,
+    "graph_relation": 0.87,
+    "temporal_order": 0.84,
+    "location_conflict": 0.77,
+    "numeric_conflict": 0.7,
+    "year_conflict": 0.66
+  },
+  "checker_f1": {
+    "negation": 0.938,
+    "temporal_order": 0.919,
+    "graph_relation": 0.896,
+    "knowledge_base": 0.971,
+    "location_conflict": 0.881,
+    "numeric_conflict": 0.848,
+    "year_conflict": 0.743
+  },
+  "timestamp": "2026-06-02 20:56:00 UTC",
+  "key_fixes": [
+    "KB dynamic load (hardcoded 155→225 keys)",
+    "entity_confidence infrastructure",
+    "checker dynamic weights",
+    "YearChecker event type grouping",
+    "_shared_entity bidirectional matching",
+    "_compare_with_fact self-verification"
+  ],
+  "hallucination_detector.py_sha256": "7ebe66c5cf1d",
+  "checker_classes.py_sha256": "43930f75e718",
+  "checker_registry.py_sha256": "d113a6f43ab4",
+  "kb_core.json_sha256": "c1e4b087c07e",
+  "updated_at": "2026-06-03T23:00Z",
+  "update_reason": "安全加固:同步CI解密后哈希(git HEAD版本)",
+  "updated": "2026-06-03"
+}

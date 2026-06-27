@@ -1,0 +1,7 @@
+*.db
+*.jsonl
+*.tar.gz
+*.so
+*.log
+__pycache__/
+*.egg-info/

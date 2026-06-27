@@ -1,0 +1,38 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q209516"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "欧亚巢鼠"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251390"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "迪恩怪物"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2212116"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "黑腹脊口螈"
+      }
+    } ]
+  }
+}

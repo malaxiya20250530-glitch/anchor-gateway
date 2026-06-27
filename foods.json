@@ -1,0 +1,1668 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4506424"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "打平鸡"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12106"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "小麦属"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1684997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "竹筒飯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1720857"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡布沙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q147651"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "花生酱"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167692"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "文字燒"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174539"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格洛斯特芝士"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q192874"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "面条"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4921072"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "紅龜粿"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q70125"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "可樂餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13124305"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "香蕉汤"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2495784"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "青蛙蛋糕"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2532779"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "原型食物"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2631692"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "扁桃仁原膏"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2830455"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "煉奶"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2901605"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "腐乳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12494"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "手指餅乾"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "藍莓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7198960"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "Piti"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7605615"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "燕麥碎粒"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7634410"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "板油布丁"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6724433"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鲭鱼肉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10433119"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皿缽料理"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10855366"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "五平饼"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10895484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "冰肉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219123"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "庫納法"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q239977"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "长鳍金枪鱼"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q70612"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格兰尼达"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133017"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "小球藻属"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203925"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "炸鱼薯条"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12690611"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东海岸传统糕点"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12812711"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "番紅花米布丁"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6826618"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "梅斯卡爾蠕蟲"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7163401"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伏特加直通粉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10915484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "台灣拉麵"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10941762"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "太谷餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11047255"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "山西面食"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2702783"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蟠桃"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2757253"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奶油濃湯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13302"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雪葩"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27773"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鰨"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2204257"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "列日华夫饼"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2386515"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉克芒华夫饼"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11076102"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "扣肉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11076814"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "抿八股"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11151345"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海軍咖喱"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11190742"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "紅糖"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11244057"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "SOYJOY クリスピー"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q255761"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大理石蛋糕"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q268114"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "漁夫湯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275621"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "開口三明治"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q420683"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "板油"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q513720"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "油粕"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5034394"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "草仔粿"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192318"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "庫奇達餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5243850"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥玉米杯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3675466"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡提尔玛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2902203"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鹹鴨蛋"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2401756"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金黃色鐮孢"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2054216"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "牛舌拉維戈特醬"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3121337"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皮基略辣椒"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3215980"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "百里香"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q836538"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔查吉基"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842221"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "燻造"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q877957"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙河粉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15694866"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙丁鱼属"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15955061"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "山西刀削麵"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q143359"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "毛鱗魚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17109463"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏溪"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11258799"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "燴義大利麵"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11538378"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "梅枝餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11567629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烤鱼"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11674333"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鰹魚刺身"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11677965"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "黑半片"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q564491"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "酸麻蝦湯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q586591"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "修芙萊腸"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q593209"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "煎奶"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q599548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "饅頭 (日本)"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5767225"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乔利佐丘拉爾"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5939499"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "人道主义每日口粮"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16305809"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蝦餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q878624"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "粥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q894347"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波斯尼亚炖锅菜"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16128920"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "浆果"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16241452"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "侯皮亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3695900"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "豬皮"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3353942"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖誕火腿"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3503085"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "臭豆果"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14552200"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "Kadaif"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14783691"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓦切"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15340455"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "熏蛋"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3940165"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "腰子"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4118270"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "混合堅果"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4189322"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "武唻"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q934095"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "叻沙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q940033"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "食用鲸皮"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q941004"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "富富"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q618322"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "果醋"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85753239"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "棺材板"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q818674"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大拼盘"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q834563"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "酒釀"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q836151"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奶油甜馅煎饼卷"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q311090"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "七葉蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q343864"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "土耳其烤茄子"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1208221"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大燕麥片"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1305079"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波斯炖菜"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2941309"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "黑醋栗"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1151502"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "歐洲北魷"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185324"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "讚岐烏冬"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1195290"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "可樂餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q703836"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙鸡肉饭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q713879"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "油条"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q716622"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "下酒小吃"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q717628"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貢丸"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1323455"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "長豇豆"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1342574"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英式奶黃醬"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q742186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞薩"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q771079"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "翡麦"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107695269"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "飯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25004446"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "早餐捲餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117072062"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "芝麻酱"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q119349523"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫尔松的西瓜"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q903997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "土耳其芝麻麵包"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q920940"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "多薩"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q926500"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "黑芝麻糖"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33873455"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "茴芹籽"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38247865"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鹹魚雞粒炒飯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48935221"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "红桃粿"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54165556"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蚊餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54815990"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "青瓜酸乳酪醬汁"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17638951"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鵝莓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123051125"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "超可口食品"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q953395"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "麥蘆卡蜂蜜"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q980840"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "古德"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1089051"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "肚湯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1133209"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "粗盐腌牛肉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1365891"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "醃黃瓜"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1470757"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "果肉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1483397"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度薄荷醬"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1135606"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "黑椎鯛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1141033"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韩式炸酱面"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1147677"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "索夫利特酱"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113587243"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "石子馍"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113996881"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "酸汤鱼"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q806839"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "banku"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q815837"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本鲭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q817282"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薑片"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130061821"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "橄榄菜"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130238975"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "钵钵鸡"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123523268"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "醉枣"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25673308"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "切玛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137637210"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乾魚物"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137769736"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "粉粿 (臺灣)"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q57332578"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "優酪乳湯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98103940"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "水果类罐头"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q99554129"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "共匪餅"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1049425"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克色爾"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1061856"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "涮涮鍋"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1072093"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美国军用巧克力"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60793741"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "多羅千卡"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61356432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吐司片"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1520293"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "仁当"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4247887"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "豬排三明治"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135472092"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貊炙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136759837"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "九層粿"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65086435"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "索馬里抓飯"
+      }
+    } ]
+  }
+}

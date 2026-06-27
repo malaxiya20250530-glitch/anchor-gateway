@@ -1,0 +1,26 @@
+V1.0 最终基线
+===============
+时间: 2026-06-02T01:23:14Z
+提交: 766a33cc0e95
+
+── 550条自动基准 ──
+TP=18 FP=58 FN=169 TN=305
+精度: 0.2370  召回: 0.0960  F1: 0.1370
+
+── 60条对抗基准(DeepSeek) ──
+检出率: 57% (34/60)
+
+── 系统 ──
+检查器: 12 个  KB: 504 条目
+  InfinityChecker                w=0.82
+  NegationChecker                w=0.83
+  YearConflictChecker            w=0.92
+  NumericConflictChecker         w=0.90
+  OverlapChecker                 w=0.55
+  TemporalOrderChecker           w=0.80
+  LocationConflictChecker        w=0.85
+  SuperlativeChecker             w=0.72
+  CausalChecker                  w=0.76
+  AttributionChecker             w=0.80
+  DurationChecker                w=0.85
+  GraphContradictionChecker      w=0.78

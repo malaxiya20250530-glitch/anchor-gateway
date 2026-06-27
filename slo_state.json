@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "created_at": "2026-06-02T16:47:16.063086+00:00",
+  "last_reset": "2026-06-02T16:47:16.063127+00:00",
+  "slos": {
+    "availability": {
+      "current": 1.0,
+      "status": "compliant",
+      "updated_at": "2026-06-02T17:24:58.615403+00:00"
+    },
+    "latency_p95_ms": {
+      "current": 141.25,
+      "status": "violated",
+      "updated_at": "2026-06-02T17:24:58.615442+00:00"
+    },
+    "latency_p99_ms": {
+      "current": 197.75,
+      "status": "compliant",
+      "updated_at": "2026-06-02T17:24:58.615461+00:00"
+    },
+    "error_rate": {
+      "current": 0.404,
+      "status": "violated",
+      "updated_at": "2026-06-02T17:24:58.615476+00:00"
+    }
+  },
+  "burn_events": [],
+  "updated_at": "2026-06-02T17:24:58.615485+00:00"
+}

@@ -1,0 +1,2008 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q812848"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙灘籃球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q838089"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "業餘摔跤"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q201965"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北歐兩項"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2426135"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "球拍運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2440459"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "輪椅劍擊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842284"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "滑板运动"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q844443"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "輪椅欖球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q852989"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "抱石"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207703"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "牛仔競技"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212845"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "壁網球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1455"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "草地曲棍球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1547240"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "铁人水陆两项"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1582389"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "笼式网球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213711"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "板棍球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213796"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "健力"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213934"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皮划艇"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206091"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "溪降"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206763"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "福乐球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q231200"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "籃網球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902378"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马术运动"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q933235"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "抛桿"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1515947"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "软式网球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1529228"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沿徑定向"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1541373"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "运动攀岩"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3930"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乒乓球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q542"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "田径"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q948043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡車賽車"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q963312"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雪橇曲棍球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q876737"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "飞盘高尔夫"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q877517"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "球類運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2536663"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "劈掛拳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2583651"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捶丸"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2617509"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "天國道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2671658"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "殘疾冬季兩項"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2447366"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蓋爾式運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2506562"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕運輕艇"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2529836"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "绕桶赛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2533407"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "水上救生"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q977003"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "陸上風帆"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q986233"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "周家螳螂拳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q989473"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭跳棋"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1007807"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "半跑和快跑"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1030283"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英國十字戲"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1734"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "排球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q884250"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "5人制（盲人）足球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q895060"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "地擲球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q895471"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "草地滾球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206989"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "射擊運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207238"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泛舟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1618467"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙灘網球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1622659"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "曲棍球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2755547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "個人運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2891117"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "賽龍舟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1940865"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "混攀"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2701632"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "麻瓜魁地奇"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1672856"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蓋爾式手球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1678863"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙狐球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1717983"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "銃劍道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1952113"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛罗伦萨古典足球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1957787"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "无线电运动"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1968664"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "狗拉雪橇比賽"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1970378"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "人工攀登"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1484713"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "Tricking"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3085248"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "残疾人乒乓球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3126275"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "殘疾力量舉重"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q242791"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "極真會館"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q244700"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "終極飛盤"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5377"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "高爾夫球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5386"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "賽車"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2736"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "足球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215862"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越野摩托車賽"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q217108"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "生存遊戲"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q853890"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "耐力賽 (摩托車運動)"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q857999"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國棍術"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q271277"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "老鞋"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q273125"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本弓道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219554"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "風箏衝浪"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q847"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "网球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5375"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "板球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1081491"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "足球类运动"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q718"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "國際象棋"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1719546"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "休闲潜水"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1741679"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "健球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1748406"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "滾軸曲棍球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q863141"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洪拳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q866224"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "匹克球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q868873"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫家拳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q869009"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蔡家拳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3434711"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "長板"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3479346"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "武术"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093039"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "腰帶摔跤"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2094083"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皮艇 (運動)"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2155787"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "足式高爾夫"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2165726"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "跆搏"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1040498"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "空竹"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1050588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "浮士德球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1052229"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "機械競技"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1757181"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "残奥会田径比赛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1759504"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "高山攀登"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1777054"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "触身式橄榄球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5367"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "動力運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5372"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "篮球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q300920"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "电子竞技"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q309162"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "極限運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q473719"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "複式躲避球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q478584"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "7人制（脑瘫）足球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3177899"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "保齡球運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3187136"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朗格多克海上比武"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3285658"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "地板滾球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3288576"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "周家拳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3962667"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "天空跑"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4208733"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "凱沙撞球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1972786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "冰上膠圈球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1975513"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙狐球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1977220"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越野"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2035123"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "立槳衝浪"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10980"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "三项全能"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4493605"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "盲人足球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4806651"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞洲運動會項目"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5031973"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "直瓶制保齡球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4543"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙滩排球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7707"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "水球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7718"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "跳台滑雪"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q471257"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "象棋史"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q472827"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "滑水"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7735"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "跳水"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3540813"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "极限滑板车"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3577413"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "那慕尔高跷格斗"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3754231"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "全接觸空手道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3487326"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "滑冰穿越"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3493888"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "劍擊運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "柔道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11417"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "武術"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11419"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "空手道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31920"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "競技游泳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q273285"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "無舵雪橇"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q296721"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "油脂摔跤"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7856"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉力赛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8418"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "手球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092816"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "街上足球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1128216"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "輪椅籃球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1140504"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "和道流"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2040849"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "班卡蘇拉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2060479"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "8號球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2087929"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "盲人柔道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2261949"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕拉單車"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2360406"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "真實網球場"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2388557"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "太极柔力球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2167372"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越野賽跑"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2214812"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "傳統攀登"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q328716"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "摩托車運動"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q337210"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "獨木舟激流"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1190613"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "强力斯诺克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1194872"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帆伞运动"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1200525"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "古典盛装舞步"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1242708"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "双打"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483693"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "跑酷"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q507033"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "空中舞蹈"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1150656"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "轮椅冰壶"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1153025"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "輪椅網球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q376040"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "水上滑板"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q392633"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "極限籃球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q339165"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "K-1"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q512203"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "水底曲棍球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q519303"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "团队套牛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q535813"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "侧泳"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q556496"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "杂技摇滚舞蹈"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q569205"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越野拉力賽"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q569801"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "席拉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q601972"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "爱尔兰式板球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q602507"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "徒手武術"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q610098"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中美洲蹴球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q327742"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "接力賽跑"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12100"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "击剑"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22857"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "攀岩"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2215841"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "自行车运动"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2250158"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "五人足球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2258819"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鬥雀"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1142365"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "套袋赛跑"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1148495"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "攀冰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1148950"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "门球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q718151"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "賽駱駝"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q732561"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "體道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q738622"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "国际标准舞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q739823"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大牆攀登"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624780"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "剛柔流"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637186"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "滑草"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q638269"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "双人跳水"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43450"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "体操"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5132811"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "高空跳水"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5156357"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "競技歌牌"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5384640"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬術"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5455798"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "5瓶制保齡球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1063445"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "9號球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1070325"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "冰上滑盤"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1075286"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "繞圈球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5849"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聯合式橄欖球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7291"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羽毛球"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2392842"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "短剑道"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2407714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波板球"
+      }
+    } ]
+  }
+}

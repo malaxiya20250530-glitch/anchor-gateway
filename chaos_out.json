@@ -1,0 +1,50 @@
+{
+  "total": 4,
+  "passed": 4,
+  "results": [
+    {
+      "passed": true,
+      "injected_failures": 3,
+      "state_after_inject": "open",
+      "allow_after_inject": false,
+      "state_after_cooldown": "half_open",
+      "allow_after_cooldown": true,
+      "state_after_recovery": "closed",
+      "scenario": "upstream_timeout",
+      "duration_sec": 5.1,
+      "timestamp": "2026-06-02T12:03:02.979693+00:00"
+    },
+    {
+      "passed": true,
+      "timeout_detected": true,
+      "pool_stats": {
+        "in_use": 1,
+        "available": 0,
+        "max": 1,
+        "utilization": 1.0
+      },
+      "scenario": "database_disconnect",
+      "duration_sec": 2.6,
+      "timestamp": "2026-06-02T12:03:05.584884+00:00"
+    },
+    {
+      "passed": true,
+      "node1_was_leader": true,
+      "node2_elected": true,
+      "current_leader": "node-2",
+      "scenario": "leader_loss",
+      "duration_sec": 3.55,
+      "timestamp": "2026-06-02T12:03:09.131691+00:00"
+    },
+    {
+      "passed": true,
+      "total_requests": 500,
+      "allowed": 100,
+      "blocked": 400,
+      "block_rate": 0.8,
+      "scenario": "avalanche",
+      "duration_sec": 2.01,
+      "timestamp": "2026-06-02T12:03:11.148458+00:00"
+    }
+  ]
+}

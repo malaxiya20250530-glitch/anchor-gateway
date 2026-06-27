@@ -1,0 +1,127 @@
+{"ts": "2026-06-03T00:19:36.070Z", "level": "WARN", "event": "security", "app": "awareness-gateway", "host": "localhost", "ip": "0.0.0.0", "threat_type": "circuit_breaker", "action": "open", "detail": "llm_upstream: 3次连续失败，熔断", "endpoint": ""}
+{"ts": "2026-06-03T00:20:15.251Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "circuit_half_open", "subject": "llm_upstream", "detail": "熔断器进入半开状态", "ip": ""}
+{"ts": "2026-06-03T00:20:33.326Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "circuit_closed", "subject": "llm_upstream", "detail": "熔断器恢复", "ip": ""}
+{"ts": "2026-06-03T00:20:33.328Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "upstream_timeout", "detail": "✅ PASS: {\"passed\": true, \"injected_failures\": 3, \"state_after_inject\": \"open\", \"allow_after_inject\": true, \"state_after_cooldown\": \"half_open\", \"allow_after_cooldown\": true, \"state_after_recovery\": \"closed\", \"scenario\": \"upstream_timeout\", \"duration_sec\": 57.26, \"timestamp\": \"2026-06-03T00:20:33.328140+00:00\"}", "ip": ""}
+{"ts": "2026-06-03T00:21:21.032Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "upstream_down", "detail": "✅ PASS: {\"passed\": true, \"reachable\": false, \"scenario\": \"upstream_down\", \"duration_sec\": 47.7, \"timestamp\": \"2026-06-03T00:21:21.032059+00:00\"}", "ip": ""}
+{"ts": "2026-06-03T00:22:17.675Z", "level": "ERROR", "event": "db_pool_timeout", "app": "awareness-gateway", "host": "localhost", "message": "连接池超时 (0.5s), 当前使用: 1/1"}
+{"ts": "2026-06-03T00:22:17.676Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "database_disconnect", "detail": "✅ PASS: {\"passed\": true, \"timeout_detected\": true, \"pool_stats\": {\"in_use\": 1, \"available\": 0, \"max\": 1, \"utilization\": 1.0}, \"scenario\": \"database_disconnect\", \"duration_sec\": 56.64, \"timestamp\": \"2026-06-03T00:22:17.676353+00:00\"}", "ip": ""}
+[2026-06-03 08:22:21] INFO  kb_core merged  |  new_keys=832
+{"ts": "2026-06-03T00:22:21.631Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "database_corruption", "detail": "✅ PASS: {\"passed\": true, \"broken\": true, \"alive\": true, \"scenario\": \"database_corruption\", \"duration_sec\": 3.95, \"timestamp\": \"2026-06-03T00:22:21.630919+00:00\"}", "ip": ""}
+{"ts": "2026-06-03T00:22:21.645Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "leader_acquired", "subject": "node-1", "detail": "获取 Leader 锁", "ip": ""}
+{"ts": "2026-06-03T00:23:22.538Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "leader_acquired", "subject": "node-2", "detail": "获取 Leader 锁", "ip": ""}
+{"ts": "2026-06-03T00:24:05.807Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "leader_loss", "detail": "❌ FAIL: {\"passed\": false, \"node1_was_leader\": true, \"node2_elected\": true, \"current_leader\": null, \"scenario\": \"leader_loss\", \"duration_sec\": 104.17, \"timestamp\": \"2026-06-03T00:24:05.807313+00:00\"}", "ip": ""}
+{"ts": "2026-06-03T00:24:07.831Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "avalanche", "detail": "✅ PASS: {\"passed\": true, \"total_requests\": 500, \"allowed\": 100, \"blocked\": 400, \"block_rate\": 0.8, \"scenario\": \"avalanche\", \"duration_sec\": 2.02, \"timestamp\": \"2026-06-03T00:24:07.830485+00:00\"}", "ip": ""}
+{"ts": "2026-06-03T00:24:18.736Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "memory_pressure", "detail": "✅ PASS: {\"passed\": true, \"iterations\": 100, \"final_current_kb\": 280.2, \"final_peak_kb\": 433.6, \"early_avg_kb\": 183.4, \"late_avg_kb\": 211.2, \"growth_ratio\": 0.15, \"leak_detected\": false, \"samples\": [{\"iteration\": 0, \"current_kb\": 105.4, \"peak_kb\": 244.0}, {\"iteration\": 40, \"current_kb\": 345.3, \"peak_kb\": 410.1}, {\"iteration\": 80, \"current_kb\": 244.1, \"peak_kb\": 424.5}], \"scenario\": \"memory_pressure\", \"duration_sec\": 10.9, \"timestamp\": \"2026-06-03T00:24:18.736215+00:00\"}", "ip": ""}
+{"ts": "2026-06-03T00:24:20.741Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "cache_poison", "detail": "✅ PASS: {\"passed\": true, \"skipped\": true, \"scenario\": \"cache_poison\", \"duration_sec\": 2.0, \"timestamp\": \"2026-06-03T00:24:20.741402+00:00\"}", "ip": ""}
+{"ts": "2026-06-03T00:24:22.743Z", "level": "INFO", "event": "audit", "app": "awareness-gateway", "host": "localhost", "action": "chaos_test", "subject": "node_restart", "detail": "✅ PASS: {\"passed\": true, \"kb_before\": 573, \"kb_after\": 573, \"ck_before\": 14, \"ck_after\": 14, \"scenario\": \"node_restart\", \"duration_sec\": 2.0, \"timestamp\": \"2026-06-03T00:24:22.743326+00:00\"}", "ip": ""}
+
+############################################################
+  混沌工程 — 故障注入测试
+  时间: 2026-06-03 08:19:36
+  场景数: 9
+############################################################
+
+============================================================
+  🔧 故障注入: upstream_timeout
+  LLM 上游连续超时 → 熔断器跳闸 → 恢复
+============================================================
+  注入: 连续 3 次超时...
+    失败 1/3 → 状态: closed
+    失败 2/3 → 状态: closed
+    失败 3/3 → 状态: open
+  熔断后: allow_request=False
+  ✅ PASS  upstream_timeout
+    injected_failures: 3
+    state_after_inject: open
+    allow_after_inject: True
+    state_after_cooldown: half_open
+    allow_after_cooldown: True
+    state_after_recovery: closed
+
+============================================================
+  🔧 故障注入: upstream_down
+  上游 LLM 完全挂掉 → 降级到本地 KB
+============================================================
+  注入: 上游 不可达
+  ✅ PASS  upstream_down
+    reachable: False
+
+============================================================
+  🔧 故障注入: database_disconnect
+  数据库连接池耗尽 → 超时 → 降级响应
+============================================================
+  注入: 连接池已满 (1/1)
+  ✅ 正确触发 TimeoutError
+  ✅ PASS  database_disconnect
+    timeout_detected: True
+    pool_stats: {'in_use': 1, 'available': 0, 'max': 1, 'utilization': 1.0}
+
+============================================================
+  🔧 故障注入: database_corruption
+  KB 文件损坏 → 优雅降级
+============================================================
+  注入: 损坏文件 (kb_corrupt.json)
+  ✅ PASS  database_corruption
+    broken: True
+    alive: True
+
+============================================================
+  🔧 故障注入: leader_loss
+  Leader 锁过期 → 新节点选举
+============================================================
+  注入: node-1 获取锁 → leader=True
+  等待 TTL 过期 (1.5s)...
+  node-2 选举: leader=True
+  ❌ FAIL  leader_loss
+    node1_was_leader: True
+    node2_elected: True
+    current_leader: None
+
+============================================================
+  🔧 故障注入: avalanche
+  突发 1000 并发 → 验证速率限制器不崩溃
+============================================================
+  注入: 突发 500 请求 (限制: 100/s)...
+  结果: 放行=100, 拦截=400
+  ✅ PASS  avalanche
+    total_requests: 500
+    allowed: 100
+    blocked: 400
+    block_rate: 0.8
+
+============================================================
+  🔧 故障注入: memory_pressure
+  连续 100 次幻觉检测 → 内存趋势
+============================================================
+  ✅ PASS  memory_pressure
+    iterations: 100
+    final_current_kb: 280.2
+    final_peak_kb: 433.6
+    early_avg_kb: 183.4
+    late_avg_kb: 211.2
+    growth_ratio: 0.15
+    leak_detected: False
+    samples: [{'iteration': 0, 'current_kb': 105.4, 'peak_kb': 244.0}, {'iteration': 40, 'current_kb': 345.3, 'peak_kb': 410.1}, {'iteration': 80, 'current_kb': 244.1, 'peak_kb': 424.5}]
+
+============================================================
+  🔧 故障注入: cache_poison
+  缓存投毒 → 清除恢复
+============================================================
+  跳过: cannot import name 'VectorKB' from 'vector_kb' (/data/data/com.termux/files/home/vector_kb.py)
+  ✅ PASS  cache_poison
+    skipped: True
+
+============================================================
+  🔧 故障注入: node_restart
+  进程重启 → 状态完整性恢复
+============================================================
+  重启前: KB=573, 检查器=14
+  ✅ PASS  node_restart
+    kb_before: 573
+    kb_after: 573
+    ck_before: 14
+    ck_after: 14
+
+============================================================
+  混沌工程报告: 8/9 通过 (89%)
+============================================================

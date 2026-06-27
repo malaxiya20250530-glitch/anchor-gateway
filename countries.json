@@ -1,0 +1,2908 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "population", "area", "capital", "capitalLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q148"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q956"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北京市"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1404890000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9596961"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q987"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新德里"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1326093247"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3287263"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "華盛頓哥倫比亞特區"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "340110988"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9826675"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q252"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3630"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雅加达"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "275439000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1904570"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q843"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1362"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊斯兰堡"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "223773700"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "881913"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q155"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2844"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴西利亚"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴西"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "213421037"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8515767"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1033"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3787"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿布贾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奈及利亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "211400708"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "923768"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34266"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q656"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖彼得堡"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯帝国"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "181537800"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "23700000"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1354"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "达卡市"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "孟加拉國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "171466990"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "147570"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q159"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q649"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫斯科"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "146119928"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "17075400"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1489"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥城"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "132274416"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1972550"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1489"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥城"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "132274416"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1964375"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3624"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亚的斯亚贝巴"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃塞俄比亚"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "128691692"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1104300"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1490"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東京都"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "123802000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "377972.28"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q79"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "開羅"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃及"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "114535772"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1010407.87"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q928"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1461"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马尼拉市"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "112729484"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "343448"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q974"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3838"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金沙萨"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "刚果民主共和国"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "105789731"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2344858"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q881"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1858"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "河內"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越南"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "96208984"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "331690"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q794"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3616"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德黑兰"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊朗"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "92417700"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1648195"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3640"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安卡拉"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "土耳其"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "85372377"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "783562"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q183"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "柏林"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "83577140"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "357587.77"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q142"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q90"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴黎"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "68605616"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "643801"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q84"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "倫敦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "67326569"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "242495"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q869"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1861"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "曼谷"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "66188503"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "513119.5"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5465"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "开普敦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "62027503"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1221037"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3926"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比勒陀利亚"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "62027503"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1221037"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37701"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布隆方丹"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "62027503"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1221037"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q220"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "罗马"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "58850717"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "302068"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q924"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3866"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "多多马"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坦桑尼亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "57310019"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "947303"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q836"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37400"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奈比多"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "緬甸"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "53370609"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "676577.2"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q739"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2841"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波哥大"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥伦比亚"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "52321152"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1141748"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q884"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8684"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "首爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "51466201"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100295"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2807"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马德里"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "48592909"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "505990"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3870"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奈洛比"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "肯尼亚"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "48468138"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "581309"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1486"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布宜諾斯艾利斯"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿根廷"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "47327407"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2780400"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1036"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3894"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坎帕拉"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏干達"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "47123531"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "241038"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q262"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3561"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾及爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾及利亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "46164219"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2381741"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q889"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5838"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喀布尔"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿富汗"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "41454761"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "652230"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1899"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基輔"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "41167335"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "603550"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1049"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1963"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喀土穆"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "苏丹"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "40533330"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1886068"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1049"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1963"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喀土穆"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "苏丹"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "40533330"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1840687"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1530"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴格達"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊拉克"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "38274618"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "437072"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q270"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "华沙"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "37563071"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "312683"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1930"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "渥太華"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "36991981"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9984670"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1028"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉巴特"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "摩洛哥"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "36828330"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "446550"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3897"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "罗安达"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安哥拉"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "36749906"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1246700"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q265"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q269"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔什干"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌兹别克斯坦"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "34915100"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "448978"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q419"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2868"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "利馬"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "秘鲁"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "33726000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1285216"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q851"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3692"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "利雅德"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙特阿拉伯"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "33000000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2250000"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3761"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿克拉"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "迦納"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "32833031"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "238535"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1865"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉隆坡"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬來西亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "32447385"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "330803"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1019"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3915"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔那那利佛"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬達加斯加"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "31964956"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "587295"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q717"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1533"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拉加斯"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "委內瑞拉"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "31250306"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "912050"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1008"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3768"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亚穆苏克罗"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科特迪瓦"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "31165654"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "322463"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1029"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3889"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马普托"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫桑比克"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "29668834"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "801590"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q837"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3037"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加德滿都"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "29164578"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "147181.254346"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1009"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3808"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雅温得"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喀麦隆"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "28372687"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "475442"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q805"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2471"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨那"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "也门"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "28250420"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "455503"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q805"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131694"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞丁"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "也门"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "28250420"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "455503"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q408"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3114"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "堪培拉"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "澳大利亚"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "27614411"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7692024"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q423"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18808"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "平壤"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朝鮮民主主義人民共和國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "26418204"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "120540"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q858"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3766"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大马士革"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "敘利亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "23865423"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "185180"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q865"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1867"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "臺北市"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中華民國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "23317031"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "36193"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q865"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1867"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "臺北市"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中華民國"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "23262544"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "36193"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q965"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3777"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓦加杜古"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布吉納法索"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "23025776"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "274200"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q912"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3703"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴馬科"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马里"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "22395489"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1240192"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1032"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3674"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼亞美"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼日尔"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "21477348"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1267000"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35381"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科伦坡"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯里蘭卡"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "21444000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "65610"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41963"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯里賈亞瓦德納普拉科特"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯里蘭卡"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "21444000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "65610"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q232"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1520"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿斯塔纳"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈萨克斯坦"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "20139914"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2724900"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q953"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3881"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "路沙卡"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "贊比亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "19610769"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "752618"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q298"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2887"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣地亚哥"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "智利"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "19458000"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "756102"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q657"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3659"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "恩賈梅納"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乍得"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "19319064"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1284000"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19660"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布加勒斯特"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅馬尼亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "19053815"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "238397"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1020"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3876"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "利隆圭"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬拉威"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "17563749"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "118484"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q424"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1850"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金边"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "柬埔寨"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "17423880"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "181035"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q774"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1555"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓜地馬拉市"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "危地马拉"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "17263239"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "108889"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29999"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q727"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿姆斯特丹"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷兰王国"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "17100715"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "42201"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q736"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2900"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基多"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "厄瓜多尔"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "16938986"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "257204.27"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1041"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3718"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "達喀爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞内加尔"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "16876720"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "196722"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q954"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3921"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈拉雷"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "津巴布韦"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "15178979"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "390757"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1037"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3859"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉佳利"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卢旺达"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "14569341"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "26338"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q962"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3799"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波多诺伏"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貝南"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "14111034"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "114763"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q967"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167551"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基特加"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蒲隆地"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13689450"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "27834"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1006"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3733"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科納克里"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "几内亚"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12717176"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "245857"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q958"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1947"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朱巴"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南蘇丹"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12575714"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "644329"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q750"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1491"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉巴斯"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "玻利維亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12244159"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1098581"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q750"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2907"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "苏克雷"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "玻利維亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12244159"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1098581"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q239"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布鲁塞尔"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11825551"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "30688"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q948"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3572"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼斯市"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼西亞"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11565204"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "163610"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1045"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2449"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "摩加迪休"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "索馬里"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11031386"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "637657"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q241"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1563"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈瓦那"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "古巴"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10985974"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "109884"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q790"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34261"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "太子港"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海地"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10981229"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "27750"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1085"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布拉格"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷克"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10909500"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "78871"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q786"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34820"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣多明各"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "多明尼加"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10760028"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "48670.82"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1754"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯德哥尔摩"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞典"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10609460"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "447425.16"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雅典"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10482487"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "131957"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q810"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3805"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安曼"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "約旦"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10428241"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "89341"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q597"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "里斯本"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "葡萄牙"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10347892"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "92225"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q227"
+      },
+      "capital" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9248"
+      },
+      "capitalLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴庫"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿塞拜疆"
+      },
+      "population" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10180770"
+      },
+      "area" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "86600"
+      }
+    } ]
+  }
+}

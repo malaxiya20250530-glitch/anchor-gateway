@@ -1,0 +1,1380 @@
+{
+  "_meta": {
+    "description": "用户贡献的知识库条目，启动时自动合并到 KNOWLEDGE_BASE",
+    "version": 1
+  },
+  "疫苗会导致自闭症": {
+    "facts": [
+      "疫苗会导致自闭症与已知事实矛盾——疫苗不会导致自闭症——这个说法来自一篇被撤稿的造假论文"
+    ],
+    "source": "医学"
+  },
+  "量子计算机将在": {
+    "facts": [
+      "量子计算机将在 2027 年取代经典计算机——用户标注正确事实：海水pH值正在缓慢下降（海洋酸化），但不会在50年内变成酸性"
+    ],
+    "source": "主动学习标注"
+  },
+  "人工智能已经拥有真正意识": {
+    "facts": [
+      "人工智能已经拥有真正意识——用户标注正确事实：计算机工程师罗伯特·J·马克斯就是这些理智的发声者之一，他重申，AI永远不会实现像人类一样的智能或意识。AI的运行基于算法，它们的功能与人类的情感和思维有着质的不同。\n\n　　没有理由认为当前AI有意识"
+    ],
+    "source": "主动学习标注"
+  },
+  "海水将在": {
+    "facts": [
+      "海水将在 50 年内完全变成酸性——用户标注正确事实：国科研团队首次直接观测到米格达尔效应 为轻暗物质探测迈出坚实的一步\n2026-01-15 00:14:55 来源：新华社\n  近期，由中国科学院大学主导、多所学校参与的科研团队首次直接观测到米格达尔效应，这一发现为轻暗物质探测突破阈值瓶颈提供关键支撑。上述成果北京时间1月15日在国际学术期刊《自然》上发表。"
+    ],
+    "source": "主动学习标注"
+  },
+  "比特币的总量上限是210": {
+    "category": "auto_merged",
+    "fact": "比特币的总量上限是2100万个",
+    "source": "bitcoin.org",
+    "confidence": 0.95
+  },
+  "日本的首都是东京": {
+    "category": "auto_merged",
+    "fact": "东京是日本首都",
+    "source": "地理",
+    "confidence": 0.92
+  },
+  "汉朝分为西汉(前202-": {
+    "category": "auto_merged",
+    "fact": "汉朝分为西汉(前202-9年)和东汉(25-220年)",
+    "source": "汉书",
+    "confidence": 0.95
+  },
+  "唐朝(618-907年)": {
+    "category": "auto_merged",
+    "fact": "唐朝(618-907年)是中国历史上最繁荣的朝代之一",
+    "source": "旧唐书",
+    "confidence": 0.95
+  },
+  "雕版印刷术在唐代发明": {
+    "category": "auto_merged",
+    "fact": "雕版印刷术发明于唐代",
+    "source": "印刷史",
+    "confidence": 0.92
+  },
+  "北宋(960-1127年": {
+    "category": "auto_merged",
+    "fact": "北宋(960-1127年)首都是开封",
+    "source": "宋史",
+    "confidence": 0.95
+  },
+  "毕昇于北宋庆历年间发明活": {
+    "category": "auto_merged",
+    "fact": "毕昇于北宋庆历年间发明活字印刷术",
+    "source": "印刷史",
+    "confidence": 0.95
+  },
+  "郑和七下西洋发生在明代永": {
+    "category": "auto_merged",
+    "fact": "郑和七下西洋发生在明代永乐年间",
+    "source": "明史",
+    "confidence": 0.95
+  },
+  "Python 由 Gui": {
+    "category": "auto_merged",
+    "fact": "Python 由 Guido van Rossum 于 1991 年首次发布",
+    "source": "Python.org",
+    "confidence": 0.95
+  },
+  "Python 是解释型面": {
+    "category": "auto_merged",
+    "fact": "Python 是解释型面向对象的高级编程语言",
+    "source": "Python.org",
+    "confidence": 0.95
+  },
+  "Linux 内核由 Li": {
+    "category": "auto_merged",
+    "fact": "Linux 内核由 Linus Torvalds 于 1991 年创建",
+    "source": "kernel.org",
+    "confidence": 0.95
+  },
+  "Linux 是开源的类": {
+    "category": "auto_merged",
+    "fact": "Linux 是开源的类 Unix 操作系统内核",
+    "source": "kernel.org",
+    "confidence": 0.95
+  },
+  "HTTP 协议由 Tim": {
+    "category": "auto_merged",
+    "fact": "HTTP 协议由 Tim Berners-Lee 于 1989 年在 CERN 提出",
+    "source": "W3C",
+    "confidence": 0.95
+  },
+  "HTTP 是超文本传输协": {
+    "category": "auto_merged",
+    "fact": "HTTP 是超文本传输协议",
+    "source": "W3C",
+    "confidence": 0.95
+  },
+  "Java 由 James": {
+    "category": "auto_merged",
+    "fact": "Java 由 James Gosling 于 1995 年在 Sun Microsystems 发布",
+    "source": "Oracle",
+    "confidence": 0.95
+  },
+  "Java 最初的名字是": {
+    "category": "auto_merged",
+    "fact": "Java 最初的名字是 Oak",
+    "source": "Oracle",
+    "confidence": 0.95
+  },
+  "C 语言是为了写 Uni": {
+    "category": "auto_merged",
+    "fact": "C 语言是为了写 Unix 而创造的",
+    "source": "计算机科学史",
+    "confidence": 0.95
+  },
+  "JavaScript 由": {
+    "category": "auto_merged",
+    "fact": "JavaScript 由 Brendan Eich 于 1995 年在 Netscape 创建",
+    "source": "Mozilla",
+    "confidence": 0.95
+  },
+  "JavaScript 与": {
+    "category": "auto_merged",
+    "fact": "JavaScript 与 Java 没有任何关系",
+    "source": "Mozilla",
+    "confidence": 0.95
+  },
+  "水的化学式是 H2O": {
+    "category": "auto_merged",
+    "fact": "水的化学式是 H2O",
+    "source": "基础化学",
+    "confidence": 0.95
+  },
+  "光速约为每秒30万公里": {
+    "category": "auto_merged",
+    "fact": "光速约为每秒30万公里",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "DNA 双螺旋结构由 W": {
+    "category": "auto_merged",
+    "fact": "DNA 双螺旋结构由 Watson 和 Crick 于 1953 年提出",
+    "source": "Nature 1953",
+    "confidence": 0.95
+  },
+  "Rosalind Fra": {
+    "category": "auto_merged",
+    "fact": "Rosalind Franklin 的 X 射线衍射照片起关键作用",
+    "source": "Nature 1953",
+    "confidence": 0.95
+  },
+  "地球是已知唯一存在生命的": {
+    "category": "auto_merged",
+    "fact": "地球是已知唯一存在生命的天体",
+    "source": "NASA",
+    "confidence": 0.95
+  },
+  "珠穆朗玛峰是世界最高峰": {
+    "category": "auto_merged",
+    "fact": "珠穆朗玛峰是世界最高峰",
+    "source": "中尼联合测量",
+    "confidence": 0.95
+  },
+  "火锅的历史可追溯到战国时": {
+    "category": "auto_merged",
+    "fact": "火锅的历史可追溯到战国时期",
+    "source": "中国饮食文化史",
+    "confidence": 0.95
+  },
+  "汉代已有类似火锅的青铜器": {
+    "category": "auto_merged",
+    "fact": "汉代已有类似火锅的青铜器皿",
+    "source": "中国饮食文化史",
+    "confidence": 0.95
+  },
+  "造纸术是中国古代四大发明": {
+    "category": "auto_merged",
+    "fact": "造纸术是中国古代四大发明之一",
+    "source": "后汉书",
+    "confidence": 0.95
+  },
+  "雕版印刷术发明于唐代": {
+    "category": "auto_merged",
+    "fact": "雕版印刷术发明于唐代",
+    "source": "印刷史",
+    "confidence": 0.95
+  },
+  "火药通过阿拉伯传入欧洲": {
+    "category": "auto_merged",
+    "fact": "火药通过阿拉伯传入欧洲",
+    "source": "中国科学技术史",
+    "confidence": 0.95
+  },
+  "指南针是中国古代四大发明": {
+    "category": "auto_merged",
+    "fact": "指南针是中国古代四大发明之一",
+    "source": "中国科学技术史",
+    "confidence": 0.95
+  },
+  "朱元璋没有发明火锅": {
+    "category": "auto_merged",
+    "fact": "朱元璋并没有发明火锅",
+    "source": "明史",
+    "confidence": 0.92
+  },
+  "任何声称某人发明了某自然": {
+    "category": "auto_merged",
+    "fact": "任何声称某人发明了某自然现象的断言都是错误的",
+    "source": "常识",
+    "confidence": 0.95
+  },
+  "包含唯一的断言几乎总是存": {
+    "category": "auto_merged",
+    "fact": "包含唯一的断言几乎总是存在反例",
+    "source": "逻辑学",
+    "confidence": 0.95
+  },
+  "声称某物是唯一的需要极其": {
+    "category": "auto_merged",
+    "fact": "声称某物是唯一的需要极其严格的证明",
+    "source": "逻辑学",
+    "confidence": 0.95
+  },
+  "声称世界第一的断言需要严": {
+    "category": "auto_merged",
+    "fact": "声称世界第一的断言需要严格定义和证据",
+    "source": "逻辑学",
+    "confidence": 0.95
+  },
+  "许多第一的宣称在学术上是": {
+    "category": "auto_merged",
+    "fact": "许多第一的宣称在学术上是争议的",
+    "source": "逻辑学",
+    "confidence": 0.95
+  },
+  "哥伦布于1492年到达美": {
+    "category": "auto_merged",
+    "fact": "哥伦布于1492年到达美洲",
+    "source": "世界史",
+    "confidence": 0.95
+  },
+  "古腾堡于1450年在欧洲": {
+    "category": "auto_merged",
+    "fact": "古腾堡于1450年在欧洲发明铅活字印刷",
+    "source": "印刷史",
+    "confidence": 0.95
+  },
+  "太阳系最大的行星是木星": {
+    "category": "auto_merged",
+    "fact": "太阳系最大的行星是木星",
+    "source": "NASA",
+    "confidence": 0.95
+  },
+  "长城始建于春秋战国时期": {
+    "category": "auto_merged",
+    "fact": "长城始建于春秋战国时期",
+    "source": "中国文化遗产",
+    "confidence": 0.95
+  },
+  "牛顿出生于1643年": {
+    "category": "auto_merged",
+    "fact": "牛顿出生于1643年",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "艾萨克·牛顿于1687年": {
+    "category": "auto_merged",
+    "fact": "艾萨克·牛顿于1687年发表《自然哲学的数学原理》",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱因斯坦于1905年发表": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦发表狭义相对论于1905年",
+    "source": "物理学史",
+    "confidence": 0.92
+  },
+  "爱因斯坦没有发明原子弹": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦没有发明原子弹",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱迪生没有发明电灯泡——": {
+    "category": "auto_merged",
+    "fact": "爱迪生没有发明电灯泡——电灯泡在他之前已经存在",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "爱迪生改进了灯泡并使其商": {
+    "category": "auto_merged",
+    "fact": "爱迪生改进了灯泡并使其商业化",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "瓦特没有发明蒸汽机——他": {
+    "category": "auto_merged",
+    "fact": "瓦特没有发明蒸汽机——他改良了蒸汽机使其效率大幅提高",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "蒸汽机在瓦特之前已存在数": {
+    "category": "auto_merged",
+    "fact": "蒸汽机在瓦特之前已存在数十年",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "亚历山大·贝尔于1876": {
+    "category": "auto_merged",
+    "fact": "亚历山大·贝尔于1876年获得电话专利",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "莱特兄弟于1903年12": {
+    "category": "auto_merged",
+    "fact": "莱特兄弟于1903年12月17日完成首次动力飞行",
+    "source": "航空史",
+    "confidence": 0.95
+  },
+  "威廉·莎士比亚是英国文艺": {
+    "category": "auto_merged",
+    "fact": "威廉·莎士比亚是英国文艺复兴时期最伟大的剧作家",
+    "source": "文学史",
+    "confidence": 0.95
+  },
+  "莎士比亚生于1564年": {
+    "category": "auto_merged",
+    "fact": "莎士比亚出生于1564年",
+    "source": "文学史",
+    "confidence": 0.92
+  },
+  "达尔文于1859年发表《": {
+    "category": "auto_merged",
+    "fact": "达尔文发表《物种起源》于1859年",
+    "source": "《物种起源》",
+    "confidence": 0.92
+  },
+  "青霉素由亚历山大·弗莱明": {
+    "category": "auto_merged",
+    "fact": "青霉素由亚历山大·弗莱明于1928年发现",
+    "source": "医学史",
+    "confidence": 0.95
+  },
+  "恐龙灭绝于约6600万年": {
+    "category": "auto_merged",
+    "fact": "恐龙灭绝于约6600万年前的K-Pg灭绝事件",
+    "source": "古生物学",
+    "confidence": 0.95
+  },
+  "一颗小行星撞击地球是恐龙": {
+    "category": "auto_merged",
+    "fact": "一颗小行星撞击地球是恐龙灭绝的主要原因",
+    "source": "古生物学",
+    "confidence": 0.95
+  },
+  "蜜蜂在采蜜时进行授粉": {
+    "category": "auto_merged",
+    "fact": "蜜蜂在采蜜时进行授粉",
+    "source": "昆虫学",
+    "confidence": 0.95
+  },
+  "咖啡因是世界上消费最广泛": {
+    "category": "auto_merged",
+    "fact": "咖啡因是世界上消费最广泛的精神活性物质",
+    "source": "食品史",
+    "confidence": 0.95
+  },
+  "现代固体巧克力在19世纪": {
+    "category": "auto_merged",
+    "fact": "现代固体巧克力在19世纪才发明",
+    "source": "食品史",
+    "confidence": 0.95
+  },
+  "维基百科于2001年1月": {
+    "category": "auto_merged",
+    "fact": "维基百科于2001年1月15日上线",
+    "source": "维基媒体基金会",
+    "confidence": 0.95
+  },
+  "维基百科由Jimmy W": {
+    "category": "auto_merged",
+    "fact": "维基百科由Jimmy Wales和Larry Sanger创建",
+    "source": "维基媒体基金会",
+    "confidence": 0.95
+  },
+  "万有引力定律由牛顿提出": {
+    "category": "auto_merged",
+    "fact": "万有引力定律由牛顿提出",
+    "source": "结构化知识库",
+    "confidence": 0.95
+  },
+  "氧气由约瑟夫·普里斯特利": {
+    "category": "auto_merged",
+    "fact": "氧气由约瑟夫·普里斯特利和卡尔·舍勒分别独立发现",
+    "source": "化学史",
+    "confidence": 0.95
+  },
+  "氧气占地球大气的约21%": {
+    "category": "auto_merged",
+    "fact": "氧气占地球大气的约21%",
+    "source": "化学史",
+    "confidence": 0.95
+  },
+  "二氧化碳的化学式是CO2": {
+    "category": "auto_merged",
+    "fact": "二氧化碳的化学式是CO2",
+    "source": "化学",
+    "confidence": 0.95
+  },
+  "二氧化碳是温室气体": {
+    "category": "auto_merged",
+    "fact": "二氧化碳是温室气体",
+    "source": "化学",
+    "confidence": 0.95
+  },
+  "月球是地球唯一的天然卫星": {
+    "category": "auto_merged",
+    "fact": "月球是地球唯一的天然卫星",
+    "source": "天文学",
+    "confidence": 0.95
+  },
+  "太阳是一颗G型主序星(黄": {
+    "category": "auto_merged",
+    "fact": "太阳是一颗G型主序星(黄矮星)",
+    "source": "天文学",
+    "confidence": 0.95
+  },
+  "木星是太阳系最大的行星": {
+    "category": "auto_merged",
+    "fact": "太阳系最大的行星是木星",
+    "source": "NASA",
+    "confidence": 0.92
+  },
+  "木星有著名的大红斑——一": {
+    "category": "auto_merged",
+    "fact": "木星有著名的大红斑——一个持续了数百年的风暴",
+    "source": "NASA",
+    "confidence": 0.95
+  },
+  "火星被称为红色行星": {
+    "category": "auto_merged",
+    "fact": "火星被称为红色行星",
+    "source": "NASA",
+    "confidence": 0.95
+  },
+  "火星上目前没有发现液态水": {
+    "category": "auto_merged",
+    "fact": "火星上目前没有发现液态水的存在",
+    "source": "NASA",
+    "confidence": 0.95
+  },
+  "GPT系列由OpenAI": {
+    "category": "auto_merged",
+    "fact": "GPT系列由OpenAI开发",
+    "source": "OpenAI",
+    "confidence": 0.95
+  },
+  "Transformer架": {
+    "category": "auto_merged",
+    "fact": "Transformer架构于2017年在论文Attention Is All You Need中提出",
+    "source": "Vaswani et al. 2017",
+    "confidence": 0.95
+  },
+  "Transformer是": {
+    "category": "auto_merged",
+    "fact": "Transformer是当前大多数大语言模型的基础架构",
+    "source": "Vaswani et al. 2017",
+    "confidence": 0.95
+  },
+  "围棋是最复杂的棋类游戏之": {
+    "category": "auto_merged",
+    "fact": "围棋是最复杂的棋类游戏之一",
+    "source": "围棋史",
+    "confidence": 0.95
+  },
+  "马拉松的距离是42.19": {
+    "category": "auto_merged",
+    "fact": "马拉松的距离是42.195公里",
+    "source": "奥林匹克历史",
+    "confidence": 0.95
+  },
+  "元朝(1271-1368": {
+    "category": "auto_merged",
+    "fact": "元朝(1271-1368年)由忽必烈建立",
+    "source": "元史",
+    "confidence": 0.95
+  },
+  "三国时期(220-280": {
+    "category": "auto_merged",
+    "fact": "三国时期(220-280年)是魏蜀吴三足鼎立的时代",
+    "source": "三国志",
+    "confidence": 0.95
+  },
+  "赤壁之战发生在208年": {
+    "category": "auto_merged",
+    "fact": "赤壁之战发生于208年",
+    "source": "历史",
+    "confidence": 0.92
+  },
+  "广义相对论于1915年提": {
+    "category": "auto_merged",
+    "fact": "广义相对论于1915年提出",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "达尔文于1859年出版《": {
+    "category": "auto_merged",
+    "fact": "达尔文发表《物种起源》于1859年",
+    "source": "《物种起源》",
+    "confidence": 0.92
+  },
+  "进化论的核心机制是自然选": {
+    "category": "auto_merged",
+    "fact": "进化论的核心机制是自然选择",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "量子力学描述微观世界的物": {
+    "category": "auto_merged",
+    "fact": "量子力学描述微观世界的物理规律",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "故宫是明清两代的皇家宫殿": {
+    "category": "auto_merged",
+    "fact": "故宫是明清两代的皇家宫殿",
+    "source": "故宫博物院",
+    "confidence": 0.95
+  },
+  "富士山是日本最高峰": {
+    "category": "auto_merged",
+    "fact": "富士山是日本最高峰",
+    "source": "日本地理",
+    "confidence": 0.95
+  },
+  "元素周期表由门捷列夫于1": {
+    "category": "auto_merged",
+    "fact": "元素周期表由门捷列夫于1869年提出",
+    "source": "化学",
+    "confidence": 0.95
+  },
+  "本杰明·富兰克林没有发明": {
+    "category": "auto_merged",
+    "fact": "本杰明·富兰克林没有发明电——他证明了闪电是电",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "互联网起源于1969年的": {
+    "category": "auto_merged",
+    "fact": "互联网起源于1969年的ARPANET",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "万维网由Tim Bern": {
+    "category": "auto_merged",
+    "fact": "万维网发明了万维网(Tim Berners-Lee于1989年)",
+    "source": "W3C",
+    "confidence": 0.92
+  },
+  "人工智能作为一个研究领域": {
+    "category": "auto_merged",
+    "fact": "人工智能作为一个研究领域始于1956年达特茅斯会议",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "莱特兄弟于1903年进行": {
+    "category": "auto_merged",
+    "fact": "莱特兄弟完成首次动力飞行于1903年",
+    "source": "航空史",
+    "confidence": 0.92
+  },
+  "爱德华·詹纳于1796年": {
+    "category": "auto_merged",
+    "fact": "爱德华·詹纳于1796年发明了天花疫苗——世界上第一种疫苗",
+    "source": "医学",
+    "confidence": 0.95
+  },
+  "疫苗通过激发免疫系统产生": {
+    "category": "auto_merged",
+    "fact": "疫苗通过激发免疫系统产生抗体来预防疾病",
+    "source": "医学",
+    "confidence": 0.95
+  },
+  "恩里科·费米于1942年": {
+    "category": "auto_merged",
+    "fact": "恩里科·费米于1942年建造了第一个核反应堆",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "奥林匹克休战是古希腊的传": {
+    "category": "auto_merged",
+    "fact": "奥林匹克休战是古希腊的传统",
+    "source": "国际奥委会",
+    "confidence": 0.95
+  },
+  "黄帝是传说中中华民族的人": {
+    "category": "auto_merged",
+    "fact": "黄帝是传说中中华民族的人文初祖",
+    "source": "史记",
+    "confidence": 0.95
+  },
+  "司马迁遭受宫刑后完成了《": {
+    "category": "auto_merged",
+    "fact": "司马迁遭受宫刑后完成了《史记》",
+    "source": "汉书",
+    "confidence": 0.95
+  },
+  "《孙子兵法》由春秋时期孙": {
+    "category": "auto_merged",
+    "fact": "《孙子兵法》由春秋时期孙武所著",
+    "source": "中国军事史",
+    "confidence": 0.95
+  },
+  "《孙子兵法》是世界上最早": {
+    "category": "auto_merged",
+    "fact": "《孙子兵法》是世界上最早的兵书之一",
+    "source": "中国军事史",
+    "confidence": 0.95
+  },
+  "拿破仑·波拿巴于1804": {
+    "category": "auto_merged",
+    "fact": "拿破仑·波拿巴于1804年称帝",
+    "source": "欧洲史",
+    "confidence": 0.95
+  },
+  "文艺复兴于14-17世纪": {
+    "category": "auto_merged",
+    "fact": "文艺复兴于14-17世纪发源于意大利",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "第一次工业革命始于18世": {
+    "category": "auto_merged",
+    "fact": "第一次工业革命始于18世纪60年代的英国",
+    "source": "结构化知识库",
+    "confidence": 0.95
+  },
+  "法国大革命爆发于1789": {
+    "category": "auto_merged",
+    "fact": "法国大革命爆发于1789年",
+    "source": "欧洲史",
+    "confidence": 0.95
+  },
+  "攻占巴士底狱是法国大革命": {
+    "category": "auto_merged",
+    "fact": "攻占巴士底狱是法国大革命的标志性事件",
+    "source": "欧洲史",
+    "confidence": 0.95
+  },
+  "十月革命发生于1917年": {
+    "category": "auto_merged",
+    "fact": "十月革命发生于1917年11月7日（俄历10月25日）",
+    "source": "俄国史",
+    "confidence": 0.95
+  },
+  "圆周率π是一个无限不循环": {
+    "category": "auto_merged",
+    "fact": "圆周率π是一个无限不循环小数",
+    "source": "数学",
+    "confidence": 0.95
+  },
+  "勾股定理描述直角三角形三": {
+    "category": "auto_merged",
+    "fact": "勾股定理描述直角三角形三边关系：a²+b²=c²",
+    "source": "数学",
+    "confidence": 0.95
+  },
+  "黄金分割比例约为1:1.": {
+    "category": "auto_merged",
+    "fact": "黄金分割比例约为1:1.618",
+    "source": "数学",
+    "confidence": 0.95
+  },
+  "黄金分割在自然界和艺术中": {
+    "category": "auto_merged",
+    "fact": "黄金分割在自然界和艺术中广泛存在",
+    "source": "数学",
+    "confidence": 0.95
+  },
+  "撒哈拉沙漠是世界上最大的": {
+    "category": "auto_merged",
+    "fact": "撒哈拉沙漠是世界最大的热沙漠",
+    "source": "地理",
+    "confidence": 0.92
+  },
+  "尼罗河是世界上最长的河流": {
+    "category": "auto_merged",
+    "fact": "尼罗河是世界上最长的河流之一",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "尼罗河每年定期泛滥为古埃": {
+    "category": "auto_merged",
+    "fact": "尼罗河每年定期泛滥为古埃及农业提供了肥沃的土壤",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "亚马逊雨林是世界上最大的": {
+    "category": "auto_merged",
+    "fact": "亚马逊雨林是世界上最大的热带雨林",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "章鱼有3个心脏和9个大脑": {
+    "category": "auto_merged",
+    "fact": "章鱼有3个心脏和9个大脑",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "章鱼是非常聪明的无脊椎动": {
+    "category": "auto_merged",
+    "fact": "章鱼是非常聪明的无脊椎动物",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "维生素C又称抗坏血酸": {
+    "category": "auto_merged",
+    "fact": "维生素C又称抗坏血酸",
+    "source": "营养学",
+    "confidence": 0.95
+  },
+  "缺乏维生素C会导致坏血病": {
+    "category": "auto_merged",
+    "fact": "缺乏维生素C会导致坏血病",
+    "source": "营养学",
+    "confidence": 0.95
+  },
+  "沃尔夫冈·阿马德乌斯·莫": {
+    "category": "auto_merged",
+    "fact": "沃尔夫冈·阿马德乌斯·莫扎特是天才作曲家",
+    "source": "音乐史",
+    "confidence": 0.95
+  },
+  "《红楼梦》是中国古典四大": {
+    "category": "auto_merged",
+    "fact": "《红楼梦》是中国古典四大名著之一",
+    "source": "中国文学",
+    "confidence": 0.95
+  },
+  "现代足球起源于英国": {
+    "category": "auto_merged",
+    "fact": "现代足球起源于英国",
+    "source": "体育",
+    "confidence": 0.95
+  },
+  "通货膨胀是货币购买力持续": {
+    "category": "auto_merged",
+    "fact": "通货膨胀是货币购买力持续下降的现象",
+    "source": "经济学",
+    "confidence": 0.95
+  },
+  "半导体是导电性介于导体和": {
+    "category": "auto_merged",
+    "fact": "半导体是导电性介于导体和绝缘体之间的材料",
+    "source": "电子学",
+    "confidence": 0.95
+  },
+  "硅是最常用的半导体材料": {
+    "category": "auto_merged",
+    "fact": "硅是最常用的半导体材料",
+    "source": "电子学",
+    "confidence": 0.95
+  },
+  "艾伦·图灵是计算机科学的": {
+    "category": "auto_merged",
+    "fact": "艾伦·图灵是计算机科学的奠基人",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "图灵在二战期间破解了德国": {
+    "category": "auto_merged",
+    "fact": "图灵在二战期间破解了德国的恩尼格玛密码",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "冥王星于2006年被降级": {
+    "category": "auto_merged",
+    "fact": "冥王星于2006年被降级为矮行星",
+    "source": "天文学",
+    "confidence": 0.95
+  },
+  "土星环主要由冰和岩石碎片": {
+    "category": "auto_merged",
+    "fact": "土星环主要由冰和岩石碎片组成",
+    "source": "天文学",
+    "confidence": 0.95
+  },
+  "孔子是儒家学派创始人": {
+    "category": "auto_merged",
+    "fact": "孔子是儒家学派创始人",
+    "source": "史记",
+    "confidence": 0.95
+  },
+  "老子是道家学派创始人": {
+    "category": "auto_merged",
+    "fact": "老子是道家学派创始人",
+    "source": "史记",
+    "confidence": 0.95
+  },
+  "柏拉图创立了雅典学院": {
+    "category": "auto_merged",
+    "fact": "柏拉图创立了雅典学院",
+    "source": "西方哲学史",
+    "confidence": 0.95
+  },
+  "第二次世界大战于1939": {
+    "category": "auto_merged",
+    "fact": "第二次世界大战爆发于1939年",
+    "source": "结构化知识库",
+    "confidence": 0.92
+  },
+  "冷战是二战后美苏两大阵营": {
+    "category": "auto_merged",
+    "fact": "冷战是二战后美苏两大阵营的对峙",
+    "source": "世界史",
+    "confidence": 0.95
+  },
+  "冷战没有变成热战——但期": {
+    "category": "auto_merged",
+    "fact": "冷战没有变成热战——但期间有许多代理人战争",
+    "source": "世界史",
+    "confidence": 0.95
+  },
+  "黑洞是由大质量恒星坍缩形": {
+    "category": "auto_merged",
+    "fact": "黑洞是由大质量恒星坍缩形成的天体",
+    "source": "天文学",
+    "confidence": 0.95
+  },
+  "大陆漂移学说由魏格纳于1": {
+    "category": "auto_merged",
+    "fact": "大陆漂移学说由魏格纳于1912年提出",
+    "source": "地质学",
+    "confidence": 0.95
+  },
+  "光合作用是植物将光能转化": {
+    "category": "auto_merged",
+    "fact": "光合作用是植物将光能转化为化学能的过程",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "全球气候变暖是指地球平均": {
+    "category": "auto_merged",
+    "fact": "全球气候变暖是指地球平均气温持续上升",
+    "source": "IPCC",
+    "confidence": 0.95
+  },
+  "蓝牙技术于1994年由爱": {
+    "category": "auto_merged",
+    "fact": "蓝牙技术于1994年由爱立信公司发明",
+    "source": "通信技术",
+    "confidence": 0.95
+  },
+  "WiFi是基于IEEE": {
+    "category": "auto_merged",
+    "fact": "WiFi是基于IEEE 802.11标准的无线网络技术",
+    "source": "通信技术",
+    "confidence": 0.95
+  },
+  "区块链是一种去中心化的分": {
+    "category": "auto_merged",
+    "fact": "区块链是一种去中心化的分布式账本技术",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "《蒙娜丽莎》是达芬奇于1": {
+    "category": "auto_merged",
+    "fact": "《蒙娜丽莎》是达芬奇于16世纪初创作的油画",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "文森特·梵高是荷兰后印象": {
+    "category": "auto_merged",
+    "fact": "文森特·梵高是荷兰后印象派画家",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "梵高生前只卖出了一幅画—": {
+    "category": "auto_merged",
+    "fact": "梵高生前只卖出了一幅画——《红色葡萄园》",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "巴勃罗·毕加索是20世纪": {
+    "category": "auto_merged",
+    "fact": "巴勃罗·毕加索是20世纪最有影响力的艺术家之一",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "毕加索创立了立体主义画派": {
+    "category": "auto_merged",
+    "fact": "毕加索创立了立体主义画派",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "《西游记》是中国古典四大": {
+    "category": "auto_merged",
+    "fact": "《西游记》是中国四大名著之一",
+    "source": "文学",
+    "confidence": 0.92
+  },
+  "《水浒传》是中国古典四大": {
+    "category": "auto_merged",
+    "fact": "《水浒传》是中国四大名著之一",
+    "source": "文学",
+    "confidence": 0.92
+  },
+  "死海是世界上海拔最低的湖": {
+    "category": "auto_merged",
+    "fact": "死海是世界上海拔最低的湖泊",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "黄石公园坐落在一座超级火": {
+    "category": "auto_merged",
+    "fact": "黄石公园坐落在一座超级火山上",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "珊瑚礁由珊瑚虫分泌的碳酸": {
+    "category": "auto_merged",
+    "fact": "珊瑚礁由珊瑚虫分泌的碳酸钙骨骼构成",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "蝙蝠是唯一能够飞行的哺乳": {
+    "category": "auto_merged",
+    "fact": "蝙蝠是唯一能够飞行的哺乳动物",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "现代麻醉术始于1846年": {
+    "category": "auto_merged",
+    "fact": "现代麻醉术始于1846年波士顿的乙醚麻醉演示",
+    "source": "医学史",
+    "confidence": 0.95
+  },
+  "西格蒙德·弗洛伊德是精神": {
+    "category": "auto_merged",
+    "fact": "西格蒙德·弗洛伊德是精神分析学创始人",
+    "source": "心理学史",
+    "confidence": 0.95
+  },
+  "安慰剂效应是指病人因相信": {
+    "category": "auto_merged",
+    "fact": "安慰剂效应是指病人因相信自己接受治疗而产生真实改善",
+    "source": "医学",
+    "confidence": 0.95
+  },
+  "认知偏差是系统性偏离理性": {
+    "category": "auto_merged",
+    "fact": "认知偏差是系统性偏离理性判断的思维模式",
+    "source": "心理学",
+    "confidence": 0.95
+  },
+  "确认偏误是人们倾向于寻找": {
+    "category": "auto_merged",
+    "fact": "确认偏误是人们倾向于寻找支持自己观点的证据",
+    "source": "心理学",
+    "confidence": 0.95
+  },
+  "居里夫人发现了放射性元素": {
+    "category": "auto_merged",
+    "fact": "居里夫人发现了放射性元素镭和钋",
+    "source": "科学史",
+    "confidence": 0.95
+  },
+  "诺贝尔奖由阿尔弗雷德·诺": {
+    "category": "auto_merged",
+    "fact": "诺贝尔奖由阿尔弗雷德·诺贝尔于1895年设立",
+    "source": "科学史",
+    "confidence": 0.95
+  },
+  "三角形内角和等于180度": {
+    "category": "auto_merged",
+    "fact": "三角形内角和等于180度",
+    "source": "数学",
+    "confidence": 0.95
+  },
+  "素数只能被1和自身整除": {
+    "category": "auto_merged",
+    "fact": "素数只能被1和自身整除",
+    "source": "数学",
+    "confidence": 0.95
+  },
+  "零作为数字的概念最早由古": {
+    "category": "auto_merged",
+    "fact": "零作为数字的概念最早由古印度数学家提出",
+    "source": "数学史",
+    "confidence": 0.95
+  },
+  "地震是由地壳板块运动或火": {
+    "category": "auto_merged",
+    "fact": "地震是由地壳板块运动或火山活动引起的",
+    "source": "地质学",
+    "confidence": 0.95
+  },
+  "火山是地球内部岩浆喷出地": {
+    "category": "auto_merged",
+    "fact": "火山是地球内部岩浆喷出地表形成的",
+    "source": "地质学",
+    "confidence": 0.95
+  },
+  "成年人每晚需要7-9小时": {
+    "category": "auto_merged",
+    "fact": "成年人每晚需要7-9小时睡眠",
+    "source": "生理学",
+    "confidence": 0.95
+  },
+  "每个人每晚都会做多个梦—": {
+    "category": "auto_merged",
+    "fact": "每个人每晚都会做多个梦——但不一定记得",
+    "source": "心理学",
+    "confidence": 0.95
+  },
+  "酸奶是通过乳酸菌发酵制成": {
+    "category": "auto_merged",
+    "fact": "酸奶是通过乳酸菌发酵制成的乳制品",
+    "source": "食品科学",
+    "confidence": 0.95
+  },
+  "辣椒的辣味来自辣椒素": {
+    "category": "auto_merged",
+    "fact": "辣椒的辣味来自辣椒素",
+    "source": "食物史",
+    "confidence": 0.95
+  },
+  "土豆原产于南美洲安第斯山": {
+    "category": "auto_merged",
+    "fact": "土豆原产于南美洲安第斯山区",
+    "source": "食物史",
+    "confidence": 0.95
+  },
+  "黄金是地球上最稀有的贵金": {
+    "category": "auto_merged",
+    "fact": "黄金是地球上最稀有的贵金属之一",
+    "source": "化学",
+    "confidence": 0.95
+  },
+  "疫苗会导致自闭症与已知事": {
+    "category": "auto_merged",
+    "fact": "疫苗会导致自闭症与已知事实矛盾——疫苗不会导致自闭症——这个说法来自一篇被撤稿的造假论文",
+    "source": "医学",
+    "confidence": 0.95
+  },
+  "金字塔是外星人建造的": {
+    "category": "auto_merged",
+    "fact": "金字塔不是外星人建造的",
+    "source": "埃及",
+    "confidence": 0.92
+  },
+  "水在4°C时密度最大": {
+    "category": "auto_merged",
+    "fact": "水在 4°C 时密度最大",
+    "source": "基础化学",
+    "confidence": 0.92
+  },
+  "珠穆朗玛峰海拔8848米": {
+    "category": "auto_merged",
+    "fact": "珠穆朗玛峰海拔8848米",
+    "source": "中尼联合测量",
+    "confidence": 0.95
+  },
+  "古腾堡于 1450 年在": {
+    "category": "auto_merged",
+    "fact": "古腾堡于1450年在欧洲发明铅活字印刷",
+    "source": "印刷史",
+    "confidence": 0.92
+  },
+  "朱元璋出生于1328年": {
+    "category": "auto_merged",
+    "fact": "朱元璋出生于1328年",
+    "source": "明史",
+    "confidence": 0.95
+  },
+  "朱元璋于1398年去世": {
+    "category": "auto_merged",
+    "fact": "朱元璋于1398年去世",
+    "source": "明史",
+    "confidence": 0.95
+  },
+  "朱元璋生于1328年": {
+    "category": "auto_merged",
+    "fact": "朱元璋出生于1328年",
+    "source": "明史",
+    "confidence": 0.92
+  },
+  "朱元璋建立明朝于1368": {
+    "category": "auto_merged",
+    "fact": "朱元璋建立明朝于1368年",
+    "source": "明史",
+    "confidence": 0.95
+  },
+  "毕昇出生于972年": {
+    "category": "auto_merged",
+    "fact": "毕昇出生于972年",
+    "source": "梦溪笔谈",
+    "confidence": 0.95
+  },
+  "毕昇于1051年去世": {
+    "category": "auto_merged",
+    "fact": "毕昇于1051年去世",
+    "source": "梦溪笔谈",
+    "confidence": 0.95
+  },
+  "毕昇生于972年": {
+    "category": "auto_merged",
+    "fact": "毕昇出生于972年",
+    "source": "梦溪笔谈",
+    "confidence": 0.92
+  },
+  "哥伦布出生于1451年": {
+    "category": "auto_merged",
+    "fact": "哥伦布出生于1451年",
+    "source": "世界史",
+    "confidence": 0.95
+  },
+  "哥伦布于1506年去世": {
+    "category": "auto_merged",
+    "fact": "哥伦布于1506年去世",
+    "source": "世界史",
+    "confidence": 0.95
+  },
+  "哥伦布生于1451年": {
+    "category": "auto_merged",
+    "fact": "哥伦布出生于1451年",
+    "source": "世界史",
+    "confidence": 0.92
+  },
+  "哥伦布到达美洲于1492": {
+    "category": "auto_merged",
+    "fact": "哥伦布到达美洲于1492年",
+    "source": "世界史",
+    "confidence": 0.95
+  },
+  "牛顿于1727年去世": {
+    "category": "auto_merged",
+    "fact": "牛顿于1727年去世",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "牛顿生于1643年": {
+    "category": "auto_merged",
+    "fact": "牛顿出生于1643年",
+    "source": "物理学史",
+    "confidence": 0.92
+  },
+  "牛顿发表《自然哲学的数学": {
+    "category": "auto_merged",
+    "fact": "牛顿发表《自然哲学的数学原理》于1687年",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱因斯坦出生于1879年": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦出生于1879年",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱因斯坦于1955年去世": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦于1955年去世",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱因斯坦生于1879年": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦出生于1879年",
+    "source": "物理学史",
+    "confidence": 0.92
+  },
+  "爱因斯坦发表狭义相对论于": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦发表狭义相对论于1905年",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱因斯坦发表广义相对论于": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦发表广义相对论于1915年",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱因斯坦获得诺贝尔物理学": {
+    "category": "auto_merged",
+    "fact": "爱因斯坦获得诺贝尔物理学奖于1921年",
+    "source": "物理学史",
+    "confidence": 0.95
+  },
+  "爱迪生出生于1847年": {
+    "category": "auto_merged",
+    "fact": "爱迪生出生于1847年",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "爱迪生于1931年去世": {
+    "category": "auto_merged",
+    "fact": "爱迪生于1931年去世",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "爱迪生生于1847年": {
+    "category": "auto_merged",
+    "fact": "爱迪生出生于1847年",
+    "source": "科技史",
+    "confidence": 0.92
+  },
+  "爱迪生获得电灯泡专利于1": {
+    "category": "auto_merged",
+    "fact": "爱迪生获得电灯泡专利于1879年",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "爱迪生发明留声机于187": {
+    "category": "auto_merged",
+    "fact": "爱迪生发明留声机于1877年",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "特斯拉出生于1856年": {
+    "category": "auto_merged",
+    "fact": "特斯拉出生于1856年",
+    "source": "电子学",
+    "confidence": 0.95
+  },
+  "特斯拉于1943年去世": {
+    "category": "auto_merged",
+    "fact": "特斯拉于1943年去世",
+    "source": "电子学",
+    "confidence": 0.95
+  },
+  "特斯拉生于1856年": {
+    "category": "auto_merged",
+    "fact": "特斯拉出生于1856年",
+    "source": "电子学",
+    "confidence": 0.92
+  },
+  "瓦特出生于1736年": {
+    "category": "auto_merged",
+    "fact": "瓦特出生于1736年",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "瓦特于1819年去世": {
+    "category": "auto_merged",
+    "fact": "瓦特于1819年去世",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "瓦特生于1736年": {
+    "category": "auto_merged",
+    "fact": "瓦特出生于1736年",
+    "source": "科技史",
+    "confidence": 0.92
+  },
+  "瓦特改良蒸汽机于1769": {
+    "category": "auto_merged",
+    "fact": "瓦特改良蒸汽机于1769年",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "莱特兄弟出生于1867年": {
+    "category": "auto_merged",
+    "fact": "莱特兄弟出生于1867年",
+    "source": "航空史",
+    "confidence": 0.95
+  },
+  "莱特兄弟于1912年去世": {
+    "category": "auto_merged",
+    "fact": "莱特兄弟于1912年去世",
+    "source": "航空史",
+    "confidence": 0.95
+  },
+  "莱特兄弟生于1867年": {
+    "category": "auto_merged",
+    "fact": "莱特兄弟出生于1867年",
+    "source": "航空史",
+    "confidence": 0.92
+  },
+  "莱特兄弟完成首次动力飞行": {
+    "category": "auto_merged",
+    "fact": "莱特兄弟完成首次动力飞行于1903年",
+    "source": "航空史",
+    "confidence": 0.95
+  },
+  "莎士比亚的作品包括37部": {
+    "category": "auto_merged",
+    "fact": "莎士比亚的作品包括37部戏剧和154首十四行诗",
+    "source": "文学史",
+    "confidence": 0.95
+  },
+  "莎士比亚出生于1564年": {
+    "category": "auto_merged",
+    "fact": "莎士比亚出生于1564年",
+    "source": "文学史",
+    "confidence": 0.95
+  },
+  "莎士比亚于1616年去世": {
+    "category": "auto_merged",
+    "fact": "莎士比亚于1616年去世",
+    "source": "文学史",
+    "confidence": 0.95
+  },
+  "达尔文出生于1809年": {
+    "category": "auto_merged",
+    "fact": "达尔文出生于1809年",
+    "source": "《物种起源》",
+    "confidence": 0.95
+  },
+  "达尔文于1882年去世": {
+    "category": "auto_merged",
+    "fact": "达尔文于1882年去世",
+    "source": "《物种起源》",
+    "confidence": 0.95
+  },
+  "达尔文生于1809年": {
+    "category": "auto_merged",
+    "fact": "达尔文出生于1809年",
+    "source": "《物种起源》",
+    "confidence": 0.92
+  },
+  "达尔文发表《物种起源》于": {
+    "category": "auto_merged",
+    "fact": "达尔文发表《物种起源》于1859年",
+    "source": "《物种起源》",
+    "confidence": 0.95
+  },
+  "比特币的总量上限不是21": {
+    "category": "auto_merged",
+    "fact": "比特币的总量上限是2100万个",
+    "source": "bitcoin.org",
+    "confidence": 0.92
+  },
+  "GPT-1于2018年发": {
+    "category": "auto_merged",
+    "fact": "GPT-1于2018年发布，GPT-3于2020年发布",
+    "source": "OpenAI",
+    "confidence": 0.95
+  },
+  "马拉松的距离不是42.1": {
+    "category": "auto_merged",
+    "fact": "马拉松的距离是42.195公里",
+    "source": "奥林匹克历史",
+    "confidence": 0.92
+  },
+  "清朝(1644-1912": {
+    "category": "auto_merged",
+    "fact": "清朝(1644-1912年)是中国最后一个封建王朝",
+    "source": "清史稿",
+    "confidence": 0.92
+  },
+  "故宫于1420年建成": {
+    "category": "auto_merged",
+    "fact": "故宫于1420年建成",
+    "source": "故宫博物院",
+    "confidence": 0.95
+  },
+  "富士山海拔3776米": {
+    "category": "auto_merged",
+    "fact": "富士山海拔3776米",
+    "source": "日本地理",
+    "confidence": 0.95
+  }
+}

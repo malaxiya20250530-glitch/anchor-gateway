@@ -1,0 +1,813 @@
+{
+  "total": 60,
+  "detected": 25,
+  "missed": [
+    {
+      "kb_entity": "秦",
+      "claim": "秦朝其实持续了将近三百年，一直到西汉初期才真正灭亡。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "朱元璋",
+      "claim": "朱元璋活到了明朝末年，亲眼看着自己的江山被推翻。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "朱元璋",
+      "claim": "朱元璋是元朝的开国皇帝，和忽必烈是亲戚。",
+      "verdict": "verified",
+      "evidence": "朱元璋是明朝开国皇帝，1328-1398 年",
+      "detected": false
+    },
+    {
+      "kb_entity": "光速",
+      "claim": "光速是瞬间到达的，所以光从太阳到地球不需要时间。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "光速",
+      "claim": "光速每秒大概只有30公里，所以晚上看星星要等很久光才能传过来。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "地球",
+      "claim": "地球明明排在水星和金星后面，应该是太阳系第二颗行星才对。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "地球",
+      "claim": "地球才形成了几百万年，科学家那些几十亿年的说法都是瞎编的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "python",
+      "claim": "Python是1995年由谷歌公司开发的编程语言。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "python",
+      "claim": "Python的创始人是James Gosling，他同时也是Java的发明者。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "毕昇",
+      "claim": "毕昇是在南宋末年才造出活字印刷的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "毕昇",
+      "claim": "毕昇发明的活字印刷术最早用于印制纸币。",
+      "verdict": "verified",
+      "evidence": "毕昇于北宋庆历年间发明活字印刷术",
+      "detected": false
+    },
+    {
+      "kb_entity": "哥伦布",
+      "claim": "哥伦布在1492年之前就已经到达过美洲。",
+      "verdict": "verified",
+      "evidence": "哥伦布于1492年到达美洲",
+      "detected": false
+    },
+    {
+      "kb_entity": "哥伦布",
+      "claim": "哥伦布到达美洲之前，没有任何欧洲人踏上过那片土地。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰的海拔其实不到8800米，应该是8760米左右。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰虽然是世界最高峰，但它的高度还比不上乔戈里峰。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰的高度以前是8848米，后来重新测量变成了8844米。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "水",
+      "claim": "水在标准大气压下，100度的时候其实还没有完全烧开，要等到105度左右才算真正沸腾。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "水",
+      "claim": "零度以下的水才会结冰，但如果是零度整，水还是液态的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "水",
+      "claim": "高原上水烧到80度就开了，所以水的沸点其实不是固定的100度。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "达尔文",
+      "claim": "达尔文的自然选择理论是他当时从化石记录中直接观察到的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "达尔文",
+      "claim": "《物种起源》出版后，达尔文很快就获得了科学界的一致认可。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "爱因斯坦",
+      "claim": "爱因斯坦的狭义相对论发表在他刚出生那年。",
+      "verdict": "verified",
+      "evidence": "阿尔伯特·爱因斯坦于1905年发表狭义相对论",
+      "detected": false
+    },
+    {
+      "kb_entity": "牛顿",
+      "claim": "牛顿的《自然哲学的数学原理》主要讲的是光学和望远镜制造。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "比特币",
+      "claim": "比特币是中本聪在2011年才正式推出的。",
+      "verdict": "verified",
+      "evidence": "比特币于2009年由化名中本聪的人创建",
+      "detected": false
+    },
+    {
+      "kb_entity": "比特币",
+      "claim": "比特币的总量没有上限，可以无限增发。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "比特币",
+      "claim": "比特币是某个大型银行在2008年金融危机后开发的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "月球",
+      "claim": "月球绕着地球转的时候，其实它也是金星的一颗小卫星。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "月球",
+      "claim": "月球并不是地球唯一的天然卫星，其实还有好几颗看不见的小卫星跟着地球。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "蓝鲸",
+      "claim": "蓝鲸跟其他鲸鱼一样，是靠鳃呼吸的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "拿破仑",
+      "claim": "滑铁卢战役发生在拿破仑刚上台的1804年。",
+      "verdict": "verified",
+      "evidence": "滑铁卢战役发生于1815年，拿破仑在此战败",
+      "detected": false
+    },
+    {
+      "kb_entity": "拿破仑",
+      "claim": "拿破仑在滑铁卢战役胜利后，于1815年正式建立了法兰西帝国。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "足球",
+      "claim": "世界杯比赛从20世纪初就开始举办了。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "足球",
+      "claim": "足球最开始流行起来是在法国和意大利。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "咖啡因",
+      "claim": "喝咖啡根本不影响睡眠，咖啡因对神经系统没什么作用。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "咖啡因",
+      "claim": "咖啡因其实是让人放松、帮助入睡的天然物质。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    }
+  ],
+  "results": [
+    {
+      "kb_entity": "秦",
+      "claim": "秦朝是在秦始皇去世后才完成统一的，所以严格来说它并不是中国第一个大一统王朝。",
+      "verdict": "contradicted",
+      "evidence": "秦始皇不是焚书坑儒的第一人",
+      "detected": true
+    },
+    {
+      "kb_entity": "秦",
+      "claim": "秦朝其实持续了将近三百年，一直到西汉初期才真正灭亡。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "秦",
+      "claim": "秦朝建立的时间是公元前221年，但它在公元前210年就被推翻了。",
+      "verdict": "contradicted",
+      "evidence": "秦朝于公元前207年灭亡",
+      "detected": true
+    },
+    {
+      "kb_entity": "朱元璋",
+      "claim": "朱元璋发明了火锅，让士兵在打仗时也能吃上热乎的。",
+      "verdict": "contradicted",
+      "evidence": "朱元璋没有发明火锅，火锅远早于明代就已存在",
+      "detected": true
+    },
+    {
+      "kb_entity": "朱元璋",
+      "claim": "朱元璋活到了明朝末年，亲眼看着自己的江山被推翻。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "朱元璋",
+      "claim": "朱元璋是元朝的开国皇帝，和忽必烈是亲戚。",
+      "verdict": "verified",
+      "evidence": "朱元璋是明朝开国皇帝，1328-1398 年",
+      "detected": false
+    },
+    {
+      "kb_entity": "光速",
+      "claim": "光速是瞬间到达的，所以光从太阳到地球不需要时间。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "光速",
+      "claim": "光速其实是无限的，只是我们测量工具不够精确才觉得它有限。",
+      "verdict": "contradicted",
+      "evidence": "光速不是无穷大的，光速是有限的",
+      "detected": true
+    },
+    {
+      "kb_entity": "光速",
+      "claim": "光速每秒大概只有30公里，所以晚上看星星要等很久光才能传过来。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "地球",
+      "claim": "地球明明排在水星和金星后面，应该是太阳系第二颗行星才对。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "地球",
+      "claim": "地球才形成了几百万年，科学家那些几十亿年的说法都是瞎编的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "地球",
+      "claim": "我们平时走路、开车都感觉不到弯曲，地球表面肯定是平的。",
+      "verdict": "contradicted",
+      "evidence": "地球不是平的，地球是近似球体",
+      "detected": true
+    },
+    {
+      "kb_entity": "python",
+      "claim": "Python是1995年由谷歌公司开发的编程语言。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "python",
+      "claim": "Python的创始人是James Gosling，他同时也是Java的发明者。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "python",
+      "claim": "Python最早是在1980年代由一位匿名程序员独立完成并发布到网上的。",
+      "verdict": "contradicted",
+      "evidence": "Python 由 Guido van Rossum 于 1991 年首次发布",
+      "detected": true
+    },
+    {
+      "kb_entity": "毕昇",
+      "claim": "毕昇在唐朝时期就已经发明了活字印刷术。",
+      "verdict": "contradicted",
+      "evidence": "毕昇于北宋庆历年间发明活字印刷术",
+      "detected": true
+    },
+    {
+      "kb_entity": "毕昇",
+      "claim": "毕昇是在南宋末年才造出活字印刷的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "毕昇",
+      "claim": "毕昇发明的活字印刷术最早用于印制纸币。",
+      "verdict": "verified",
+      "evidence": "毕昇于北宋庆历年间发明活字印刷术",
+      "detected": false
+    },
+    {
+      "kb_entity": "哥伦布",
+      "claim": "哥伦布是第一个发现美洲大陆的欧洲人。",
+      "verdict": "contradicted",
+      "evidence": "哥伦布不是第一个到达美洲的欧洲人，维京人Leif Erikson更早",
+      "detected": true
+    },
+    {
+      "kb_entity": "哥伦布",
+      "claim": "哥伦布在1492年之前就已经到达过美洲。",
+      "verdict": "verified",
+      "evidence": "哥伦布于1492年到达美洲",
+      "detected": false
+    },
+    {
+      "kb_entity": "哥伦布",
+      "claim": "哥伦布到达美洲之前，没有任何欧洲人踏上过那片土地。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰的海拔其实不到8800米，应该是8760米左右。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰虽然是世界最高峰，但它的高度还比不上乔戈里峰。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰的高度以前是8848米，后来重新测量变成了8844米。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "水",
+      "claim": "水在标准大气压下，100度的时候其实还没有完全烧开，要等到105度左右才算真正沸腾。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "水",
+      "claim": "零度以下的水才会结冰，但如果是零度整，水还是液态的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "水",
+      "claim": "高原上水烧到80度就开了，所以水的沸点其实不是固定的100度。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "达尔文",
+      "claim": "达尔文在《物种起源》里第一次提出了进化论的概念。",
+      "verdict": "contradicted",
+      "evidence": "进化论不是达尔文独自发现的——华莱士也独立提出了自然选择",
+      "detected": true
+    },
+    {
+      "kb_entity": "达尔文",
+      "claim": "达尔文的自然选择理论是他当时从化石记录中直接观察到的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "达尔文",
+      "claim": "《物种起源》出版后，达尔文很快就获得了科学界的一致认可。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "爱因斯坦",
+      "claim": "爱因斯坦是在1920年才提出狭义相对论的。",
+      "verdict": "contradicted",
+      "evidence": "爱因斯坦不是原子弹的发明者——他签署了呼吁信但未参与曼哈顿计划",
+      "detected": true
+    },
+    {
+      "kb_entity": "爱因斯坦",
+      "claim": "爱因斯坦的狭义相对论发表在他刚出生那年。",
+      "verdict": "verified",
+      "evidence": "阿尔伯特·爱因斯坦于1905年发表狭义相对论",
+      "detected": false
+    },
+    {
+      "kb_entity": "爱因斯坦",
+      "claim": "狭义相对论是爱因斯坦在1915年与广义相对论一起发表的。",
+      "verdict": "contradicted",
+      "evidence": "E=mc²不是爱因斯坦唯一的贡献——他还解释了光电效应",
+      "detected": true
+    },
+    {
+      "kb_entity": "牛顿",
+      "claim": "牛顿发表《自然哲学的数学原理》是在17世纪40年代。",
+      "verdict": "contradicted",
+      "evidence": "牛顿生于1643年，卒于1727年",
+      "detected": true
+    },
+    {
+      "kb_entity": "牛顿",
+      "claim": "万有引力定律是牛顿在苹果树下被砸中后立刻提出的。",
+      "verdict": "contradicted",
+      "evidence": "万有引力不是牛顿看到苹果落地后顿悟的——他研究这个问题多年，牛顿也没有被苹果砸中",
+      "detected": true
+    },
+    {
+      "kb_entity": "牛顿",
+      "claim": "牛顿的《自然哲学的数学原理》主要讲的是光学和望远镜制造。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "特斯拉",
+      "claim": "特斯拉发明的是直流电系统，我们现在用的交流电其实是爱迪生发明的。",
+      "verdict": "contradicted",
+      "evidence": "爱迪生没有发明电灯——他改进了电灯使其商业化",
+      "detected": true
+    },
+    {
+      "kb_entity": "特斯拉",
+      "claim": "特斯拉的主要贡献是发明了无线电，和电力系统没什么关系。",
+      "verdict": "contradicted",
+      "evidence": "特斯拉不是交流电的唯一发明者——他与爱迪生的直流电竞争",
+      "detected": true
+    },
+    {
+      "kb_entity": "特斯拉",
+      "claim": "交流电是法拉第最早提出来的，特斯拉只是后来改进了一下而已。",
+      "verdict": "contradicted",
+      "evidence": "特斯拉不是交流电的唯一发明者——他与爱迪生的直流电竞争",
+      "detected": true
+    },
+    {
+      "kb_entity": "比特币",
+      "claim": "比特币是中本聪在2011年才正式推出的。",
+      "verdict": "verified",
+      "evidence": "比特币于2009年由化名中本聪的人创建",
+      "detected": false
+    },
+    {
+      "kb_entity": "比特币",
+      "claim": "比特币的总量没有上限，可以无限增发。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "比特币",
+      "claim": "比特币是某个大型银行在2008年金融危机后开发的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "企鹅",
+      "claim": "企鹅在北极和南极都有分布，只是种类不同。",
+      "verdict": "contradicted",
+      "evidence": "企鹅生活在南半球，北极没有企鹅",
+      "detected": true
+    },
+    {
+      "kb_entity": "企鹅",
+      "claim": "北极也有企鹅，只不过它们因为气候变暖数量变少了。",
+      "verdict": "contradicted",
+      "evidence": "企鹅生活在南半球，北极没有企鹅",
+      "detected": true
+    },
+    {
+      "kb_entity": "企鹅",
+      "claim": "我小时候在纪录片里看过，北极的企鹅和南极的企鹅长得不太一样。",
+      "verdict": "contradicted",
+      "evidence": "企鹅生活在南半球，北极没有企鹅",
+      "detected": true
+    },
+    {
+      "kb_entity": "月球",
+      "claim": "月球绕着地球转的时候，其实它也是金星的一颗小卫星。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "月球",
+      "claim": "人类第一次踏上月球是在1972年，阿波罗17号那次。",
+      "verdict": "contradicted",
+      "evidence": "人类首次登月是1969年阿波罗11号",
+      "detected": true
+    },
+    {
+      "kb_entity": "月球",
+      "claim": "月球并不是地球唯一的天然卫星，其实还有好几颗看不见的小卫星跟着地球。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "蓝鲸",
+      "claim": "蓝鲸虽然很大，但论体积其实比不上一些大型恐龙。",
+      "verdict": "contradicted",
+      "evidence": "鸟类是恐龙的直接后代——鸟类不是恐龙的后代，鸟类就是恐龙的一种",
+      "detected": true
+    },
+    {
+      "kb_entity": "蓝鲸",
+      "claim": "蓝鲸生活在海里，跟鲸鱼一样属于鱼类的一种。",
+      "verdict": "contradicted",
+      "evidence": "鲸鱼是哺乳动物不是鱼类",
+      "detected": true
+    },
+    {
+      "kb_entity": "蓝鲸",
+      "claim": "蓝鲸跟其他鲸鱼一样，是靠鳃呼吸的。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "拿破仑",
+      "claim": "拿破仑·波拿巴是在1789年法国大革命爆发那年称帝的。",
+      "verdict": "contradicted",
+      "evidence": "拿破仑·波拿巴于1804年称帝",
+      "detected": true
+    },
+    {
+      "kb_entity": "拿破仑",
+      "claim": "滑铁卢战役发生在拿破仑刚上台的1804年。",
+      "verdict": "verified",
+      "evidence": "滑铁卢战役发生于1815年，拿破仑在此战败",
+      "detected": false
+    },
+    {
+      "kb_entity": "拿破仑",
+      "claim": "拿破仑在滑铁卢战役胜利后，于1815年正式建立了法兰西帝国。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "足球",
+      "claim": "现代足球其实最早是在中国发明的。",
+      "verdict": "contradicted",
+      "evidence": "足球不是英国发明的——古代中国和古希腊都有类似运动",
+      "detected": true
+    },
+    {
+      "kb_entity": "足球",
+      "claim": "世界杯比赛从20世纪初就开始举办了。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "足球",
+      "claim": "足球最开始流行起来是在法国和意大利。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "咖啡因",
+      "claim": "喝咖啡根本不影响睡眠，咖啡因对神经系统没什么作用。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "咖啡因",
+      "claim": "咖啡因其实是让人放松、帮助入睡的天然物质。",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "detected": false
+    },
+    {
+      "kb_entity": "咖啡因",
+      "claim": "咖啡因主要靠提神是因为它能给身体补充能量，而不是刺激大脑。",
+      "verdict": "contradicted",
+      "evidence": "咖啡因不会导致脱水——适量饮用与水效果相当",
+      "detected": true
+    }
+  ],
+  "fixed_count": 8,
+  "still_missed_count": 27,
+  "new_detection_rate": 0.55,
+  "still_missed": [
+    {
+      "kb_entity": "秦",
+      "claim": "秦朝其实持续了将近三百年，一直到西汉初期才真正灭亡。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "朱元璋",
+      "claim": "朱元璋活到了明朝末年，亲眼看着自己的江山被推翻。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "光速",
+      "claim": "光速是瞬间到达的，所以光从太阳到地球不需要时间。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "光速",
+      "claim": "光速每秒大概只有30公里，所以晚上看星星要等很久光才能传过来。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "地球",
+      "claim": "地球明明排在水星和金星后面，应该是太阳系第二颗行星才对。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "地球",
+      "claim": "地球才形成了几百万年，科学家那些几十亿年的说法都是瞎编的。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "python",
+      "claim": "Python的创始人是James Gosling，他同时也是Java的发明者。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "毕昇",
+      "claim": "毕昇是在南宋末年才造出活字印刷的。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "毕昇",
+      "claim": "毕昇发明的活字印刷术最早用于印制纸币。",
+      "verdict": "verified"
+    },
+    {
+      "kb_entity": "哥伦布",
+      "claim": "哥伦布到达美洲之前，没有任何欧洲人踏上过那片土地。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰的海拔其实不到8800米，应该是8760米左右。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰虽然是世界最高峰，但它的高度还比不上乔戈里峰。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "珠穆朗玛峰",
+      "claim": "珠穆朗玛峰的高度以前是8848米，后来重新测量变成了8844米。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "水",
+      "claim": "水在标准大气压下，100度的时候其实还没有完全烧开，要等到105度左右才算真正沸腾。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "水",
+      "claim": "零度以下的水才会结冰，但如果是零度整，水还是液态的。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "水",
+      "claim": "高原上水烧到80度就开了，所以水的沸点其实不是固定的100度。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "达尔文",
+      "claim": "达尔文的自然选择理论是他当时从化石记录中直接观察到的。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "达尔文",
+      "claim": "《物种起源》出版后，达尔文很快就获得了科学界的一致认可。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "爱因斯坦",
+      "claim": "爱因斯坦的狭义相对论发表在他刚出生那年。",
+      "verdict": "verified"
+    },
+    {
+      "kb_entity": "牛顿",
+      "claim": "牛顿的《自然哲学的数学原理》主要讲的是光学和望远镜制造。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "月球",
+      "claim": "月球绕着地球转的时候，其实它也是金星的一颗小卫星。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "蓝鲸",
+      "claim": "蓝鲸跟其他鲸鱼一样，是靠鳃呼吸的。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "拿破仑",
+      "claim": "拿破仑在滑铁卢战役胜利后，于1815年正式建立了法兰西帝国。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "足球",
+      "claim": "世界杯比赛从20世纪初就开始举办了。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "足球",
+      "claim": "足球最开始流行起来是在法国和意大利。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "咖啡因",
+      "claim": "喝咖啡根本不影响睡眠，咖啡因对神经系统没什么作用。",
+      "verdict": "unverifiable"
+    },
+    {
+      "kb_entity": "咖啡因",
+      "claim": "咖啡因其实是让人放松、帮助入睡的天然物质。",
+      "verdict": "unverifiable"
+    }
+  ]
+}

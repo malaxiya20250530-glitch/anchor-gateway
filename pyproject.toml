@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-fact-guard"
+version = "3.0.0"
+description = "Zero-dependency LLM hallucination detection middleware with billing & dashboard — real-time fact-checking proxy for LLMs"
+readme = "README.md"
+license = {text = "Proprietary"}
+authors = [
+    {name = "Li Gang", email = "hubeiligang420@gmail.com"}
+]
+keywords = ["llm", "hallucination", "fact-checking", "ai-safety", "openai", "chinese-nlp", "cybersecurity", "middleware"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.optional-dependencies]
+ocr = ["pytesseract"]
+langchain = ["langchain-core"]
+
+[project.scripts]
+anchor-gateway = "awareness_gateway:main"
+awareness-dashboard = "feedback_dashboard:main"
+awareness-detect = "ocr_handler:main"
+awareness-kb = "update_kb:main"
+
+[project.urls]
+Homepage = "https://github.com/malaxiya20250530-glitch/shiyan2925"
+Repository = "https://github.com/malaxiya20250530-glitch/shiyan2925"
+
+[tool.setuptools]
+py-modules = [
+    "hallucination_detector",
+    "awareness_gateway",
+    "checker_classes",
+    "checker_registry",
+    "knowledge_graph",
+    "consensus_engine",
+    "ml_consensus",
+    "observer_proxy",
+    "observer_security",
+    "alignment_middleware",
+    "billing",
+    "dashboard_server",
+    "kb_loader",
+    "rate_limiter",
+    "feedback_store",
+    "feedback_dashboard",
+    "feedback_collector",
+    "auto_kb_updater",
+    "update_kb",
+    "logger",
+    "true_self_os",
+    "social_self_sim",
+    "vector_kb",
+    "web_verifier",
+    "ocr_handler",
+    "langchain_plugin",
+    "encrypt_source",
+    "stress_test",
+    "benchmark",
+    "fuzzy_matcher",
+    "backpressure",
+    "trace_exporter",
+    "prometheus_exporter",
+    "webhook_dispatcher",
+]

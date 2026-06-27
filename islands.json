@@ -1,0 +1,4453 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "countryLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q81178"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴芬島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83067"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帝汶"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東帝汶"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83067"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帝汶"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94734"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "寶島 (鹿兒島縣)"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94736"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沖永良部島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94762"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "與論島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94781"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "惡石島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94899"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫納島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96408"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃拉福尼索斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104784"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "豪勳爵島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "澳大利亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q151650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "米列夫岩"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q152872"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "柏爾的金字塔"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "澳大利亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q153822"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴斯特尔岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q155868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蛇岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q156882"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨摩斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q158129"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维多利亚岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q160483"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希俄斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q161258"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克利珀頓島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167070"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東平洲"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167208"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布里克島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167217"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿布穆萨岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿拉伯联合酋长国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167217"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿布穆萨岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊朗"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193331"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣诞岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉里巴斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193896"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬爾他島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬耳他"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193962"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "白令岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194215"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿姆斯特丹岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194364"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "熊岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194446"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坎納島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194451"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194522"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌托岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "芬蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q195674"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蒲台"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q195675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東龍洲"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q273"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "艾拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q610"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "艾奥纳岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布拉奇岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1622"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "諾伊韋克"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3107"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "叙尔特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3127"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗爾"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3136"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿姆鲁姆岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3237"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吕根岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3255"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌瑟多姆岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3255"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌瑟多姆岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫爾斯比島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32407"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "米西切利翁島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32423"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "艾萊西瑙伊姆赫島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33747"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴貝島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33770"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾巴特羅斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34048"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伯德島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34052"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安年科夫島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34497"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣赫勒拿"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34720"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莱桑岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34765"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貝阿塔島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "多明尼加"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36117"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "婆罗洲"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "汶莱"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36117"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "婆罗洲"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬來西亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36117"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "婆罗洲"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40095"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗雷格特島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞舌尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40093"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞舌尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q82859"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "索科特拉岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "也门"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q83639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊莎貝拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "厄瓜多尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "見付島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107393"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯凯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107640"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科莫多島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108448"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖地亞哥島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛得角"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110440"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "博阿維斯塔島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛得角"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110538"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海獅島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q156439"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赖谢瑙岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q163503"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅亞爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q164096"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奇拉岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥斯达黎加"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q165383"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q165635"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "欣島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q166972"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "扎沃多夫斯基岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167061"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬灣"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168820"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "兰皮奥内岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q169589"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "江田岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q173148"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "提洛岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196042"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿加萊加群島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "毛里求斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196701"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沖南岩"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中華民國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196701"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沖南岩"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196701"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沖南岩"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q200223"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亚历山大一世岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q200226"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "班克斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q200772"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴爾特拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "厄瓜多尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q200939"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法罗群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q201026"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "考愛島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q201272"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕罗斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q201398"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈马黑拉岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202023"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫姆島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "根西"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202170"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "博罗伊岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法罗群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202175"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃利斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202299"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓦胡卡島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202780"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "彼得一世岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202990"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "必需号群礁"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "所罗门群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203169"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基度山"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204821"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣保罗岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204989"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣基茨岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖克里斯多福及尼維斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沃格岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法罗群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3049"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "迪讷岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3492"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蘇門答臘"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3757"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "爪哇岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4648"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴厘岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34374"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克里特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40285"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新幾內亞島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴布亚新几内亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40285"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新幾內亞島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40411"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞舌尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40413"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "錫盧埃特島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞舌尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41172"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鬱陵島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41455"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯奈尔斯群岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新西兰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41684"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯圖爾特島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新西兰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43048"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "罗得岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q46197"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿森松岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106357"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "于特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106594"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗兰格尔岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111989"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛得角"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112031"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣维森特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛得角"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115027"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "青年岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "古巴"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116492"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "維澤島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "冰島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118863"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新西兰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120499"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉吉德島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120755"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新西兰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168159"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安格尔西岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170479"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "溫哥華島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170488"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "戈佐岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬耳他"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q173096"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃维亚岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q173292"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡普里岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q173788"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "庫爾曼島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174054"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美丽岛 (马焦雷湖)"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174379"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓦伊島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174861"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北凱科斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q175304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "象岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176749"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维林吉利島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬爾代夫"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q177356"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "陶爾島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q177392"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡爾王子島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q177560"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "小康沃利斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q201766"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布干维尔岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴布亚新几内亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q202422"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨拉米斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203175"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨莫色雷斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203767"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "維斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203979"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "米洛斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204096"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨索斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204757"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡尔帕索斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205022"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比奥科岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赤道几内亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205244"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基日島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206928"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "小迪门岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法罗群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207193"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯凯利格·迈克尔岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "愛爾蘭共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207677"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓦伊加奇岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207751"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南安普頓島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207794"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼维斯"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖克里斯多福及尼維斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3812"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "苏拉威西岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5993"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫瓦爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6059"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克爾克島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7792"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "库页岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8828"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬略卡島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9679"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "怀特岛郡"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9729"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马雷岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13277"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉布島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13280"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "茨雷斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔希提岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45487"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布勒德島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45490"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "煤島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45500"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布魯特斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45763"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布萊克岩"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q46067"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大薩卡特島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洪都拉斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107338"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "兰佩杜萨岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111444"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111509"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朱拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112232"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣安唐岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛得角"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114832"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "小拉帕島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117196"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "撒尔塞特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基塔瓦島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴布亚新几内亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118821"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩拉戈麥斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "智利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q175650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅伯特島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q175741"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安德羅斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176093"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尤納斯卡島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176381"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃達克島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176622"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "失望島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新西兰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q178124"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "叙尔特塞岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "冰島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q178925"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大加那利岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q181544"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大凱馬達島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴西"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q181611"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩馬爾加島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q182214"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡尼奧島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥斯达黎加"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q182414"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奇祖穆卢岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬拉威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q182432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "兰萨罗特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q182941"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊尼希爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "愛爾蘭共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204387"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科迪亚克岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204412"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰尔斯海灵"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206368"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "松巴島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207239"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基西拉岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207374"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东北地岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207666"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿克塞尔海伯格岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207851"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗利蘭島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207925"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "威尔士亲王岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208198"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维提岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斐濟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208319"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊茲拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208321"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "桑岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法罗群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208327"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海斯特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法罗群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208345"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "托尔蒂岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海地"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208566"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯基罗斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208668"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "罗德里格岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "毛里求斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q209036"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖米格爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "葡萄牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7564"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "龙目岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13288"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科爾丘拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13294"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "錫爾巴島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13353"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蒙塞拉特島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13991"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "四國"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14056"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "揚馬延"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q46650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "麦夸里岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "澳大利亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47917"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "因什法德島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47921"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "因什默里島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47941"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "因奇馬諾克島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47971"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "漂流島 (斐濟)"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斐濟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48311"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "富朗阿岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斐濟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48312"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "锡西亚岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斐濟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48313"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "姆本加岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斐濟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48317"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "恩高島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斐濟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48478"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "曼拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉里巴斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48675"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "澳大利亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48706"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聰島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48731"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧斯特雷島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49148"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马萨葡萄园岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49149"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "楠塔基特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49493"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "飛島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49500"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "久六島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49507"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "舳仓岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49511"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "栗島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49513"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "見島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118904"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬卡泰阿島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q119868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "茲拉林島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120119"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "賴克斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121378"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克基拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121421"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞克勒特里島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新西兰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123697"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓦恩島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124873"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "棉兰老"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125384"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "呂宋"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125389"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "小曼島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马恩岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125547"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雞岩"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q178488"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "凯法利尼亚岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q179313"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧爾德尼島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "根西"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q179494"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "难言岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q180045"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫塔島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q184851"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "迪戈加西亚岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185532"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯兰岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185804"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾馬夏島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q186367"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "松巴哇島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188938"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "杰尔巴岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼西亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q189292"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "曾卜拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼西亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208011"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯希蒙尼克島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208114"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皮亞諾薩島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208337"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科尔特岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法罗群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208587"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿莫爾戈斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208664"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奔巴岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坦桑尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q209784"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q209899"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅斯島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210396"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿邁厄島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210636"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "普林西比岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣多美和普林西比"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210811"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皮庫島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "葡萄牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13778"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡坦端内斯省"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13987"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "九州"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16635"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "關島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18438"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "長島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21158"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北日德蘭島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21162"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯匹次卑尔根岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21191"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "勒姆島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22502"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "臺灣"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中華民國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45295"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伯尼島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉里巴斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45328"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "厄尔巴岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48335"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "纽芬兰岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48372"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "姆巴蒂基岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斐濟"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q51679"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞班岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52051"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "对马岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52435"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朱代卡岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52441"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "托爾切洛島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52650"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡夫雷拉島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54239"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧索尼島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q59580"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉納爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "所罗门群岛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q59771"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新不列顛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴布亚新几内亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q68184"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉米雷茲島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "智利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q68605"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维多"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q73723"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克萨米尔群岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾巴尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q74652"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克瓦爾島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126327"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大圣乔治岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q128087"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莱斯沃斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q128172"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧爾良島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q128323"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "特立尼達島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "千里達及托巴哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q128362"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖尼古拉斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q129296"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣托里尼"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130120"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菅島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130348"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉托爾圖加島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "委內瑞拉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131305"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "豪蘭島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131347"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "歐胡島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131354"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾卡特拉斯島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185111"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "多巴哥岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "千里達及托巴哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q186841"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德文島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187027"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187039"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩皮恩札島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187063"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉奈島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q190053"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕特莫斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q192483"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "利姆诺斯岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q192493"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅本島"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208134"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马都拉岛"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    } ]
+  }
+}

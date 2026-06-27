@@ -1,0 +1,1608 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "elevation", "countryLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1520855"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布萊克本火山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "16390"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5746077"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫斯珀勒斯山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13237"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5135676"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克劳德峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13167"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q940908"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗朗克斯峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13158"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7847152"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "杜鲁查斯峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13108"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1862168"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "达拉山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13061"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4856923"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "班納峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12942"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6923271"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "根山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12887"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6923271"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "根山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12887"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6920894"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉布斯山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12779"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6922678"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皮尔山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12717"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3321784"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "康内斯山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12649"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1239004"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "漢弗萊斯峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12622"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5184573"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克雷斯特德比特"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12168"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7083082"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奥兰查峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12132"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8536234"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海恩德曼峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12009"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8519552"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼波山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11933"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7021542"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "内兹珀斯峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11901"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14714837"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希普平顶山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11590"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3364408"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣戈尔贡尼奥山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11503"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1276808"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鹰峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11361"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7179791"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲弗霍恩峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11331"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275662"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "胡德山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11237"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4807832"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿斯彭山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11212"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7996324"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "怀特沃特鲍尔迪山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10899"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3191907"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "刚果民主共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡胡茲山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10850"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7566229"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南巴爾地"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10789"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6890672"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫戈永鲍尔迪山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10774"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3321762"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克利夫兰山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10479"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8531055"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "约瑟夫峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10420"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14714685"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克莱顿山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10219"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7835655"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "特拉珀峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10157"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7396563"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨卡贾维亚峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9838"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5577737"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奔向太阳之山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9647"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5053019"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩克拉門托山頂"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9645"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2909908"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "博南扎峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9516"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q59805"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萊蒙山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9171"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3467801"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海斯火山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9147"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7622461"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "草莓山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9042"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8529786"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊斯托山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8976"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5192310"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "庫卡蒙加峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8862"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q513"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "珠穆朗瑪峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8848.86"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q513"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "珠穆朗瑪峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8848.86"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7620137"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯多姆金山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8797"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8529328"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯诺舒峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8738"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43512"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喬戈里峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8611"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q82019"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "干城章嘉峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8586"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q82019"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "干城章嘉峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8586"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168702"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洛子峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8516"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168702"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洛子峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8516"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7235114"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波托西山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8504"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q169986"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马卡鲁峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8485"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q169986"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马卡鲁峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8485"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11237699"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洛子夏尔峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8383"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11237699"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洛子夏尔峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8383"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8532736"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "锡诺帕山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8271"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170089"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卓奥友峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8188"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170089"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卓奥友峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8188"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6922471"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奥柏林山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8180"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q165440"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "道拉吉里峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8167"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170070"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马纳斯卢峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8163"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1201788"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬札馬火山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8159"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130736"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南迦帕尔巴特峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8126"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q955807"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊薩諾茨基火山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8106"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6921851"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "林恩山"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8098"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16466024"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安納布爾納峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8091"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187138"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加舒尔布鲁木I峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8080"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q187138"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加舒尔布鲁木I峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8080"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5350921"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "酋長岩"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8064"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q180996"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布洛阿特峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8051"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q180996"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布洛阿特峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8051"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8554430"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "落日火山口"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8042"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q186853"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加舒尔布鲁木II峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8034"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q186853"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加舒尔布鲁木II峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8034"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105124"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希夏邦马峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8027"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q582128"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格重康峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7952"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q582128"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格重康峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7952"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1137636"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加舒爾布魯木III峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7946"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1137636"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加舒爾布魯木III峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7946"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q449534"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安納普那II峰"
+      },
+      "elevation" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7937"
+      }
+    } ]
+  }
+}

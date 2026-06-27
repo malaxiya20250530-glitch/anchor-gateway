@@ -1,0 +1,114 @@
+diff --git a/awareness_gateway.py b/awareness_gateway.py
+index abc1234..def5678 100644
+--- a/awareness_gateway.py
++++ b/awareness_gateway.py
+@@ -1,10 +1,14 @@
+ import json
+ import logging
+ import os
++import time
++from threading import Semaphore
+ from flask import Flask, request, jsonify, Response
+ import requests
+ 
+ app = Flask(name)
+ 
++# 并发限流配置（环境变量可覆盖）
++MAX_CONCURRENT = int(os.getenv("MAX_CONCURRENT", "20"))
++_concurrency_semaphore = Semaphore(MAX_CONCURRENT)
++
+ # 配置日志
+ logging.basicConfig(level=logging.INFO)
+ logger = logging.getLogger(name)
+ 
+@@ -15,6 +19,8 @@ UPSTREAM_TIMEOUT = float(os.getenv("UPSTREAM_TIMEOUT", "30.0"))
+ # Ollama 默认地址
+ OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
+ 
++logger.info(f"🚦 Concurrent limit: {MAX_CONCURRENT} (set via MAX_CONCURRENT env)")
++
+ def detect_upstream_type():
+     """自动检测上游类型"""
+     # 根据配置或自动探测
+@@ -45,8 +51,22 @@ def call_upstream(payload):
+         "stream": payload.get("stream", False)
+     }
+     
++    start_time = time.time()
++    
+     try:
+-        response = requests.post(upstream_url, json=upstream_payload, timeout=UPSTREAM_TIMEOUT)
++        response = requests.post(upstream_url, json=upstream_payload, timeout=(5.0, UPSTREAM_TIMEOUT))
++        elapsed_ms = (time.time() - start_time) * 1000
++        
++        logger.info(json.dumps({
++            "event": "inference_complete",
++            "duration_ms": round(elapsed_ms, 2),
++            "upstream_type": UPSTREAM_TYPE,
++            "status": response.status_code,
++            "prompt_len": len(payload.get("messages", []))
++        }))
++        
++        if response.status_code != 200:
++            logger.warning(f"Upstream returned {response.status_code}: {response.text[:200]}")
+         
+         # 处理流式响应
+         if upstream_payload.get("stream"):
+@@ -60,12 +80,39 @@ def call_upstream(payload):
+         # 非流式响应
+         return response.json()
+         
++    except requests.Timeout:
++        logger.warning(f"Upstream timeout after {UPSTREAM_TIMEOUT}s")
++        return {
++            "choices": [{
++                "message": {"content": "⚠️ 上游响应超时，请稍后重试"},
++                "finish_reason": "timeout"
++            }],
++            "error": "timeout"
++        }
+     except Exception as e:
+         logger.error(f"Upstream error: {e}")
+         return {"error": str(e)}
+ 
+ @app.route('/v1/chat/completions', methods=['POST'])
+ def chat_completions():
++    # 并发限流
++    if not _concurrency_semaphore.acquire(blocking=False):
++        logger.warning(f"Concurrency limit exceeded: {MAX_CONCURRENT}")
++        return jsonify({
++            "error": "Too Many Requests",
++            "message": f"Server at capacity (max {MAX_CONCURRENT} concurrent requests)",
++            "retry_after": 1
++        }), 429
++    
++    try:
++        return _handle_chat_completion()
++    finally:
++        _concurrency_semaphore.release()
++
++def _handle_chat_completion():
++    """实际处理聊天补全请求"""
+     data = request.json
+     if not data:
+         return jsonify({"error": "No JSON payload"}), 400
+@@ -93,6 +140,16 @@ def chat_completions():
+         
+     return jsonify(upstream_result), upstream_result.get("status", 200)
+ 
++@app.route('/config/concurrent', methods=['POST'])
++def set_concurrent():
++    """动态调整并发限制"""
++    global MAX_CONCURRENT, _concurrency_semaphore
++    new_limit = int(request.json.get("limit", 20))
++    _concurrency_semaphore = Semaphore(new_limit)
++    MAX_CONCURRENT = new_limit
++    logger.info(f"Concurrent limit changed: {new_limit}")
++    return jsonify({"status": "ok", "max_concurrent": new_limit})
++
+ @app.route('/health', methods=['GET'])
+ def health():
+     """健康检查"""
+@@ -102,6 +159,10 @@ def health():
+             "upstream_type": UPSTREAM_TYPE,
+             "upstream_status": "connected" if UPSTREAM_TYPE != "mock" else "mock_mode",

@@ -1,0 +1,250 @@
+#!/usr/bin/env python3
+"""
+觉察推理工具集 — 统一 CLI 入口
+
+用法:
+  awareness serve     启动觉察推理网关
+  awareness analyze   分析文本
+  awareness check     事实核查
+  awareness align     社会对齐分析
+  awareness demo      运行完整演示
+  awareness config    查看/修改配置
+"""
+
+import sys
+import os
+import json
+import argparse
+import subprocess
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
+
+
+def load_config():
+    if os.path.exists(CONFIG_PATH):
+        with open(CONFIG_PATH) as f:
+            return json.load(f)
+    return {}
+
+
+def cmd_serve(args):
+    """启动网关"""
+    cfg = load_config().get("gateway", {})
+    obs_cfg = load_config().get("observer", {})
+
+    cmd = [
+        sys.executable,
+        os.path.join(BASE_DIR, "awareness_gateway.py"),
+        "--port", str(args.port or cfg.get("port", 8800)),
+        "--upstream", args.upstream or cfg.get("upstream_url", "http://localhost:11434/v1"),
+        "--model", args.model or cfg.get("model", "llama3.2"),
+        "--sensitivity", str(args.sensitivity or obs_cfg.get("sensitivity", 0.5)),
+    ]
+    if args.mock or cfg.get("mock_mode"):
+        cmd.append("--mock")
+    if args.api_key or cfg.get("api_key"):
+        cmd.extend(["--api-key", args.api_key or cfg["api_key"]])
+
+    print(f"启动网关: {' '.join(cmd)}")
+    os.execv(sys.executable, cmd)
+
+
+def cmd_analyze(args):
+    """分析文本"""
+    text = args.text
+    if args.file:
+        with open(args.file) as f:
+            text = f.read()
+    if not text:
+        print("请提供文本 (--text 或 --file)")
+        sys.exit(1)
+
+    cmd = [
+        sys.executable,
+        os.path.join(BASE_DIR, "awareness_gateway.py"),
+        "--port", str(args.port or 8899),
+        "--mock",
+    ]
+
+    import urllib.request, time, signal
+
+    proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    time.sleep(0.5)
+
+    try:
+        data = json.dumps({"text": text, "sensitivity": args.sensitivity or 0.5}).encode()
+        req = urllib.request.Request(
+            f"http://localhost:{args.port or 8899}/analyze",
+            data=data,
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req) as r:
+            result = json.loads(r.read())
+
+        if args.json:
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+        else:
+            print(f"状态: {result['status']}")
+            print(f"标记: {', '.join(result.get('flags', [])) or '无'}")
+            print(f"中断: {result.get('interruptions', 0)}")
+            for o in result.get("observations", []):
+                seg = o.get("segment", "")[:60]
+                print(f"\n  段: {seg}")
+                for fc in o.get("fact_checks", []):
+                    print(f"  📋 [{fc['verdict']}] {fc.get('evidence', '')[:100]}")
+                    if fc.get("source"):
+                        print(f"     来源: {fc['source']}")
+    finally:
+        proc.terminate()
+
+
+def cmd_check(args):
+    """事实核查"""
+    from hallucination_detector import HallucinationDetector, Reporter
+
+    text = args.text
+    if args.file:
+        with open(args.file) as f:
+            text = f.read()
+    if not text:
+        print("请提供文本")
+        sys.exit(1)
+
+    detector = HallucinationDetector()
+    report = detector.analyze(text)
+
+    if args.json:
+        print(Reporter.to_json(report))
+    else:
+        print(Reporter.generate(report))
+
+
+def cmd_align(args):
+    """社会对齐分析"""
+    from alignment_middleware import AlignmentAnalyzer, ReportFormatter
+
+    if args.file:
+        with open(args.file) as f:
+            conversation = json.load(f)
+    elif args.demo:
+        from alignment_middleware import DEMO_CONVERSATION
+        conversation = DEMO_CONVERSATION
+    else:
+        print("请提供对话文件 (--file) 或使用 --demo")
+        sys.exit(1)
+
+    level = args.level or load_config().get("social_alignment", {}).get("security_level", "balanced")
+    analyzer = AlignmentAnalyzer(security_level=level)
+    report = analyzer.analyze_conversation(conversation)
+
+    if args.json:
+        print(ReportFormatter.json(report))
+    else:
+        print(ReportFormatter.text(report))
+
+
+def cmd_demo(args):
+    """运行完整演示"""
+    script = os.path.join(BASE_DIR, "demo_full_pipeline.sh")
+    subprocess.run(["bash", script])
+
+
+def cmd_config(args):
+    """查看或修改配置"""
+    if not os.path.exists(CONFIG_PATH):
+        print("配置文件不存在")
+        return
+
+    with open(CONFIG_PATH) as f:
+        cfg = json.load(f)
+
+    if args.get:
+        keys = args.get.split(".")
+        val = cfg
+        for k in keys:
+            val = val.get(k, {})
+        print(json.dumps(val, ensure_ascii=False, indent=2))
+    elif args.set:
+        key, value = args.set.split("=", 1)
+        try:
+            value = json.loads(value)
+        except (json.JSONDecodeError, ValueError):
+            pass
+        keys = key.split(".")
+        target = cfg
+        for k in keys[:-1]:
+            target = target.setdefault(k, {})
+        target[keys[-1]] = value
+        with open(CONFIG_PATH, "w") as f:
+            json.dump(cfg, f, ensure_ascii=False, indent=2)
+        print(f"已设置 {key} = {value}")
+    else:
+        print(json.dumps(cfg, ensure_ascii=False, indent=2))
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="觉察推理工具集",
+        usage="awareness <command> [options]"
+    )
+    sub = parser.add_subparsers(dest="command", help="子命令")
+
+    # serve
+    p_serve = sub.add_parser("serve", help="启动网关")
+    p_serve.add_argument("--port", "-p", type=int)
+    p_serve.add_argument("--upstream", "-u")
+    p_serve.add_argument("--model", "-m")
+    p_serve.add_argument("--sensitivity", "-s", type=float)
+    p_serve.add_argument("--mock", action="store_true")
+    p_serve.add_argument("--api-key", "-k")
+
+    # analyze
+    p_analyze = sub.add_parser("analyze", help="分析文本")
+    p_analyze.add_argument("--text", "-t")
+    p_analyze.add_argument("--file", "-f")
+    p_analyze.add_argument("--json", "-j", action="store_true")
+    p_analyze.add_argument("--sensitivity", "-s", type=float)
+    p_analyze.add_argument("--port", "-p", type=int)
+
+    # check
+    p_check = sub.add_parser("check", help="事实核查")
+    p_check.add_argument("--text", "-t")
+    p_check.add_argument("--file", "-f")
+    p_check.add_argument("--json", "-j", action="store_true")
+
+    # align
+    p_align = sub.add_parser("align", help="社会对齐分析")
+    p_align.add_argument("--file", "-f")
+    p_align.add_argument("--demo", action="store_true")
+    p_align.add_argument("--level", "-l", choices=["strict", "balanced", "relaxed"])
+    p_align.add_argument("--json", "-j", action="store_true")
+
+    # demo
+    sub.add_parser("demo", help="运行完整演示")
+
+    # config
+    p_config = sub.add_parser("config", help="配置管理")
+    p_config.add_argument("--get")
+    p_config.add_argument("--set")
+
+    args = parser.parse_args()
+
+    if args.command == "serve":
+        cmd_serve(args)
+    elif args.command == "analyze":
+        cmd_analyze(args)
+    elif args.command == "check":
+        cmd_check(args)
+    elif args.command == "align":
+        cmd_align(args)
+    elif args.command == "demo":
+        cmd_demo(args)
+    elif args.command == "config":
+        cmd_config(args)
+    else:
+        parser.print_help()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,7508 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "countryLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q155522"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瓦尔纳自由大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "保加利亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q156598"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萊頓大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q165980"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维也纳大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧地利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q168751"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "杜克大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170027"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "倫敦大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q172430"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新奧爾良洛約拉大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q315658"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗羅茨瓦夫大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q332342"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "剑桥大学三一学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q333705"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "以色列理工学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "以色列"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482678"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "首爾科技大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482677"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "清州教育大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482688"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "群山大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482699"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "全州教育大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482711"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大邱教育大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482724"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "翰林大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482751"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "慶星大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482756"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "水原大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482819"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "祥明大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482952"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "順天大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483189"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "京畿大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q489708"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大邱大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491082"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞洲大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491101"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓國情報通信大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491597"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓國放送通訊大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491714"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "忠北大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q495343"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿拉克大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊朗"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q495504"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼加拉瓜國立自治大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼加拉瓜"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q497033"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉齐大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊朗"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q497488"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "仁川大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q578326"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "于韦斯屈莱大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "芬蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q579611"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈弗福德學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q581046"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "福岡大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q588239"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "特里布萬大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼泊爾"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q591426"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "富特海斯州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q591905"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌尔姆造型学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q593321"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "热那亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q593556"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "爱琴大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q595437"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "福島縣立醫科大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q597030"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "岡比亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "岡比亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q600924"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "锡耶纳外国人大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q601956"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奥尔堡大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q604444"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比勒陀利亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12432"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "密西根理工大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13338"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波尔多第一大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15142"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马萨诸塞大学阿默斯特分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15144"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "麻州大學波士頓分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23102"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈尔滨工程大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23101"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北京理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23110"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南京航空航天大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23985"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫梅利尼茨基国立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24399"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖若瑟大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27265"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨尔茨堡大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧地利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q161562"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加州理工學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q181918"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "曼谷皇家理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q182973"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "艾奥瓦大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q316592"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维滕贝格大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "神聖羅馬帝國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q322964"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫斯科國立國際關係學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q335924"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鹿兒島大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q336264"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "京都大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q337382"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿基狄亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q337461"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鲁汶学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q338505"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "威尼斯美術學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q339314"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "铜带大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "贊比亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q339694"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫斯科中山大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蘇聯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q366071"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "綠山城大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367398"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南加勒比大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "千里達及托巴哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367774"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧克拉荷馬浸信大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q368329"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "孔敬大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q368820"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "那不勒斯音乐学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q483680"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "昌原大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484108"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蔚山科學技術院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q484477"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "春川教育大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486676"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "江南大學（韩国）"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q486999"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓國交通大學校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487613"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "首爾教育大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487841"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "慶北大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q487855"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "济州大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q488334"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "首爾市立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q488620"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鮮文大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q489065"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "索诺拉大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q489696"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓國藝術綜合大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q494096"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克拉约瓦大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅馬尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q494179"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新躍社科大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新加坡"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q494638"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安東國立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q495032"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "普埃布拉自治大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q499911"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "都灵大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q500131"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿肯色州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q502352"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞金大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q510029"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比尔宰特大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴勒斯坦"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q519556"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "国立西南联合大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q521612"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "富克旺根艺术大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q525169"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "上海交通大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q528231"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "倫敦大學金匠學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q534643"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金山大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q584919"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马德里大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q587503"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "成城大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q614124"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中美洲科技大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洪都拉斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q614203"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽师范大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28695"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫尔辛基大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "芬蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29718"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "海梅一世大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29716"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新莱昂自治大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45612"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "林波波大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49041"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "艾倫大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49089"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬里蘭大學東岸分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174158"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "耶路撒冷希伯來大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "以色列"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q175241"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安特衛普大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q175777"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "庄棚皇家大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q176667"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蒙納士南非"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q178017"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "群馬大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q179146"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "娜拉媞瓦公主大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q181177"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克蘭菲爾德大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q183170"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德克薩斯州大學聖安東尼奧分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q189022"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伦敦帝国学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q189441"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雅盖隆大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q190336"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中央民族大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194445"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "开罗大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃及"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q195046"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伍斯特理工学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q195546"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北九州市立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q197525"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "熙川工業大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朝鮮民主主義人民共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q323681"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫爾岑大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q327361"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "席勒国际大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q328423"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "欧麦尔·穆赫塔尔大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "利比亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q348402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波茲南市亞當·密茨凱維奇大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q348791"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌克兰国立造船大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q351971"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞當斯州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q354333"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奥帕瓦西里西亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q377757"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "罗德斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q378014"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡魯因大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "摩洛哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q382711"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "山口東京理科大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q386203"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大谷大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q389852"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "維爾紐斯·格迪米納斯技術大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "立陶宛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q390087"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "路易斯安那賽維爾大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q491717"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蔚山大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493141"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "博茨瓦纳大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波札那"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493294"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布加勒斯特建筑技术大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅馬尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q493506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東西大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q498401"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯塔萬格大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q498451"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西北理工大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q499220"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄羅斯國立遠東科技大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q604470"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "山东大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q604487"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔林理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "愛沙尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q605669"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "室蘭工業大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q606815"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "潘諾尼亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "匈牙利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q609301"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯普利特大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q609375"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "國際大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q610220"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "FPT大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越南"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q612665"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布鲁塞尔自由大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15570"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "香港中文大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16947"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "同济大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16955"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "清华大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31519"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "查理大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31867"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥斯达黎加国立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥斯达黎加"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32287"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "州立查特爾奧克學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东北大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39920"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金日成综合大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朝鮮民主主義人民共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39944"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "平壤外國語大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朝鮮民主主義人民共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40000"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金策工業綜合大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朝鮮民主主義人民共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49108"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "麻省理工學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49118"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波士顿学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52413"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "堪萨斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q75478"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "纽约大学坦登工程学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌普萨拉大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞典"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q188370"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马凯特大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q368923"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西贡大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越南"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q369333"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "成蹊大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q369629"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩拉丁-艾比爾大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊拉克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q371522"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥特堡大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞典"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q373311"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大邱工業大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q391945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯柯達汽車大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q392667"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "威克森林大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q392774"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "和平大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥斯达黎加"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q406402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "孟買大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q407875"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國空軍大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q413829"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "约瑟夫·毕苏茨基体育大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414219"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维也纳美术学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧地利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414464"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貢德沙普爾學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "倭马亚哈里发国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414464"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貢德沙普爾學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "四大哈里发的伊斯蘭國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414464"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貢德沙普爾學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿拔斯王朝"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414464"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貢德沙普爾學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "萨珊王朝"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414481"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧布皇家學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "芬蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q452406"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國農業大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q457793"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "费德里科圣玛丽亚科技大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "智利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q458530"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东方大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q532822"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩薩里大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q534515"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q536280"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "老撾國家大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "老撾"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q536709"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安格拉州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q538452"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貝比什鮑里亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅馬尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q540231"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯特拉斯堡纳粹大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "納粹德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q540341"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯法克斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼西亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q540672"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "歐本大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q546976"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩里大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q615154"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡托维兹西里西亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q615301"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本醫科大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q615998"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東南路易斯安那大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q617446"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "福贾大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q620640"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿帕拉契大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q622137"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "理海大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q622683"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格拉茨大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧地利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q623604"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓東國際大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q623795"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "永進專門大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q623817"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓國傳統文化大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q623828"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "木浦海洋大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q623851"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "國立全北大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624072"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大田大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624179"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "国际法律经营大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624295"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓瑞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624374"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "光州大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624560"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "洪堡州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624561"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓神大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624564"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加州州立大學斯坦尼斯洛斯分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624571"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "索諾馬州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624686"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加州州立大學蒙特利灣分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626804"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑪希敦大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626872"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "警察大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626893"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "科學技術聯合大學院大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q631317"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞切尼·伊什特万大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "匈牙利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49119"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布兰戴斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49120"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔夫茨大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49167"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "维思大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65379"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗吉尼亚理工学院暨州立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q75639"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東帝汶國家大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東帝汶"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q82267"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "青岛大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85300"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "敖德萨大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94279"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿拉斯加大學東南分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94469"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "康斯坦丁·德米特里耶维奇·乌申斯基乌克兰国立南方师范大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94473"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷尔诺波尔国立医科大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94810"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "國家能源大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬來西亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94902"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿拉马·塔巴塔拜大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊朗"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193510"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕多瓦大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q197543"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "浙江大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q203624"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "神奈川大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204626"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "一橋大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205061"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "都留文科大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206074"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "摩訶馬古德大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q216243"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "那烂陀寺"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q222738"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥国立自治大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q223037"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東方大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q391028"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "不列顛哥倫比亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q391150"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "河南大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q405304"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "名寄市立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q419339"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "國際教養大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q421739"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "国立远程教育大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q423303"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓卡威迪國立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q427141"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉斯列理學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q427778"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "約翰·B·拉克森基金會海事大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q428136"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "宰圖納大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼西亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q429561"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卫奇塔州立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q429863"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛罗里达大西洋大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q467164"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞美尼亞美國大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞美尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q469484"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "保加利亞美國大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "保加利亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q504263"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡西诺-南拉齐奥大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q508048"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克雷姆斯继续教育大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧地利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q509250"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "工學院大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q509909"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕伦西亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q547867"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "雅典大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "希腊"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q553064"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "國際武道大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q569243"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "汶萊國立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "汶莱"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q572430"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "凱佩拉大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q573061"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布达佩斯商学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "匈牙利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q573894"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大西洋大學學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q573954"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "利默里克大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "愛爾蘭共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624691"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加州州立大學聖馬科斯分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q624959"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佐治亚南方大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q625103"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "密蘇里大學聖路易校區"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q625138"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓國開發研究院國際政策研究生院大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q625158"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "考纳斯理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "立陶宛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q625421"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "又松大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q625496"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大邱產業大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q625945"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "清州大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q625952"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "白石大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626067"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韩世大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626458"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "天主教关东大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626591"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德州南方大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626634"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德克薩斯大學汎美分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q632004"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奈梅亨拉德伯德大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q632465"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞德福大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q632506"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "诺福克州立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q632558"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈尔滨工业大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q633782"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "普拉大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克羅地亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q634396"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "麥克尼斯州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q634651"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德克薩斯農工大學科伯斯克里斯蒂分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q634669"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東田納西州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42238"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "库尔德斯坦大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊朗"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43337"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "撒薇亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43402"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "國立虎尾科技大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中華民國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45312"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "愛德華國王醫療大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49204"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "史密斯學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49205"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "衛斯理學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q53122"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "釜山大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56148"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "嶺南大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56653"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "秋田縣立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56803"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈尔科夫国立师范大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56828"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "黑海国立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56832"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "赫尔松国立技术大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56860"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "立陶宛教育大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "立陶宛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61563"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴庫音樂學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿塞拜疆"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蒙斯综合理工学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85449"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基辅理工学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q93662"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖文德大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94192"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "第聂伯罗冶金工业学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114892"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "長崎大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115220"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "廣島大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116485"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "路易斯安那大學拉法葉分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118736"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫斯科獨立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蘇聯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118736"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫斯科獨立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124882"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥本哈根資訊科技大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "丹麥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125623"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金耐德女子學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴基斯坦"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q127745"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "歐亞國立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈萨克斯坦"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204181"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔尔图大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "愛沙尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q204457"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卑尔根大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206702"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "苏黎世大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞士"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q208736"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓國外國語大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212528"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德克薩斯大學泰勒分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q214341"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿姆斯特丹大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q217439"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "夏威夷大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541548"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "纳沙泰尔大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞士"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q542248"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣玛丽亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "委內瑞拉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q545540"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q556098"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佩斯大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q557172"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东非大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏干達"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q557172"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东非大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坦桑尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q557172"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东非大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "肯尼亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q558922"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊利诺伊州立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q574586"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫瑞州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q574606"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法語布魯塞爾自由大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q632573"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南猶他大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q633561"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "薩拉戈薩大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西班牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q634796"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亚丁大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "也门"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q635878"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卢斯埃达大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "葡萄牙"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q636060"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "農藝科學與獸醫大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅馬尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637084"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "兹沃伦工业大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯洛伐克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q647594"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大连工业大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q648661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "開曼群島大學學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "開曼群島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q648674"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖馬太大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "開曼群島"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q648838"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安道尔大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安道尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q649299"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞吉斯大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q649868"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "湖南大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q649895"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "郑州大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1728622"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美熹德加利福尼亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1729754"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布拉格德意志大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1730032"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "威尔伯福斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1737734"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基爾大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1739079"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "肯塔基衛斯理學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1741154"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "基辅国立建筑工业大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏克蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1742058"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北曼谷蒙固国王科技大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1742161"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蒙斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1742604"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉普蘭大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "芬蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1743431"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉尔吉斯-俄罗斯斯拉夫大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吉尔吉斯斯坦"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1747601"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "傑克遜州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1751487"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南俄国立技术大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1752043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙特國王大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙特阿拉伯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551554"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔爾頓州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551555"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圣彼得堡国立工程经济大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551556"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "圖瓦國立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551564"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西安外国语大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551577"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奇切斯特大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q128111"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗吉尼亚大学怀斯学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q129421"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "戴維斯加利福尼亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q132478"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "牛津布魯克斯大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q133965"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "库班国立农业大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135058"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "平壤金元均音樂大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朝鮮民主主義人民共和國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137006"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "广西师范大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219564"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡罗琳学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞典"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q222450"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "苏黎世音乐与戏剧大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞士"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q230899"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "曼徹斯特大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q233300"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北京第二外国语学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q246534"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "艾斯尤特大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃及"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q248919"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沃尔特·西苏鲁大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251084"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "敬爱大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251989"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "宋卡皇家大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q254191"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "東猶他州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q263932"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "浙江中医药大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q264974"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "呵叻皇家大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q266537"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡坦扎罗大希腊大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q277664"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坦佩雷理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "芬蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q277681"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塞麦尔维斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "匈牙利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q277872"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫斯科人文大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "俄罗斯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q280247"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "弗鲁米嫩塞联邦大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴西"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q280361"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安达拉斯大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q280824"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "埃因霍温理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "荷蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q281572"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布达佩斯安德拉什·久拉德语大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "匈牙利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q432475"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坎特伯雷大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新西兰"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q436350"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "杜伊斯堡大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "克莱沃公国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q448403"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "白金漢郡新大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q475700"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西開普大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "南非"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q476521"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "吞武里蒙固国王科技大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q477625"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "姆祖祖大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬拉威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q478044"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哈山努丁大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482648"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "龍仁大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482649"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "首爾藝術大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482658"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乙支大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482661"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "京仁教育大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482669"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "韓巴大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q482674"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "庆南科学技术大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q641084"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿雷拉諾大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q642216"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美国联合特种作战大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q642310"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "實踐大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中華民國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q644787"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布鲁塞尔天主教大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "比利時"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q651233"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大阪大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q652308"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布埃亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喀麦隆"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q653439"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯特凡赛尔马大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅馬尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q655542"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "塔林应用技术大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "愛沙尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q656871"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喀土穆大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "苏丹"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q657222"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "斯蒂文斯理工学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q657374"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑪麗華盛頓大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q658984"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬尼拉大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q659255"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "西佛羅里達大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q659706"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊利諾理工學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q661322"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鴻龐大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越南"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q662015"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞松森升天聖母天主教大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴拉圭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q662087"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "东非大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "肯尼亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q662131"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "河海大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q662422"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "智利中央大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "智利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "柯尼斯堡大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "普魯士王國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "柯尼斯堡大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德意志国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672420"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "柯尼斯堡大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "蘇聯"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q673111"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿肯色理工大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q673308"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卢塞恩大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞士"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q674568"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莱奥本矿业大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧地利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q676139"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "佛山大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1734895"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伯乐大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1737499"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡齊米拉斯·西蒙納維奇斯大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "立陶宛"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1752117"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "谢菲尔德哈勒姆大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1752540"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卡拉布里亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1752712"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "哥白尼大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1758009"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格但斯克大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1760438"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "皇后學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1779468"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "諾爾蘭大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1781094"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "北艾奧瓦大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551526"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格拉本天主教大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "刚果民主共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551531"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼斯中央大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "突尼西亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551535"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "迪米特里耶·坎泰米尔基督教大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅馬尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551540"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "跡見學園女子大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551549"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧蘭大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿爾及利亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551553"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "巴布亚大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度尼西亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551583"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "姜城大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "喀麦隆"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551587"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法兰西大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "法國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551584"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖貝達大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "菲律賓"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137503"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "罗兹大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140571"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加瓦尔州立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞美尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q144488"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "华沙大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "波蘭"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q149990"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "羅徹斯特大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q267111"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "新潟大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q270222"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "密西根州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q276599"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "金泽美术工艺大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q282885"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "高知工科大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q283204"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沙功那空皇家大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q284508"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "朋友大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q290456"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大阪府立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q290662"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马普托大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "莫桑比克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q302448"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越南航空學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "越南"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q302940"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "沈阳理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q307065"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿布哈茲國立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "格鲁吉亚"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q308329"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "阿卜杜·穆穆尼大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "尼日尔"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q461033"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "贵州大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q461322"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "桂林电子科技大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q462039"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "因戈尔施塔特大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q462576"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "名古屋市立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q462588"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "关西外国语大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q470963"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "福州大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q470997"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "宗座聖安瑟莫學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q472167"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "溫尼泊大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q474969"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "兰实大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "泰國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637099"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "拉贝河畔乌斯季扬·埃万盖利斯塔·普尔基涅大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q638434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "委內瑞拉玻利華大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "委內瑞拉"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q640652"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "奧克拉荷馬大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q650982"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卢旺达国立大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "卢旺达"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q651133"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "烏茲別克國立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "乌兹别克斯坦"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q665105"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德里大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q666128"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印第安那州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q667786"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "暑期學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q667972"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "国际管理学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞士"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q670897"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "亞利桑那州立大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q671642"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "马拉维大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "馬拉威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q687942"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "獨協醫科大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "日本"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q689462"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "伊比利美洲大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "墨西哥"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q689617"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞士意大利語區大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "瑞士"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1760791"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "米德爾塞克斯大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1765076"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坦桑尼亚圣奥古斯丁大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "坦桑尼亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1765168"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中国传媒大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1767912"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "市立圣西蒙大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "玻利維亞"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1769401"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威運動科學學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "挪威"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1781263"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "布雷西亞大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "意大利"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1781384"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "田納西大學查塔努加分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1781394"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "德克薩斯州大學達拉斯分校"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551659"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "帕拉库大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "貝南"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3551667"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "聖玻尼費斯大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "加拿大"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4754216"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安德森大學 (印第安納州)"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "美國"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4754410"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安德拉·維德亞拉亞學院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "印度"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4763585"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "英美大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "捷克"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4764374"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽农业大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4764372"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽医科大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4764383"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽理工大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4764380"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽财经大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4764381"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽工程大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4764385"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安徽中医药大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4770460"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安庆师范大学"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4770505"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "安山大學"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "大韩民国"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4770656"
+      },
+      "itemLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "鞍山师范学院"
+      },
+      "countryLabel" : {
+        "xml:lang" : "zh",
+        "type" : "literal",
+        "value" : "中华人民共和国"
+      }
+    } ]
+  }
+}

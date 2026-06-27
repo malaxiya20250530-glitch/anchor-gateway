@@ -1,0 +1,424 @@
+# ──────────────────────────────────────────────────────────
+# Kubernetes 部署清单 — 企业增强版
+# ──────────────────────────────────────────────────────────
+# 包含:
+#   - Namespace (资源隔离)
+#   - ConfigMap + Secret (配置分离)
+#   - Deployment (无状态网关)
+#   - StatefulSet (有状态组件: 反馈库/缓存)
+#   - Service (集群内负载均衡)
+#   - HorizontalPodAutoscaler (自动扩缩容)
+#   - PodDisruptionBudget (自愿中断保护)
+#   - ServiceMonitor (Prometheus 自动发现)
+#   - NetworkPolicy (零信任网络)
+#
+# 部署:
+#   kubectl apply -f k8s/deployment.yaml
+# ──────────────────────────────────────────────────────────
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: awareness-gateway
+  labels:
+    app: awareness-gateway
+    security-tier: production
+
+---
+# ── 配置 ──────────────────────────────────────
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gateway-config
+  namespace: awareness-gateway
+data:
+  config.json: |
+    {
+      "gateway": {
+        "port": 8800,
+        "host": "0.0.0.0",
+        "mock_mode": false,
+        "upstream_url": "${UPSTREAM_URL}",
+        "model": "${LLM_MODEL:-deepseek-chat}"
+      },
+      "observer": {
+        "sensitivity": 0.5,
+        "fact_check": true
+      },
+      "security": {
+        "white_box_logging": true,
+        "observer_redundancy": 3
+      }
+    }
+
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: gateway-secrets
+  namespace: awareness-gateway
+type: Opaque
+stringData:
+  DEEPSEEK_API_KEY: "${DEEPSEEK_API_KEY}"
+  UPSTREAM_API_KEY: "${UPSTREAM_API_KEY}"
+  ALERT_TELEGRAM_TOKEN: "${ALERT_TELEGRAM_TOKEN}"
+  ALERT_DISCORD_WEBHOOK: "${ALERT_DISCORD_WEBHOOK}"
+
+---
+# ── 无状态网关 Deployment ──────────────────────
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gateway
+  namespace: awareness-gateway
+  labels:
+    app: gateway
+    component: api
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0        # 零停机滚动更新
+  selector:
+    matchLabels:
+      app: gateway
+  template:
+    metadata:
+      labels:
+        app: gateway
+        component: api
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8800"
+        prometheus.io/path: "/metrics"
+    spec:
+      # ── PodDisruptionBudget 配合 ──
+      terminationGracePeriodSeconds: 30
+
+      # ── 亲和性 & 反亲和性 ──
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchLabels:
+                  app: gateway
+              topologyKey: kubernetes.io/hostname
+
+      # ── 安全上下文 ──
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        fsGroup: 1000
+        seccompProfile:
+          type: RuntimeDefault
+
+      containers:
+      - name: gateway
+        image: awareness-gateway:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8800
+          name: http
+          protocol: TCP
+
+        # ── 资源限制 ──
+        resources:
+          requests:
+            cpu: 250m
+            memory: 256Mi
+          limits:
+            cpu: 2000m
+            memory: 2Gi
+
+        # ── 探针 ──
+        livenessProbe:
+          httpGet:
+            path: /health/live
+            port: 8800
+          initialDelaySeconds: 10
+          periodSeconds: 15
+          timeoutSeconds: 3
+          failureThreshold: 3
+
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+            port: 8800
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 2
+
+        startupProbe:
+          httpGet:
+            path: /health/startup
+            port: 8800
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          failureThreshold: 30
+
+        # ── 环境变量 ──
+        env:
+        - name: DEEPSEEK_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: gateway-secrets
+              key: DEEPSEEK_API_KEY
+        - name: UPSTREAM_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: gateway-secrets
+              key: UPSTREAM_API_KEY
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        - name: CONFIG_PATH
+          value: /etc/gateway/config.json
+
+        volumeMounts:
+        - name: config
+          mountPath: /etc/gateway
+          readOnly: true
+        - name: data
+          mountPath: /data
+
+      volumes:
+      - name: config
+        configMap:
+          name: gateway-config
+      - name: data
+        emptyDir: {}
+
+---
+# ── 有状态存储 StatefulSet ─────────────────────
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: feedback-store
+  namespace: awareness-gateway
+  labels:
+    app: feedback-store
+    component: storage
+spec:
+  serviceName: feedback-store
+  replicas: 1
+  selector:
+    matchLabels:
+      app: feedback-store
+  template:
+    metadata:
+      labels:
+        app: feedback-store
+    spec:
+      # TM-019: 安全上下文 — 非 root 运行
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        fsGroup: 1000
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+      - name: store
+        image: awareness-gateway:latest
+        command: ["python3", "feedback_dashboard.py", "--port", "8801"]
+        ports:
+        - containerPort: 8801
+          name: http
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 500m
+            memory: 512Mi
+        volumeMounts:
+        - name: feedback-data
+          mountPath: /data
+  volumeClaimTemplates:
+  - metadata:
+      name: feedback-data
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      resources:
+        requests:
+          storage: 10Gi
+
+---
+# ── Service ────────────────────────────────────
+apiVersion: v1
+kind: Service
+metadata:
+  name: gateway
+  namespace: awareness-gateway
+  labels:
+    app: gateway
+spec:
+  type: ClusterIP
+  selector:
+    app: gateway
+  ports:
+  - port: 8800
+    targetPort: 8800
+    name: http
+    protocol: TCP
+  sessionAffinity: ClientIP
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 300
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: feedback-store
+  namespace: awareness-gateway
+spec:
+  type: ClusterIP
+  selector:
+    app: feedback-store
+  ports:
+  - port: 8801
+    targetPort: 8801
+    name: http
+
+---
+# ── HorizontalPodAutoscaler ─────────────────────
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: gateway-hpa
+  namespace: awareness-gateway
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: gateway
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+  # CPU 驱动
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  # 内存驱动
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+  # 自定义指标: 活跃请求数
+  - type: Pods
+    pods:
+      metric:
+        name: awareness_active_requests
+      target:
+        type: AverageValue
+        averageValue: "50"
+  behavior:
+    scaleUp:
+      stabilizationWindowSeconds: 30
+      policies:
+      - type: Percent
+        value: 100
+        periodSeconds: 30
+      - type: Pods
+        value: 4
+        periodSeconds: 30
+      selectPolicy: Max
+    scaleDown:
+      stabilizationWindowSeconds: 300
+      policies:
+      - type: Percent
+        value: 10
+        periodSeconds: 60
+      selectPolicy: Min
+
+---
+# ── PodDisruptionBudget ─────────────────────────
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: gateway-pdb
+  namespace: awareness-gateway
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      app: gateway
+
+---
+# ── ServiceMonitor (Prometheus Operator) ────────
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: gateway-monitor
+  namespace: awareness-gateway
+  labels:
+    release: prometheus
+spec:
+  selector:
+    matchLabels:
+      app: gateway
+  endpoints:
+  - port: http
+    path: /metrics
+    interval: 15s
+    scrapeTimeout: 10s
+
+---
+# ── NetworkPolicy (零信任) ──────────────────────
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: gateway-netpol
+  namespace: awareness-gateway
+spec:
+  podSelector:
+    matchLabels:
+      app: gateway
+  policyTypes:
+  - Ingress
+  - Egress
+  ingress:
+  # 允许 Ingress Controller 流量
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          name: ingress-nginx
+    ports:
+    - port: 8800
+  # 允许 Prometheus 抓取
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          name: monitoring
+    ports:
+    - port: 8800
+  egress:
+  # 允许访问上游 LLM API
+  - to:
+    - ipBlock:
+        cidr: 0.0.0.0/0
+        except:
+        - 169.254.169.254/32  # 禁止 IMDSv1
+        - 169.254.170.2/32   # 禁止 ECS 任务元数据 v2
+        - 10.0.0.0/8
+        - 172.16.0.0/12
+        - 192.168.0.0/16
+    ports:
+    - port: 443
+    - port: 80
+  # 允许 DNS
+  - to:
+    - namespaceSelector: {}
+    ports:
+    - port: 53
+      protocol: UDP

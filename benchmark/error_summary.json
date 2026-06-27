@@ -1,0 +1,18 @@
+{
+  "fp_count": 53,
+  "fn_count": 206,
+  "fp_root_causes": {
+    "entity_mismatch": 12,
+    "year_entity_mismatch": 11,
+    "year_conflict_fp": 8,
+    "narrative_context": 2,
+    "kb_overmatch": 14,
+    "negation_mismatch": 6
+  },
+  "fn_root_causes": {
+    "year_miss": 59,
+    "kb_no_cover": 136,
+    "verified_false": 10,
+    "entity_miss": 1
+  }
+}

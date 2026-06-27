@@ -1,0 +1,12 @@
+{
+  "test_key": {
+    "api_key": "test_key",
+    "name": "test",
+    "plan": "free",
+    "tokens_used": 10,
+    "requests": 1,
+    "created_at": 1780423644.7161584,
+    "last_reset": 1780423644.716161,
+    "active": true
+  }
+}

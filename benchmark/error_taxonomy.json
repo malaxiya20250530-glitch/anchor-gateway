@@ -1,0 +1,77 @@
+{
+  "version": "v1.0",
+  "description": "错误知识库 — 已知 FP/FN 模式及修复状态",
+  "categories": {
+    "kb_no_cover": {
+      "status": "已清零（KB 225键后）",
+      "count_historical": 136,
+      "count_current": 0,
+      "fix": "kb_core.json 动态加载",
+      "note": "新增实体需同步更新 KNOWLEDGE_BASE 加载逻辑"
+    },
+    "entity_mismatch": {
+      "status": "部分修复",
+      "subtypes": {
+        "cross_entity_year": {
+          "description": "不同实体的年份被比较（如毕昇 vs 古腾堡）",
+          "fix": "_shared_entity 双向匹配",
+          "remaining": "部分边缘案例仍漏过"
+        },
+        "cross_entity_numeric": {
+          "description": "不同实体的数值被比较（如秦朝221 vs 秦始皇259）",
+          "fix": "NumericChecker 未加实体绑定（保守保留）",
+          "remaining": "12 FP 待修"
+        }
+      }
+    },
+    "kb_overmatch": {
+      "status": "大幅改善",
+      "description": "KB条目过度匹配到不相关声明",
+      "fix": "entity_confidence 阈值 + _shared_entity",
+      "count_current_fp": 3
+    },
+    "cross_event_comparison": {
+      "status": "已修复（YearChecker事件分组）",
+      "description": "同一实体不同事件被比较（出生 vs 去世 vs 建立）",
+      "fix": "YearChecker._EVENT_GROUPS (birth/death/found/invent/reign)",
+      "note": "需验证生效路径覆盖所有 checker"
+    },
+    "self_verification": {
+      "status": "已修复",
+      "description": "claim==fact 却被判矛盾",
+      "fix": "_compare_with_fact 前置 self-check",
+      "count_fixed": 15
+    },
+    "negation_overmatch": {
+      "status": "部分修复",
+      "description": "否定词匹配过于宽泛（如'不是'出现在无关上下文中）",
+      "fix": "NegationChecker 主语验证",
+      "remaining_fp": 21
+    },
+    "temporal_order_sensitive": {
+      "status": "已知限制",
+      "description": "时间顺序检查对朝代/人物排序过于敏感",
+      "remaining_fp": 33
+    }
+  },
+  "next_priorities": [
+    {
+      "rank": 1,
+      "target": "negation_overmatch",
+      "potential_fp_saved": "~10",
+      "effort": "中"
+    },
+    {
+      "rank": 2,
+      "target": "temporal_order_sensitive",
+      "potential_fp_saved": "~10",
+      "effort": "高"
+    },
+    {
+      "rank": 3,
+      "target": "cross_entity_numeric",
+      "potential_fp_saved": "~5",
+      "effort": "中"
+    }
+  ]
+}

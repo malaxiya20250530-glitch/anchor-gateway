@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "snapshots": [
+    {
+      "timestamp": "2026-06-02T16:47:16.169318+00:00",
+      "commit": "24a8d5256",
+      "source": "benchmark_report.json",
+      "metrics": {
+        "f1": 0.153,
+        "precision": 0.267,
+        "recall": 0.107,
+        "accuracy": 0.596,
+        "avg_latency_ms": 56.5,
+        "tp": 20,
+        "fp": 55,
+        "fn": 167,
+        "tn": 308,
+        "total": 550,
+        "kb_entries": 0,
+        "checkers": []
+      }
+    }
+  ],
+  "best": {
+    "f1": 0.153,
+    "precision": 0.267,
+    "recall": 0.107,
+    "accuracy": 0.596,
+    "avg_latency_ms": 56.5,
+    "snapshot_index": 0,
+    "timestamp": "2026-06-02T16:47:16.169318+00:00"
+  },
+  "updated_at": "2026-06-02T16:47:16.233983+00:00"
+}
