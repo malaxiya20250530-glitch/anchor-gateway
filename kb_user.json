@@ -1766,5 +1766,11 @@
     "fact": "人类基因组约有30亿个碱基对",
     "source": "生物",
     "confidence": 0.92
+  },
+  "光速是宇宙中最快的速度": {
+    "category": "auto_merged",
+    "fact": "光速是宇宙中最快的速度",
+    "source": "commonsense",
+    "confidence": 0.95
   }
 }
