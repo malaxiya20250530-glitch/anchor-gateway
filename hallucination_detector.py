@@ -323,6 +323,17 @@ try:
         log.info("kb_core merged", new_keys=_added)
 except (FileNotFoundError, json.JSONDecodeError, OSError):
     pass
+# ── KB 双字索引（加速67k实体查询）──
+try:
+    import json as _json
+    with open(__file__.rsplit("/",1)[0] + "/kb_index.json") as _f:
+        _idx = _json.load(_f)
+    _BIGRAM_INDEX = _idx.get("bigram_index", {})
+    log.info(f"kb_index loaded | bigrams={len(_BIGRAM_INDEX)}")
+except Exception as _e:
+    _BIGRAM_INDEX = {}
+    log.info(f"kb_index not found, fallback to linear scan")
+
 
 
 # ── 通用常识知识库（补充西方/全球话题）──
@@ -1029,8 +1040,20 @@ class AnchorEngine:
                 return result
         # 正常KB搜索
         expanded = self._expand_synonyms(claim.text.lower())
-        for key in sorted(KNOWLEDGE_BASE.keys(), key=len, reverse=True):
-            if not self._key_matches_claim(key.lower(), expanded, claim.text.lower(), claim.entities):
+        # 使用双字索引加速 KB 搜索
+        _kb_keys = list(KNOWLEDGE_BASE.keys())
+        _candidates = set()
+        _text_lower = claim.text.lower()
+        for _i in range(len(_text_lower) - 1):
+            _bg = _text_lower[_i:_i+2]
+            if _bg in _BIGRAM_INDEX:
+                _candidates.update(_BIGRAM_INDEX[_bg])
+        if _candidates:
+            _search_keys = sorted(_candidates, key=len, reverse=True)
+        else:
+            _search_keys = sorted(_kb_keys, key=len, reverse=True)
+        for key in _search_keys:
+            if not self._key_matches_claim(key.lower(), expanded, _text_lower, claim.entities):
                 continue
             # 实体类型验证：跳过类型严重不匹配的 KB 条目
             entity_conf = self._entity_match_confidence(key, claim.text, key.lower())

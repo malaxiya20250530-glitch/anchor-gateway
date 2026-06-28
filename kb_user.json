@@ -1772,5 +1772,11 @@
     "fact": "光速是宇宙中最快的速度",
     "source": "commonsense",
     "confidence": 0.95
+  },
+  "水在标准大气压下沸点为": {
+    "category": "auto_merged",
+    "fact": "水的沸点在标准大气压下为100°C",
+    "source": "commonsense",
+    "confidence": 0.92
   }
 }
