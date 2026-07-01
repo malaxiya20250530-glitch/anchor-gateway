@@ -1,7 +1,7 @@
 # =============================================================================
-# Render Blueprint — Anchor Gateway 集群
+# Render Blueprint — Anchor Gateway
 # =============================================================================
-# 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS, 新加坡节点
+# 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS
 # =============================================================================
 
 services:
@@ -10,7 +10,7 @@ services:
     env: python
     region: singapore
     plan: free
-    buildCommand: python3 -c "import feedback_store; feedback_store.init_db(); print('[OK] feedback.db')"
+    buildCommand: python3 -c "import feedback_store; feedback_store.init_db(); print('[OK]')"
     startCommand: python3 awareness_gateway.py --port $PORT --mock
     envVars:
       - key: PYTHONUNBUFFERED
@@ -20,9 +20,6 @@ services:
       - key: ASYNC_AUDIT
         value: "0"
     healthCheckPath: /health
-    healthCheckInterval: 30
-    healthCheckTimeout: 5
-    healthCheckRetries: 3
     autoDeploy: true
 
   - type: web
