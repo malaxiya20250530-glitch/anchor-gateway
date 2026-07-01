@@ -743,8 +743,88 @@ class GatewayHandler(BaseHTTPRequestHandler):
     # TM-009: WAF 实例 — 扫描所有入站请求
     _waf = None  # lazy init
 
+    # ── 双隧道健康检查 & 故障转移 ──
+    PRIMARY_TUNNEL_URL = os.environ.get("PRIMARY_TUNNEL_URL", "").strip()
+    BACKUP_TUNNEL_URL = os.environ.get("BACKUP_TUNNEL_URL", "").strip()
+    _active_tunnel = "primary"
+    _tunnel_health = {"primary": {"ok": False, "last_check": 0, "fail_count": 0},
+                      "backup":  {"ok": False, "last_check": 0, "fail_count": 0}}
+    _tunnel_check_interval = 30
+    _tunnel_fail_threshold = 3
+    _tunnel_recover_threshold = 2
+    _tunnel_check_thread_started = False
+
+
     def log_message(self, format, *args):
         print(f"[{time.strftime('%H:%M:%S')}] {args[0]}", file=sys.stderr)
+
+
+    # ── 隧道健康检查方法 ──
+    @classmethod
+    def _check_tunnel(cls, url: str) -> bool:
+        """ping 单个隧道 URL, 返回是否可达"""
+        if not url:
+            return False
+        try:
+            req = Request(url.rstrip("/") + "/health", method="GET",
+                          headers={"User-Agent": "Anchor-Gateway/3.0"})
+            resp = urlopen(req, timeout=10)
+            return resp.getcode() == 200
+        except Exception:
+            return False
+
+    @classmethod
+    def _tunnel_health_loop(cls):
+        """后台线程: 每 30s 检测双隧道, 自动故障转移"""
+        cls._tunnel_check_thread_started = True
+        while True:
+            time.sleep(cls._tunnel_check_interval)
+            now = time.time()
+            primary_url = cls.PRIMARY_TUNNEL_URL
+            backup_url = cls.BACKUP_TUNNEL_URL
+            if not primary_url and not backup_url:
+                continue
+
+            primary_ok = cls._check_tunnel(primary_url) if primary_url else False
+            cls._tunnel_health["primary"]["ok"] = primary_ok
+            cls._tunnel_health["primary"]["last_check"] = now
+            if primary_ok:
+                cls._tunnel_health["primary"]["fail_count"] = 0
+            else:
+                cls._tunnel_health["primary"]["fail_count"] += 1
+
+            backup_ok = cls._check_tunnel(backup_url) if backup_url else False
+            cls._tunnel_health["backup"]["ok"] = backup_ok
+            cls._tunnel_health["backup"]["last_check"] = now
+            if backup_ok:
+                cls._tunnel_health["backup"]["fail_count"] = 0
+            else:
+                cls._tunnel_health["backup"]["fail_count"] += 1
+
+            active = cls._active_tunnel
+            if active == "primary":
+                if cls._tunnel_health["primary"]["fail_count"] >= cls._tunnel_fail_threshold:
+                    if backup_ok:
+                        cls._active_tunnel = "backup"
+                        print(f"[TUNNEL] ⚠ 主隧道失效, 切换至备用隧道", file=sys.stderr)
+                    elif cls._tunnel_health["backup"]["fail_count"] >= cls._tunnel_fail_threshold:
+                        print(f"[TUNNEL] 🔴 双隧道均失效", file=sys.stderr)
+            elif active == "backup":
+                if primary_ok and cls._tunnel_health["primary"]["fail_count"] == 0:
+                    cls._active_tunnel = "primary"
+                    print(f"[TUNNEL] ✅ 主隧道恢复, 切回主隧道", file=sys.stderr)
+                elif cls._tunnel_health["backup"]["fail_count"] >= cls._tunnel_fail_threshold:
+                    if primary_ok:
+                        cls._active_tunnel = "primary"
+                        print(f"[TUNNEL] ⚠ 备用隧道失效, 切回主隧道", file=sys.stderr)
+                    else:
+                        print(f"[TUNNEL] 🔴 双隧道均失效", file=sys.stderr)
+
+    @classmethod
+    def get_active_tunnel_url(cls) -> str:
+        if cls._active_tunnel == "primary":
+            return cls.PRIMARY_TUNNEL_URL
+        return cls.BACKUP_TUNNEL_URL
 
     def _send_json(self, data: dict, code: int = 200):
         body = json.dumps(data, ensure_ascii=False).encode("utf-8")
@@ -888,13 +968,57 @@ class GatewayHandler(BaseHTTPRequestHandler):
             })
             return
         if path == "/health":
-            # TM-010: 健康端点信息脱敏 — 仅暴露必要状态
+            active_url = GatewayHandler.get_active_tunnel_url()
+            tunnel_info = {}
+            if GatewayHandler.PRIMARY_TUNNEL_URL:
+                tunnel_info = {
+                    "primary": GatewayHandler.PRIMARY_TUNNEL_URL,
+                    "backup": GatewayHandler.BACKUP_TUNNEL_URL,
+                    "active": GatewayHandler._active_tunnel,
+                    "active_url": active_url,
+                    "primary_ok": GatewayHandler._tunnel_health["primary"]["ok"],
+                    "backup_ok": GatewayHandler._tunnel_health["backup"]["ok"],
+                    "last_check_ts": GatewayHandler._tunnel_health["primary"]["last_check"],
+                }
             self._send_json({
                 "status": "ok",
                 "version": "3.0.0",
-                "uptime_seconds": round(time.time() - __import__('os').environ.get('_START_TIME', time.time())),
+                "uptime_seconds": round(time.time() - __import__("os").environ.get("_START_TIME", time.time())),
+                "tunnel": tunnel_info,
             })
-        elif path == "/metrics":
+        elif path == "/tunnels":
+            """隧道管理: GET 查看, ?action=switch&target=backup 手动切换"""
+            params = urlparse(self.path).query
+            qs = {}
+            if params:
+                for pair in params.split("&"):
+                    if "=" in pair:
+                        k, v = pair.split("=", 1)
+                        qs[k] = v
+            action = qs.get("action", "")
+            if action == "switch":
+                target = qs.get("target", "")
+                if target in ("primary", "backup"):
+                    GatewayHandler._active_tunnel = target
+                    self._send_json({"status": "switched", "active": target})
+                else:
+                    self._send_json({"error": "target must be primary or backup"}, 400)
+                return
+            self._send_json({
+                "active_tunnel": GatewayHandler._active_tunnel,
+                "active_url": GatewayHandler.get_active_tunnel_url(),
+                "primary": {
+                    "url": GatewayHandler.PRIMARY_TUNNEL_URL,
+                    "healthy": GatewayHandler._tunnel_health["primary"]["ok"],
+                    "fail_count": GatewayHandler._tunnel_health["primary"]["fail_count"],
+                },
+                "backup": {
+                    "url": GatewayHandler.BACKUP_TUNNEL_URL,
+                    "healthy": GatewayHandler._tunnel_health["backup"]["ok"],
+                    "fail_count": GatewayHandler._tunnel_health["backup"]["fail_count"],
+                },
+            })
+
             self._send_json(self.observer.metrics())
         else:
             self._send_json({"error": "not found"}, 404)
@@ -1231,6 +1355,8 @@ def _print_banner(args, handler_cls):
 ║  编译通道 = 肌肉记忆  |  觉察通道 = 走神空间       ║
 ║  POST /analyze              → 仅分析文本          ║
 ║  GET  /health               → 健康检查            ║
+║  GET  /tunnels              → 隧道监控 + 手动切换  ║
+
 ║  GET  /metrics              → 观察器统计          ║
 ╚══════════════════════════════════════════════════╝
 
@@ -1268,6 +1394,11 @@ def main():
                        help="模拟 LLM 模式 (无需上游 API)")
     parser.add_argument("--client-api-keys", default="",
                        help="允许的客户端 API Key (逗号分隔)")
+    parser.add_argument("--primary-tunnel", default=os.environ.get("PRIMARY_TUNNEL_URL", ""),
+                       help="主隧道公网 URL (如 https://xxx.lhr.life)")
+    parser.add_argument("--backup-tunnel", default=os.environ.get("BACKUP_TUNNEL_URL", ""),
+                       help="备用隧道公网 URL")
+
     args = parser.parse_args()
 
     # 安全检查: 配置文件权限
@@ -1296,6 +1427,19 @@ def main():
         print(f"🔐 客户端认证已启用 ({len(GatewayHandler.client_api_keys)} 个 key)")
     GatewayHandler.model = args.model
     GatewayHandler.observer = Observer(sensitivity=args.sensitivity)
+    # 隧道配置 + 启动健康检查线程
+    if args.primary_tunnel:
+        GatewayHandler.PRIMARY_TUNNEL_URL = args.primary_tunnel.rstrip("/")
+    if args.backup_tunnel:
+        GatewayHandler.BACKUP_TUNNEL_URL = args.backup_tunnel.rstrip("/")
+    if GatewayHandler.PRIMARY_TUNNEL_URL and not GatewayHandler._tunnel_check_thread_started:
+        t = threading.Thread(target=GatewayHandler._tunnel_health_loop, daemon=True)
+        t.start()
+        print(f"🌐 双隧道监控已启动 (主: {GatewayHandler.PRIMARY_TUNNEL_URL})", file=sys.stderr)
+        if GatewayHandler.BACKUP_TUNNEL_URL:
+            print(f"🌐 备用隧道: {GatewayHandler.BACKUP_TUNNEL_URL}", file=sys.stderr)
+
+
     GatewayHandler.mock_mode = args.mock
     GatewayHandler.upstream_type = args.upstream_type
 
