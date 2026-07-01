@@ -28,4 +28,9 @@ services:
       - key: UPSTASH_TOKEN
         value: "gQAAAAAAAXOyAQIgcDI1MjJhNTBkNDBjYTg0NDU0YWNjNzcyNjgwOWEzNDZiZA"
     healthCheckPath: /health
+      - key: PRIMARY_TUNNEL_URL
+        value: ""
+      - key: BACKUP_TUNNEL_URL
+        value: ""
+
     autoDeploy: true
