@@ -1,7 +1,8 @@
 # =============================================================================
 # Render Blueprint — Anchor Gateway
 # =============================================================================
-# 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS
+# 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS, 新加坡节点
+# 注意: 单服务 ~744h/月, 在免费额度内; 仪表盘和 Worker 后续手动添加
 # =============================================================================
 
 services:
@@ -10,35 +11,14 @@ services:
     env: python
     region: singapore
     plan: free
-    buildCommand: python3 -c "import feedback_store; feedback_store.init_db(); print('[OK]')"
+    buildCommand: python3 -c "import feedback_store; feedback_store.init_db(); print('[OK] DB initialized')"
     startCommand: python3 awareness_gateway.py --port $PORT --mock
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
-      - key: REDIS_NODES
-        value: ""
       - key: ASYNC_AUDIT
         value: "0"
-    healthCheckPath: /health
-    autoDeploy: true
-
-  - type: web
-    name: anchor-dashboard
-    env: python
-    region: singapore
-    plan: free
-    startCommand: python3 feedback_dashboard.py --port $PORT
-    healthCheckPath: /
-    autoDeploy: false
-
-  - type: worker
-    name: anchor-audit-worker
-    env: python
-    region: singapore
-    plan: free
-    buildCommand: pip install redis 2>/dev/null || true
-    startCommand: python3 cluster/audit_worker.py
-    envVars:
       - key: REDIS_NODES
         value: ""
-    autoDeploy: false
+    healthCheckPath: /health
+    autoDeploy: true
