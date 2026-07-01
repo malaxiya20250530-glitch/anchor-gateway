@@ -1,18 +1,21 @@
 # =============================================================================
-# Render Blueprint — Anchor Gateway
+# Render Blueprint — Anchor Gateway 集群
 # =============================================================================
 # 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS, 新加坡节点
-# 内置 fakeredis 自动降级, 无需外部 Redis
+# Redis: Upstash Serverless (HTTP API) → 自动降级 fakeredis
 # =============================================================================
 
 services:
+  # ───────────────────────────────────────────────────────────────────────────
+  # 主网关 — 全天候运行 (~744h/月)
+  # ───────────────────────────────────────────────────────────────────────────
   - type: web
     name: anchor-gateway
     env: python
     region: singapore
     plan: free
     buildCommand: |
-      pip install fakeredis 2>/dev/null || true
+      pip install upstash-redis fakeredis 2>/dev/null || true
       python3 -c "import feedback_store; feedback_store.init_db(); print('[OK]')"
     startCommand: python3 awareness_gateway.py --port $PORT --mock
     envVars:
@@ -20,5 +23,9 @@ services:
         value: "1"
       - key: ASYNC_AUDIT
         value: "1"
+      - key: UPSTASH_URL
+        value: "https://enough-pelican-95154.upstash.io"
+      - key: UPSTASH_TOKEN
+        value: "gQAAAAAAAXOyAQIgcDI1MjJhNTBkNDBjYTg0NDU0YWNjNzcyNjgwOWEzNDZiZA"
     healthCheckPath: /health
     autoDeploy: true
