@@ -2,30 +2,16 @@
 # Render Blueprint — Anchor Gateway 集群
 # =============================================================================
 # 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS, 新加坡节点
-#
-# 注意: 免费套餐不支持持久化磁盘, feedback.db 存储在应用目录
-#        (每次重新部署会重置, 不影响正常运行)
 # =============================================================================
 
 services:
-  # ───────────────────────────────────────────────────────────────────────────
-  # 主网关
-  # ───────────────────────────────────────────────────────────────────────────
   - type: web
     name: anchor-gateway
     env: python
     region: singapore
     plan: free
-    buildCommand: |
-      python3 -c "
-import feedback_store
-feedback_store.init_db()
-print('[OK] feedback.db initialized')
-"
-    startCommand: |
-      python3 awareness_gateway.py \
-        --port $PORT \
-        --mock
+    buildCommand: python3 -c "import feedback_store; feedback_store.init_db(); print('[OK] feedback.db')"
+    startCommand: python3 awareness_gateway.py --port $PORT --mock
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
@@ -39,7 +25,6 @@ print('[OK] feedback.db initialized')
     healthCheckRetries: 3
     autoDeploy: true
 
-  # ── 仪表盘 (手动部署) ──
   - type: web
     name: anchor-dashboard
     env: python
@@ -49,7 +34,6 @@ print('[OK] feedback.db initialized')
     healthCheckPath: /
     autoDeploy: false
 
-  # ── 审计 Worker (手动部署) ──
   - type: worker
     name: anchor-audit-worker
     env: python
