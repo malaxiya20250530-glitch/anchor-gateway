@@ -339,8 +339,11 @@ except Exception as _e:
 # ── 通用常识知识库（补充西方/全球话题）──
 try:
     from commonsense_kb import COMMONSENSE_KB
-    added = sum(1 for k in COMMONSENSE_KB if k not in KNOWLEDGE_BASE)
-    KNOWLEDGE_BASE.update(COMMONSENSE_KB)
+    _existing_before = set(KNOWLEDGE_BASE.keys())
+    for k, v in COMMONSENSE_KB.items():
+        if k not in _existing_before:
+            KNOWLEDGE_BASE[k] = v
+    added = len([k for k in COMMONSENSE_KB if k not in _existing_before])
     log.info(f"commonsense merged | added_keys={added}")
 except ImportError:
     pass

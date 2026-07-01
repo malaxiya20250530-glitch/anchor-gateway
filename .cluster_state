@@ -1,0 +1,26 @@
+=== Anchor Gateway 集群状态 (关机恢复用) ===
+保存时间: 2026-07-01 23:52:49
+主机: Termux Android
+关机时间: 2026-07-02 02:31
+
+--- 进程 ---
+G1_PID=17339  (awareness_gateway --port 8800)
+G2_PID=17696  (awareness_gateway --port 8801)
+T1_PID=17635  (SSH隧道 → 8800)
+T2_PID=17751  (SSH隧道 → 8801)
+NGINX_PID=20007
+
+--- 公网地址 ---
+主隧道: https://ff2ea871c09bdc.lhr.life
+备隧道: https://3c8edfe9386080.lhr.life
+Render: https://anchor-gateway.onrender.com/health
+Nginx: http://localhost:8080
+
+--- 保活任务 ---
+Job 1: fix-dns.sh (15min, persisted)
+Job 2: cluster_start.sh (15min, persisted)
+
+--- 恢复命令 ---
+重启后运行:
+  bash ~/cluster_start.sh start
+或等待保活任务自动恢复 (~15分钟)
