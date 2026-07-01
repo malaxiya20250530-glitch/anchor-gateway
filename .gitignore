@@ -1,7 +1,16 @@
-*.db
-*.jsonl
-*.tar.gz
-*.so
+# 运行时
 *.log
+tunnel_*.txt
+current_*.txt
+backup_*.txt
+*.pid
 __pycache__/
-*.egg-info/
+*.pyc
+*.pye
+# 环境
+.env
+# 知识库生成缓存
+kb_*_generated*.json
+# 论文生成
+PAPER.html
+PAPER.pdf
