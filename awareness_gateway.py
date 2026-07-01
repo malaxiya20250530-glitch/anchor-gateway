@@ -1,4 +1,7 @@
-from integration.gateway_hook import tao_audit_hook
+try:
+    from integration.gateway_hook import tao_audit_hook
+except ImportError:
+    tao_audit_hook = None
 #!/usr/bin/env python3
 # Copyright (c) 2025 李桥 (hubeiligang420@gmail.com)
 # 专有软件 — 保留所有权利。禁止复制、修改、分发、逆向工程。
@@ -719,6 +722,7 @@ class GatewayHandler(BaseHTTPRequestHandler):
     model = "llama3.2"
     observer = Observer(sensitivity=0.5)
     mock_mode = False
+    async_audit = os.environ.get("ASYNC_AUDIT", "") == "1"
     upstream_type = "auto"  # 自动检测 / ollama / openai
     conversations = {}  # session_id → list of turns
     awareness_flags = {}  # session_id → list of detection flags (反思闭环)
