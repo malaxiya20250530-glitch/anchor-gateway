@@ -102,9 +102,14 @@ class WAF:
 
     def __init__(self, enable_bot_detection: bool = True, use_redis: bool = False):
         self.enable_bot_detection = enable_bot_detection
+        self.use_redis = use_redis
         # IP 请求速率追踪
         self._ip_requests: dict = defaultdict(list)
         self._ip_blocklist: dict = {}  # ip → unblock_time
+        self._redis_token_bucket = None
+        self._redis_blocklist = None
+        if use_redis:
+            self._init_redis()
 
     def scan(self, payload: str, *, ip: str = "", endpoint: str = "",
              user_agent: str = "", method: str = "POST") -> WAFResult:
