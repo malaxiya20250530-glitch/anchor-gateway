@@ -33,7 +33,7 @@ def push_audit_task(redis_client, session_id: str, text: str,
             "session_id": session_id,
             "text": text[:50000],
             "timestamp": time.time(),
-            "metadata": metadata or {},
+            "metadata": json.dumps(metadata or {}, ensure_ascii=False),
         }
         redis_client.xadd(_REDIS_CHANNEL, data, maxlen=10000)
         return True
