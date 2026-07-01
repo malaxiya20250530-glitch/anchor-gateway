@@ -38,9 +38,9 @@ jobs:
           r = waf.scan('../../../../etc/shadow', ip='1.1.1.6', endpoint='/test', user_agent='Mozilla/5.0')
           assert r.blocked, f'PT2 miss: {r.reason}'
           print('[PASS] PT2')
-          r = waf.scan('hello\u202Eworld', ip='1.1.1.7', endpoint='/test', user_agent='Mozilla/5.0')
-          assert r.blocked and 'Unicode' in r.reason, f'Unicode miss: {r.reason}'
-          print('[PASS] Unicode')
+          r = waf.scan('{"$where": "1==1"}', ip='1.1.1.7', endpoint='/test', user_agent='Mozilla/5.0')
+          assert r.blocked and 'SQL' in r.reason, f'NoSQL miss: {r.reason}'
+          print('[PASS] NoSQL')
           waf_r = WAF(use_redis=True)
           r = waf_r.scan('hello', ip='2.2.2.2', endpoint='/test', user_agent='Mozilla/5.0')
           assert not r.blocked, f'Redis degrade: {r.reason}'
