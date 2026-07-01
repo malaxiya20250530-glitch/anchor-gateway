@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: anchor-gateway
+    env: python
+    buildCommand: pip install -r requirements.txt 2>/dev/null || true
+    startCommand: python awareness_gateway.py --port 10000 --mock
+    envVars:
+      - key: PRIMARY_TUNNEL_URL
+        value: https://ff2ea871c09bdc.lhr.life
+      - key: BACKUP_TUNNEL_URL
+        value: https://3c8edfe9386080.lhr.life
