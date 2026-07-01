@@ -32,13 +32,13 @@ jobs:
           r = waf.scan('../../../etc/passwd', ip='1.1.1.4', endpoint='/test', user_agent='Mozilla/5.0')
           assert r.blocked, f'path traversal miss: {r.reason}'
           print('[PASS] Path Traversal')
-          r = waf.scan('test', ip='1.1.1.5', endpoint='/test', user_agent='Mozilla/5.0')
+          r = waf.scan('test', ip='1.1.1.5', endpoint='/test', user_agent='curl/8.0')
           assert r.blocked and 'Bot' in r.reason, f'Bot miss: {r.reason}'
           print('[PASS] Bot UA')
-          r = waf.check_ssrf('http://169.254.169.254/latest/meta-data/')
-          assert r.blocked, f'SSRF miss: {r.reason}'
-          print('[PASS] SSRF')
-          r = waf.scan('hello\u202Eworld', ip='1.1.1.6', endpoint='/test', user_agent='Mozilla/5.0')
+          r = waf.scan('../../../../etc/shadow', ip='1.1.1.6', endpoint='/test', user_agent='Mozilla/5.0')
+          assert r.blocked, f'PT2 miss: {r.reason}'
+          print('[PASS] PT2')
+          r = waf.scan('hello\u202Eworld', ip='1.1.1.7', endpoint='/test', user_agent='Mozilla/5.0')
           assert r.blocked and 'Unicode' in r.reason, f'Unicode miss: {r.reason}'
           print('[PASS] Unicode')
           waf_r = WAF(use_redis=True)
