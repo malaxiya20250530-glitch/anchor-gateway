@@ -1,0 +1,61 @@
+# Render Blueprint — Anchor Gateway 集群部署
+# ==============================================
+# 免费套餐: 512MB RAM, 750h/月, 自动 HTTPS
+# 完整集群需要: Render Web Service + 外部 Redis (免费)
+#
+# 快速开始:
+#   1. Fork 此仓库到你的 GitHub
+#   2. 在 Render Dashboard → Blueprint → Connect repo
+#   3. 可选: 设置 REDIS_NODES 环境变量连接 Redis Cloud
+#
+# Redis Cloud 免费套餐 (30MB): https://redis.com/try-free
+
+services:
+  # ──────────────────────────────────────────────
+  # 主网关 — Web Service (始终在线)
+  # ──────────────────────────────────────────────
+  - type: web
+    name: anchor-gateway
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: |
+      python3 -c "
+import feedback_store
+feedback_store.init_db()
+print('[OK] feedback.db initialized')
+"
+    startCommand: |
+      python3 awareness_gateway.py \
+        --port $PORT \
+        --mock \
+        --upstream ${UPSTREAM_URL:-http://localhost:11434/v1}
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHON_VERSION
+        value: "3.13.0"
+      - key: REDIS_NODES
+        value: ""
+      - key: ASYNC_AUDIT
+        value: "0"
+      - key: UPSTREAM_URL
+        value: ""
+    healthCheckPath: /health
+    autoDeploy: true
+
+  # ──────────────────────────────────────────────
+  # 仪表盘 — Web Service (手动部署节省免费额度)
+  # ──────────────────────────────────────────────
+  - type: web
+    name: anchor-dashboard
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: ""
+    startCommand: python3 feedback_dashboard.py --port $PORT
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    healthCheckPath: /
+    autoDeploy: false
