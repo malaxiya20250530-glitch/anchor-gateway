@@ -1376,5 +1376,407 @@
     "fact": "富士山海拔3776米",
     "source": "日本地理",
     "confidence": 0.95
+  },
+  "贝加尔湖是世界上最深的湖": {
+    "category": "auto_merged",
+    "fact": "贝加尔湖是世界最深的湖泊",
+    "source": "地理",
+    "confidence": 0.92
+  },
+  "宋代出现了世界上最早的纸": {
+    "category": "auto_merged",
+    "fact": "宋代出现了世界上最早的纸币交子",
+    "source": "宋史",
+    "confidence": 0.95
+  },
+  "Python 的名字来源": {
+    "category": "auto_merged",
+    "fact": "Python 的名字来源于 BBC 喜剧节目 Monty Python",
+    "source": "Python.org",
+    "confidence": 0.95
+  },
+  "水在 4°C 时密度最大": {
+    "category": "auto_merged",
+    "fact": "水在 4°C 时密度最大",
+    "source": "基础化学",
+    "confidence": 0.95
+  },
+  "光速是宇宙中信息传播的极": {
+    "category": "auto_merged",
+    "fact": "光速是宇宙中信息传播的极限速度",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "现存长城主要是明代修建的": {
+    "category": "auto_merged",
+    "fact": "现存长城主要是明代修建的",
+    "source": "中国文化遗产",
+    "confidence": 0.95
+  },
+  "牛顿和莱布尼茨分别独立发": {
+    "category": "auto_merged",
+    "fact": "微积分由牛顿和莱布尼茨独立发明",
+    "source": "数学",
+    "confidence": 0.92
+  },
+  "贝尔的专利是历史上最有价": {
+    "category": "auto_merged",
+    "fact": "贝尔的专利是历史上最有价值的专利之一",
+    "source": "科技史",
+    "confidence": 0.95
+  },
+  "青霉素的发现标志着抗生素": {
+    "category": "auto_merged",
+    "fact": "青霉素的发现标志着抗生素时代的开始",
+    "source": "医学史",
+    "confidence": 0.95
+  },
+  "一只蜜蜂一生只能生产约十": {
+    "category": "auto_merged",
+    "fact": "一只蜜蜂一生只能生产约十二分之一茶匙的蜂蜜",
+    "source": "昆虫学",
+    "confidence": 0.95
+  },
+  "下午茶的传统始于19世纪": {
+    "category": "auto_merged",
+    "fact": "下午茶的传统始于19世纪的英国",
+    "source": "茶文化史",
+    "confidence": 0.95
+  },
+  "维基百科是世界最大的百科": {
+    "category": "auto_merged",
+    "fact": "维基百科是世界最大的百科全书",
+    "source": "维基媒体基金会",
+    "confidence": 0.95
+  },
+  "引力是四种基本力中最弱的": {
+    "category": "auto_merged",
+    "fact": "引力是四种基本力中最弱的",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "植物通过光合作用将二氧化": {
+    "category": "auto_merged",
+    "fact": "植物通过光合作用将二氧化碳转化为氧气",
+    "source": "化学",
+    "confidence": 0.95
+  },
+  "太阳占太阳系总质量的99": {
+    "category": "auto_merged",
+    "fact": "太阳占太阳系总质量的99.86%",
+    "source": "天文学",
+    "confidence": 0.95
+  },
+  "木星有超过90颗已知卫星": {
+    "category": "auto_merged",
+    "fact": "木星有超过90颗已知卫星",
+    "source": "NASA",
+    "confidence": 0.95
+  },
+  "火星有两颗卫星：火卫一和": {
+    "category": "auto_merged",
+    "fact": "火星有两颗卫星：火卫一和火卫二",
+    "source": "NASA",
+    "confidence": 0.95
+  },
+  "Transformer的": {
+    "category": "auto_merged",
+    "fact": "Transformer的核心创新是自注意力机制",
+    "source": "Vaswani et al. 2017",
+    "confidence": 0.95
+  },
+  "菲迪皮德斯跑了约40公里": {
+    "category": "auto_merged",
+    "fact": "菲迪皮德斯跑了约40公里从马拉松到雅典报捷",
+    "source": "奥林匹克历史",
+    "confidence": 0.95
+  },
+  "马可·波罗在元朝时期来到": {
+    "category": "auto_merged",
+    "fact": "马可波罗在元朝时期来到中国",
+    "source": "中国历史年表",
+    "confidence": 0.92
+  },
+  "海上丝绸之路与陆上丝绸之": {
+    "category": "auto_merged",
+    "fact": "海上丝绸之路与陆上丝绸之路并行发展",
+    "source": "中外交通史",
+    "confidence": 0.95
+  },
+  "E=mc²是狭义相对论最": {
+    "category": "auto_merged",
+    "fact": "E=mc²是狭义相对论最著名的公式",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "相对论推翻了牛顿的绝对时": {
+    "category": "auto_merged",
+    "fact": "相对论推翻了牛顿的绝对时空观",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "量子纠缠是真实存在的物理": {
+    "category": "auto_merged",
+    "fact": "量子纠缠是真实存在的物理现象",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "互联网和万维网不是同一个": {
+    "category": "auto_merged",
+    "fact": "互联网和万维网不是同一个概念——万维网运行在互联网之上",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "喷气式飞机在二战后期才投": {
+    "category": "auto_merged",
+    "fact": "喷气式飞机在二战后期才投入实战",
+    "source": "航空史",
+    "confidence": 0.95
+  },
+  "疫苗不会导致自闭症——这": {
+    "category": "auto_merged",
+    "fact": "疫苗不会导致自闭症——这个说法来自一篇被撤稿的造假论文",
+    "source": "医学",
+    "confidence": 0.95
+  },
+  "第一颗原子弹于1945年": {
+    "category": "auto_merged",
+    "fact": "第一颗原子弹于1945年在新墨西哥州试爆",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "《史记》是中国第一部纪传": {
+    "category": "auto_merged",
+    "fact": "《史记》是中国第一部纪传体通史",
+    "source": "汉书",
+    "confidence": 0.95
+  },
+  "达芬奇、米开朗基罗和拉斐": {
+    "category": "auto_merged",
+    "fact": "达芬奇、米开朗基罗和拉斐尔是文艺复兴三杰",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "工业革命极大地改变了人类": {
+    "category": "auto_merged",
+    "fact": "工业革命极大地改变了人类社会的生活方式",
+    "source": "经济史",
+    "confidence": 0.95
+  },
+  "十月革命建立了世界上第一": {
+    "category": "auto_merged",
+    "fact": "十月革命建立了世界上第一个社会主义国家",
+    "source": "俄国史",
+    "confidence": 0.95
+  },
+  "尼罗河的源头之争持续了数": {
+    "category": "auto_merged",
+    "fact": "尼罗河的源头之争持续了数千年",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "亚马逊河是世界上流量最大": {
+    "category": "auto_merged",
+    "fact": "亚马逊河是世界流量最大的河流",
+    "source": "南美洲",
+    "confidence": 0.92
+  },
+  "维生素C不能预防感冒——": {
+    "category": "auto_merged",
+    "fact": "维生素C不能预防感冒——这个说法缺乏科学证据",
+    "source": "营养学",
+    "confidence": 0.95
+  },
+  "世界杯足球赛始于1930": {
+    "category": "auto_merged",
+    "fact": "世界杯足球赛始于1930年",
+    "source": "体育",
+    "confidence": 0.95
+  },
+  "适度的通货膨胀是经济增长": {
+    "category": "auto_merged",
+    "fact": "适度的通货膨胀是经济增长的正常现象",
+    "source": "经济学",
+    "confidence": 0.95
+  },
+  "冥王星由克莱德·汤博于1": {
+    "category": "auto_merged",
+    "fact": "冥王星由克莱德·汤博于1930年发现",
+    "source": "天文学",
+    "confidence": 0.95
+  },
+  "《道德经》是否为老子本人": {
+    "category": "auto_merged",
+    "fact": "《道德经》是否为老子本人所著存在学术争议",
+    "source": "史记",
+    "confidence": 0.95
+  },
+  "柏拉图认为诗人应该被逐出": {
+    "category": "auto_merged",
+    "fact": "柏拉图认为诗人应该被逐出理想国",
+    "source": "西方哲学史",
+    "confidence": 0.95
+  },
+  "亚里士多德认为重物比轻物": {
+    "category": "auto_merged",
+    "fact": "亚里士多德认为重物比轻物下落更快——这是错的",
+    "source": "西方哲学史",
+    "confidence": 0.95
+  },
+  "中国抗日战争是二战的重要": {
+    "category": "auto_merged",
+    "fact": "中国抗日战争是二战的重要组成部分",
+    "source": "世界史",
+    "confidence": 0.95
+  },
+  "暗物质可能由未知粒子组成": {
+    "category": "auto_merged",
+    "fact": "暗物质可能由未知粒子组成",
+    "source": "物理学",
+    "confidence": 0.95
+  },
+  "大陆漂移已被板块构造理论": {
+    "category": "auto_merged",
+    "fact": "大陆漂移已被板块构造理论取代和完善",
+    "source": "地质学",
+    "confidence": 0.95
+  },
+  "光合作用释放氧气是副产物": {
+    "category": "auto_merged",
+    "fact": "光合作用释放氧气是副产物",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "97%以上的气候科学家认": {
+    "category": "auto_merged",
+    "fact": "97%以上的气候科学家认同人类活动是主因",
+    "source": "IPCC",
+    "confidence": 0.95
+  },
+  "蓝牙低功耗模式于2010": {
+    "category": "auto_merged",
+    "fact": "蓝牙低功耗模式于2010年随蓝牙4.0引入",
+    "source": "通信技术",
+    "confidence": 0.95
+  },
+  "WiFi这个名称不是Wi": {
+    "category": "auto_merged",
+    "fact": "WiFi这个名称不是Wireless Fidelity的缩写——只是一种品牌命名",
+    "source": "通信技术",
+    "confidence": 0.95
+  },
+  "《蒙娜丽莎》的微笑之谜可": {
+    "category": "auto_merged",
+    "fact": "《蒙娜丽莎》的微笑之谜可能只是达芬奇的sfumato技法",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "《格尔尼卡》是毕加索反战": {
+    "category": "auto_merged",
+    "fact": "《格尔尼卡》是毕加索反战题材的代表作",
+    "source": "艺术史",
+    "confidence": 0.95
+  },
+  "《三国演义》中许多情节是": {
+    "category": "auto_merged",
+    "fact": "《三国演义》中许多情节是虚构的——如草船借箭实际上不是诸葛亮所为",
+    "source": "中国文学",
+    "confidence": 0.95
+  },
+  "《水浒传》108将大多不": {
+    "category": "auto_merged",
+    "fact": "《水浒传》108将大多不是真实历史人物——只有36人是历史记载的",
+    "source": "中国文学",
+    "confidence": 0.95
+  },
+  "林冲、武松等核心角色在正": {
+    "category": "auto_merged",
+    "fact": "林冲、武松等核心角色在正史中没有记载",
+    "source": "中国文学",
+    "confidence": 0.95
+  },
+  "死海的含盐量约为普通海水": {
+    "category": "auto_merged",
+    "fact": "死海的含盐量约为普通海水的10倍",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "大堡礁正在受气候变化和珊": {
+    "category": "auto_merged",
+    "fact": "大堡礁正在受气候变化和珊瑚白化的威胁",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "南极洲冰层储存了地球约7": {
+    "category": "auto_merged",
+    "fact": "南极洲冰层储存了地球约70%的淡水",
+    "source": "地理",
+    "confidence": 0.95
+  },
+  "孔子是道家创始人": {
+    "category": "auto_merged",
+    "fact": "道家创始人是老子",
+    "source": "commonsense",
+    "confidence": 0.92
+  },
+  "Python是由Guid": {
+    "category": "auto_merged",
+    "fact": "Python 由 Guido van Rossum 于 1991 年首次发布",
+    "source": "Python.org",
+    "confidence": 0.92
+  },
+  "李白被称为诗仙": {
+    "category": "auto_merged",
+    "fact": "李白被誉为诗仙",
+    "source": "commonsense",
+    "confidence": 0.92
+  },
+  "朱元璋是明朝的开国皇帝": {
+    "category": "auto_merged",
+    "fact": "朱元璋是明朝的开国皇帝",
+    "source": "commonsense",
+    "confidence": 0.95
+  },
+  "朱元璋是明朝开国皇帝": {
+    "category": "auto_merged",
+    "fact": "朱元璋是明朝的开国皇帝",
+    "source": "commonsense",
+    "confidence": 0.92
+  },
+  "《西游记》作者一般认为是": {
+    "category": "auto_merged",
+    "fact": "《西游记》作者一般认为是明代吴承恩",
+    "source": "中国文学",
+    "confidence": 0.95
+  },
+  "蚂蚁在地球上已存在超过1": {
+    "category": "auto_merged",
+    "fact": "蚂蚁在地球上已存在超过1亿年",
+    "source": "生物学",
+    "confidence": 0.95
+  },
+  "图灵测试是判断机器是否具": {
+    "category": "auto_merged",
+    "fact": "图灵测试是判断机器是否具有智能的方法",
+    "source": "计算机科学",
+    "confidence": 0.95
+  },
+  "人类基因组有30亿个碱基": {
+    "category": "auto_merged",
+    "fact": "人类基因组约有30亿个碱基对",
+    "source": "生物",
+    "confidence": 0.92
+  },
+  "光速是宇宙中最快的速度": {
+    "category": "auto_merged",
+    "fact": "光速是宇宙中最快的速度",
+    "source": "commonsense",
+    "confidence": 0.95
+  },
+  "水在标准大气压下沸点为": {
+    "category": "auto_merged",
+    "fact": "水的沸点在标准大气压下为100°C",
+    "source": "commonsense",
+    "confidence": 0.92
   }
 }

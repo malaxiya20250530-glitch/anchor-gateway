@@ -1035,6 +1035,16 @@ class GatewayHandler(BaseHTTPRequestHandler):
             max_tokens = body.get("max_tokens", 512)
             sensitivity = body.get("observer_sensitivity", self.observer.sensitivity)
             session_id = body.get("session_id", "default")
+            if self.async_audit and session_id:
+                try:
+                    content = body.get("content") or (body.get("messages", [{}])[-1].get("content", "") if body.get("messages") else "")
+                    if content:
+                        from cluster.audit_callback import push_audit_task
+                        from knowledge.redis_pool import get_redis
+                        push_audit_task(get_redis(), session_id, content[:5000])
+                except Exception:
+                    import traceback; traceback.print_exc()
+
 
             # 调整观察器灵敏度
             if sensitivity != self.observer.sensitivity:

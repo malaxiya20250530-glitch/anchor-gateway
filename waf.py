@@ -14,10 +14,13 @@
         return 403, result.reason
 """
 
+import logging
 import re
 import time
 from collections import defaultdict
 from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 
 # ═══════════════════════════════════════════════════════════
@@ -97,11 +100,16 @@ class WAFResult:
 class WAF:
     """应用层防火墙 — 输入扫描 + Bot 检测 + 速率指纹"""
 
-    def __init__(self, enable_bot_detection: bool = True):
+    def __init__(self, enable_bot_detection: bool = True, use_redis: bool = False):
         self.enable_bot_detection = enable_bot_detection
+        self.use_redis = use_redis
         # IP 请求速率追踪
         self._ip_requests: dict = defaultdict(list)
         self._ip_blocklist: dict = {}  # ip → unblock_time
+        self._redis_token_bucket = None
+        self._redis_blocklist = None
+        if use_redis:
+            self._init_redis()
 
     def scan(self, payload: str, *, ip: str = "", endpoint: str = "",
              user_agent: str = "", method: str = "POST") -> WAFResult:
@@ -158,7 +166,13 @@ class WAF:
 
     def _check_bot(self, ip: str, user_agent: str) -> WAFResult:
         """Bot/扫描器检测"""
-        # 检查 IP 是否已被封禁
+        # Redis 分布式封禁检查
+        try:
+            if self.use_redis and self._redis_blocklist and self._redis_blocklist.is_blocked(ip):
+                return WAFResult(blocked=True, reason="IP已被分布式封禁", rule="redis_blocklist")
+        except Exception as exc:
+            logger.debug("Redis blocklist check failed: %s", exc)
+        # 本地封禁检查
         if ip in self._ip_blocklist:
             if time.time() < self._ip_blocklist[ip]:
                 return WAFResult(blocked=True, reason="IP已被临时封禁", rule="ip_blocklist")
@@ -173,6 +187,16 @@ class WAF:
         self._ip_requests[ip] = [t for t in self._ip_requests[ip] if now - t < 1.0]
         self._ip_requests[ip].append(now)
 
+        if self.use_redis and self._redis_token_bucket:
+            allowed, _ = self._redis_token_bucket.consume(ip, endpoint)
+            if not allowed:
+                self._ip_blocklist[ip] = now + 60
+                if self._redis_blocklist:
+                    try:
+                        self._redis_blocklist.block(ip, 60, "rate_anomaly")
+                    except Exception:
+                        pass
+                return WAFResult(blocked=True, reason="Redis速率限制", rule="redis_rate_limit")
         if len(self._ip_requests[ip]) > _BOT_IP_THRESHOLD:
             # 封禁 60 秒
             self._ip_blocklist[ip] = now + 60
@@ -193,3 +217,21 @@ class WAF:
         """获取当前被封禁的 IP 列表"""
         now = time.time()
         return {ip: remain for ip, remain in self._ip_blocklist.items() if remain > now}
+
+    def _init_redis(self):
+        """初始化 Redis 增强模块"""
+        try:
+            from knowledge.redis_pool import get_redis
+            from waf_redis import RedisTokenBucket, RedisBlocklist
+            r = get_redis()
+            if r:
+                self._redis_token_bucket = RedisTokenBucket(r)
+                self._redis_blocklist = RedisBlocklist(r)
+                logger.info("WAF Redis mode enabled")
+            else:
+                logger.warning("WAF Redis mode unavailable; local fallback")
+                self.use_redis = False
+        except ImportError as exc:
+            logger.warning("WAF Redis mode import failed: %s; local fallback", exc)
+            self.use_redis = False
+

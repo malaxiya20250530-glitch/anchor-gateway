@@ -7,12 +7,15 @@ AI 安全网关 — 幻觉 + 偏见 + 有害内容 + 数据泄露 四合一
 """
 
 import json
+import logging
 import os, time, checker_registry, sys, os
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 
 ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT))
+
+logger = logging.getLogger(__name__)
 
 # 加载四个安全模块
 from hallucination_detector import HallucinationDetector
@@ -46,6 +49,8 @@ class SecurityGateway:
         self.ip_blocker = ExponentialBlocker()
         self.key_manager = APIKeyManager()
         self.sec_logger = SecurityLogger()
+        # 幂等性保护 (REDIS_NODES 环境变量自动启用)
+        self.idempotency = IdempotencyProtection(use_redis=bool(os.environ.get("REDIS_NODES")))
 
     def audit(self, text: str) -> dict:
         """全面安全审计，返回统一报告"""
@@ -121,6 +126,57 @@ class SecurityGateway:
             hallucination_ratio=h_result.hallucination_ratio,
         ))
         return report
+
+
+
+class IdempotencyProtection:
+    """幂等性保护 — 基于 Redis 的去重与并发控制。
+
+    支持单节点和 Redis 集群模式。
+    通过 REDIS_NODES 环境变量自动启用。
+    """
+
+    def __init__(self, use_redis: bool = False):
+        self._redis = None
+        self._local_cache = set()
+        self._enabled = False
+        if use_redis:
+            self._init_redis()
+
+    def _init_redis(self):
+        try:
+            from knowledge.redis_pool import get_redis
+            self._redis = get_redis()
+            if self._redis:
+                self._enabled = True
+                logger.info("IdempotencyProtection Redis mode enabled")
+        except Exception as exc:
+            logger.warning("IdempotencyProtection Redis init failed: %s", exc)
+
+    def is_duplicate(self, request_id: str, ttl: int = 300) -> bool:
+        if request_id in self._local_cache:
+            return True
+        if self._enabled and self._redis:
+            try:
+                if self._redis.exists(f"idempotency:{request_id}"):
+                    return True
+            except Exception:
+                pass
+        return False
+
+    def mark_processed(self, request_id: str, ttl: int = 300) -> None:
+        self._local_cache.add(request_id)
+        if self._enabled and self._redis:
+            try:
+                self._redis.setex(f"idempotency:{request_id}", ttl, "1")
+            except Exception:
+                pass
+
+    def check_and_mark(self, request_id: str, ttl: int = 300) -> bool:
+        if self.is_duplicate(request_id):
+            return False
+        self.mark_processed(request_id, ttl)
+        return True
 
 
 class GatewayHandler(BaseHTTPRequestHandler):

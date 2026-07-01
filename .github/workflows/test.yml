@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+    branches: ["main", "feat/*"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  waf-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: WAF Tests
+        run: |
+          python3 << 'HEREDOC'
+          from waf import WAF
+          waf = WAF()
+          r = waf.scan('Hello', ip='1.1.1.1', endpoint='/test', user_agent='Mozilla/5.0')
+          assert not r.blocked, f'normal block: {r.reason}'
+          print('[PASS] normal')
+          r = waf.scan("'; DROP TABLE users; --", ip='1.1.1.2', endpoint='/test', user_agent='Mozilla/5.0')
+          assert r.blocked and 'SQL' in r.reason, f'SQL miss: {r.reason}'
+          print('[PASS] SQLi')
+          r = waf.scan('<script>alert(1)</script>', ip='1.1.1.3', endpoint='/test', user_agent='Mozilla/5.0')
+          assert r.blocked and 'XSS' in r.reason, f'XSS miss: {r.reason}'
+          print('[PASS] XSS')
+          r = waf.scan('../../../etc/passwd', ip='1.1.1.4', endpoint='/test', user_agent='Mozilla/5.0')
+          assert r.blocked, f'path traversal miss: {r.reason}'
+          print('[PASS] Path Traversal')
+          r = waf.scan('test', ip='1.1.1.5', endpoint='/test', user_agent='curl/8.0')
+          assert r.blocked and 'Bot' in r.reason, f'Bot miss: {r.reason}'
+          print('[PASS] Bot UA')
+          r = waf.scan('../../../../etc/shadow', ip='1.1.1.6', endpoint='/test', user_agent='Mozilla/5.0')
+          assert r.blocked, f'PT2 miss: {r.reason}'
+          print('[PASS] PT2')
+          r = waf.scan('{"$where": "1==1"}', ip='1.1.1.7', endpoint='/test', user_agent='Mozilla/5.0')
+          assert r.blocked and 'SQL' in r.reason, f'NoSQL miss: {r.reason}'
+          print('[PASS] NoSQL')
+          waf_r = WAF(use_redis=True)
+          r = waf_r.scan('hello', ip='2.2.2.2', endpoint='/test', user_agent='Mozilla/5.0')
+          assert not r.blocked, f'Redis degrade: {r.reason}'
+          print('[PASS] Redis fallback')
+          print()
+          print('========== ALL WAF TESTS PASSED ==========')
+          HEREDOC
+
+  import-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Module Import Check
+        run: |
+          python3 << 'HEREDOC'
+          import sys
+          sys.path.insert(0, '.')
+          from waf import WAF, WAFResult
+          print('[OK] waf')
+          from waf_redis import RedisTokenBucket, RedisBlocklist
+          print('[OK] waf_redis')
+          from knowledge.redis_pool import get_redis, fact_key, ratelimit_key
+          print('[OK] knowledge.redis_pool')
+          from cluster.audit_callback import push_audit_task, AuditSubscriber
+          print('[OK] cluster.audit_callback')
+          import py_compile
+          py_compile.compile('cluster/audit_worker.py', doraise=True)
+          print('[OK] cluster.audit_worker (syntax)')
+          py_compile.compile('security_gateway.py', doraise=True)
+          print('[OK] security_gateway (syntax)')
+          py_compile.compile('awareness_gateway.py', doraise=True)
+          print('[OK] awareness_gateway (syntax)')
+          print()
+          print('========== ALL IMPORTS OK ==========')
+          HEREDOC
