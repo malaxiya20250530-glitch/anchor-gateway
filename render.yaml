@@ -3,19 +3,13 @@
 # =============================================================================
 # 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS, 新加坡节点
 #
-# 完整集群 = 1 主网关(always-on) + 1 Worker(手动) + 外部 Redis(免费)
-#
-# 快速开始:
-#   1. https://dashboard.render.com → New Blueprint → 选此仓库
-#   2. 自动部署 anchor-gateway, 5分钟后访问 /health
-#   3. (可选) 添加 Redis Cloud 免费套餐 → 设置 REDIS_NODES
-#
-# Redis Cloud 免费 30MB: https://redis.com/try-free
+# 注意: 免费套餐不支持持久化磁盘, feedback.db 存储在应用目录
+#        (每次重新部署会重置, 不影响正常运行)
 # =============================================================================
 
 services:
   # ───────────────────────────────────────────────────────────────────────────
-  # 主网关 — 全天候运行 (消耗 ~720h/月)
+  # 主网关
   # ───────────────────────────────────────────────────────────────────────────
   - type: web
     name: anchor-gateway
@@ -24,39 +18,25 @@ services:
     plan: free
     buildCommand: |
       python3 -c "
-import os
-db_path = '/var/data/feedback.db'
-os.makedirs('/var/data', exist_ok=True)
 import feedback_store
 feedback_store.init_db()
-print('[OK] feedback.db initialized at', db_path)
+print('[OK] feedback.db initialized')
 "
     startCommand: |
       python3 awareness_gateway.py \
         --port $PORT \
-        --mock \
-        --upstream ${UPSTREAM_URL:-}
+        --mock
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
-      - key: PYTHON_VERSION
-        value: "3.13.0"
       - key: REDIS_NODES
         value: ""
-      - key: REDIS_TIMEOUT
-        value: "3"
       - key: ASYNC_AUDIT
         value: "0"
-      - key: UPSTREAM_URL
-        value: ""
     healthCheckPath: /health
     healthCheckInterval: 30
     healthCheckTimeout: 5
     healthCheckRetries: 3
-    disk:
-      name: data
-      mountPath: /var/data
-      sizeGB: 1
     autoDeploy: true
 
   # ── 仪表盘 (手动部署) ──
@@ -65,15 +45,11 @@ print('[OK] feedback.db initialized at', db_path)
     env: python
     region: singapore
     plan: free
-    buildCommand: ""
     startCommand: python3 feedback_dashboard.py --port $PORT
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"
     healthCheckPath: /
     autoDeploy: false
 
-  # ── 审计 Worker (手动部署, 需 Redis) ──
+  # ── 审计 Worker (手动部署) ──
   - type: worker
     name: anchor-audit-worker
     env: python
@@ -82,10 +58,6 @@ print('[OK] feedback.db initialized at', db_path)
     buildCommand: pip install redis 2>/dev/null || true
     startCommand: python3 cluster/audit_worker.py
     envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"
       - key: REDIS_NODES
         value: ""
-      - key: REDIS_TIMEOUT
-        value: "5"
     autoDeploy: false
