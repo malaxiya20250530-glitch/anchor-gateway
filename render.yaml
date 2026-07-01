@@ -2,7 +2,7 @@
 # Render Blueprint — Anchor Gateway
 # =============================================================================
 # 免费套餐: 512MB RAM + 750h/月, 自动 HTTPS, 新加坡节点
-# 注意: 单服务 ~744h/月, 在免费额度内; 仪表盘和 Worker 后续手动添加
+# 内置 fakeredis 自动降级, 无需外部 Redis
 # =============================================================================
 
 services:
@@ -11,14 +11,14 @@ services:
     env: python
     region: singapore
     plan: free
-    buildCommand: python3 -c "import feedback_store; feedback_store.init_db(); print('[OK] DB initialized')"
+    buildCommand: |
+      pip install fakeredis 2>/dev/null || true
+      python3 -c "import feedback_store; feedback_store.init_db(); print('[OK]')"
     startCommand: python3 awareness_gateway.py --port $PORT --mock
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
       - key: ASYNC_AUDIT
-        value: "0"
-      - key: REDIS_NODES
-        value: ""
+        value: "1"
     healthCheckPath: /health
     autoDeploy: true
