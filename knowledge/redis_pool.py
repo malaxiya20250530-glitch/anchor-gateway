@@ -1,54 +1,67 @@
 #!/usr/bin/env python3
-"""Redis 连接池 — 提供中心化的 Redis 连接管理。
+"""Redis 连接池 — 支持外部 Redis 和内置 fakeredis 自动降级。
 
-支持多节点连接、自动故障转移、延迟敏感路由。
-所有知识层/缓存/限流模块共享此连接池。
+当 REDIS_NODES 为空或连接失败时，自动使用 fakeredis（纯 Python 内存版）。
+零外部依赖，适用于 Render 免费套餐。
 """
 
 import os
-import time
-import random
 import logging
 
 logger = logging.getLogger(__name__)
 
-_REDIS_NODES = os.environ.get("REDIS_NODES", "redis://localhost:6379/0").split(",")
+_REDIS_NODES = (os.environ.get("REDIS_NODES") or "").strip()
 _REDIS_TIMEOUT = int(os.environ.get("REDIS_TIMEOUT", "5"))
 
 
 class RedisPool:
-    """轻量 Redis 连接池 (通过 redis-py/redis-py-cluster)。
+    """轻量 Redis 连接池 — 外部 Redis 优先, fakeredis 保底。"""
 
-    如果 redis 库未安装则自动降级为 noop。
-    """
-
-    def __init__(self, nodes=None, timeout=None, max_connections=32):
+    def __init__(self, nodes=None, timeout=None):
         self.nodes = nodes or _REDIS_NODES
         self.timeout = timeout or _REDIS_TIMEOUT
         self._client = None
         self._connected = False
-        self._init_client(max_connections)
+        self._fake = False
+        self._init_client()
 
-    def _init_client(self, max_connections):
+    def _init_client(self):
+        # 1. 尝试外部 Redis
+        if self.nodes:
+            for node in self.nodes.split(","):
+                node = node.strip()
+                if not node:
+                    continue
+                try:
+                    import redis
+                    from redis.connection import ConnectionPool
+                    pool = ConnectionPool.from_url(
+                        node, max_connections=16,
+                        socket_timeout=self.timeout,
+                        socket_connect_timeout=self.timeout,
+                        decode_responses=True,
+                    )
+                    client = redis.Redis(connection_pool=pool)
+                    client.ping()
+                    self._client = client
+                    self._connected = True
+                    logger.info("RedisPool connected to %s", node)
+                    return
+                except ImportError:
+                    logger.warning("redis-py not installed")
+                    break
+                except Exception as exc:
+                    logger.warning("RedisPool %s failed: %s", node, exc)
+
+        # 2. 降级到 fakeredis (纯 Python 内存版)
         try:
-            import redis
-            from redis.connection import ConnectionPool
-            node = self.nodes[0]
-            pool = ConnectionPool.from_url(
-                node, max_connections=max_connections,
-                socket_timeout=self.timeout,
-                socket_connect_timeout=self.timeout,
-                decode_responses=True,
-            )
-            self._client = redis.Redis(connection_pool=pool)
-            self._client.ping()
+            import fakeredis
+            self._client = fakeredis.FakeRedis(decode_responses=True)
             self._connected = True
-            logger.info("RedisPool connected to %s", node)
+            self._fake = True
+            logger.info("RedisPool using fakeredis (in-memory, no persistence)")
         except ImportError:
-            logger.warning("redis-py not installed; RedisPool in noop mode")
-            self._connected = False
-        except Exception as exc:
-            logger.warning("RedisPool connection failed: %s; noop mode", exc)
+            logger.warning("fakeredis not installed; Redis disabled")
             self._connected = False
 
     @property
@@ -59,6 +72,10 @@ class RedisPool:
     def connected(self):
         return self._connected
 
+    @property
+    def is_fake(self):
+        return self._fake
+
     def close(self):
         if self._client:
             try:
@@ -66,6 +83,7 @@ class RedisPool:
             except Exception:
                 pass
             self._connected = False
+            self._fake = False
 
 
 # 全局默认连接池
